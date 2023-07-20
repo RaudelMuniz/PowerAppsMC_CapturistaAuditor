@@ -3,23 +3,23 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "auditor": 13,
-    "Button1": 7,
-    "capturista": 11,
-    "Circle1": 9,
+    "auditor": 6,
+    "Button1": 12,
+    "capturista": 4,
+    "Circle1": 14,
     "Host": 3,
-    "Icon2": 14,
-    "Image1": 8,
-    "Label1": 6,
-    "Label2": 12,
-    "Label3": 15,
-    "Rectangle1": 5,
-    "Rectangle1_1": 10,
-    "Screen1": 4
+    "Icon2": 7,
+    "Image1": 13,
+    "Label1": 11,
+    "Label2": 5,
+    "Label3": 8,
+    "Rectangle1": 10,
+    "Rectangle1_1": 15,
+    "Screen1": 9
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/20/2023 19:23:52",
+  "HeaderLastSavedDateTimeUTC": "07/20/2023 19:43:38",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "223a2896-6108-448a-9017-1629d7b85cd5": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4\""
@@ -30,8 +30,8 @@
     "Carrier_Social_logo": "acb934da-811e-4203-a98c-53ff68917916.jpg"
   },
   "LocalResourceRootPaths": {
-    "Carrier_Logo": "https://docserverpwaprodwus.blob.core.windows.net/896564ab-ed20-42e2-ad40-7fc37fcfd871-1/resource/Assets0Images0b583e4a2-bd6b-482d-9706-213cbbf645a4.png?sv=2018-03-28&sr=b&sig=bT8tGey60VgMNG0Pd5cmV6FFrgIt2DgsRzkH%2Fd7g03Y%3D&spr=https&se=2023-07-21T18%3A08%3A35Z&sp=r",
-    "Carrier_Social_logo": "https://docserverpwaprodwus.blob.core.windows.net/896564ab-ed20-42e2-ad40-7fc37fcfd871-1/resource/Assets0Images0acb934da-811e-4203-a98c-53ff68917916.jpg?sv=2018-03-28&sr=b&sig=SBRzy%2FBtleOIaJSqzRIAcNcirCPfNrcT77UrVoaWNNA%3D&spr=https&se=2023-07-21T18%3A08%3A35Z&sp=r"
+    "Carrier_Logo": "https://docserverpwaprodwus.blob.core.windows.net/1a0e9689-b698-41cd-a512-91e735ec7dfc-1/resource/Assets0Images0b583e4a2-bd6b-482d-9706-213cbbf645a4.png?sv=2018-03-28&sr=b&sig=BCn3JCFYsl0GwBxoP6QR47%2B4LOIjwJNbSrk8HUakE2Q%3D&spr=https&se=2023-07-21T19%3A53%3A40Z&sp=r",
+    "Carrier_Social_logo": "https://docserverpwaprodwus.blob.core.windows.net/1a0e9689-b698-41cd-a512-91e735ec7dfc-1/resource/Assets0Images0acb934da-811e-4203-a98c-53ff68917916.jpg?sv=2018-03-28&sr=b&sig=8HphMnvvmAdFeII0nx%2BVqQS%2FMLlNeEDo7f6FH5aWRRo%3D&spr=https&se=2023-07-21T19%3A53%3A40Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -48,12 +48,12 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 2,
-    "circle": 4,
-    "icon": 5,
-    "image": 3,
-    "label": 1,
-    "rectangle": 0
+    "button": 3,
+    "circle": 5,
+    "icon": 1,
+    "image": 4,
+    "label": 0,
+    "rectangle": 2
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -97,7 +97,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1217007,
+    "AnalysisLoadTime": 0.1074519,
     "ControlCount": {
       "button": 1,
       "circle": 1,
@@ -107,7 +107,7 @@
       "rectangle": 2,
       "screen": 3
     },
-    "DeserializationLoadTime": 0.6868914
+    "DeserializationLoadTime": 1.1059898
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
