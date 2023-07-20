@@ -106,7 +106,6 @@ auditor As screen:
 
     zonaLabel As label:
         Align: =Align.Center
-        BorderColor: =RGBA(56, 96, 178, 1)
         BorderThickness: =0.5
         Height: =83
         Size: =21
@@ -118,7 +117,6 @@ auditor As screen:
 
     mesaControlLabel As label:
         Align: =Align.Center
-        BorderColor: =RGBA(56, 96, 178, 1)
         BorderThickness: =0.5
         Height: =83
         Size: =21
