@@ -3,10 +3,10 @@ auditor As screen:
     Label3 As label:
         Height: =70
         Size: =21
-        Text: ="Auditor"
+        Text: ="Usuario"
         Width: =173
-        X: =171
-        Y: =345
+        X: =66
+        Y: =132
         ZIndex: =1
 
     Rectangle3 As rectangle:
@@ -52,4 +52,55 @@ auditor As screen:
         X: =15
         Y: =10
         ZIndex: =5
+
+    Label5 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: |-
+            ="Rol: Auditor"
+        Width: =258
+        X: =191
+        Y: =413
+        ZIndex: =6
+
+    Rectangle2 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =13
+        Y: =441
+        ZIndex: =7
+
+    Rectangle2_1 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =13
+        X: =490
+        Y: =441
+        ZIndex: =8
+
+    Label9 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =62
+        Size: =25
+        Text: ="Zona"
+        Width: =310
+        X: =9
+        Y: =524
+        ZIndex: =9
+
+    Label10 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =62
+        Size: =25
+        Text: ="Mesa Control"
+        Width: =310
+        X: =319
+        Y: =524
+        ZIndex: =10
 
