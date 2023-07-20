@@ -1,0 +1,11 @@
+capturista As screen:
+
+    Label2 As label:
+        Height: =70
+        Size: =21
+        Text: ="Capturista"
+        Width: =310
+        X: =80
+        Y: =114
+        ZIndex: =1
+

@@ -1,0 +1,30 @@
+auditor As screen:
+
+    Label3 As label:
+        Height: =70
+        Size: =21
+        Text: ="Auditor"
+        Width: =173
+        X: =171
+        Y: =345
+        ZIndex: =1
+
+    Icon2 As icon.Leave:
+        Icon: =Icon.Leave
+        OnSelect: |-
+            =Patch(
+                MesaControl_UserGeneral,
+                LookUp(
+                    MesaControl_UserGeneral,
+                    correoUser = User().Email
+                ),
+                {
+                    Activo: "No",
+                    Disponible: "No"
+                }
+            );
+            Back(ScreenTransition.Fade)
+        X: =525
+        Y: =75
+        ZIndex: =3
+

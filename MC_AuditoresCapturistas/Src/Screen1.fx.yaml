@@ -1,0 +1,64 @@
+Screen1 As screen:
+
+    Button1 As button:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =70
+        OnSelect: |
+            =Patch(
+                MesaControl_UserGeneral, 
+                LookUp(
+                    MesaControl_UserGeneral,
+                    correoUser = User().Email
+                ),
+                {
+                    Activo: "Si",
+                    Disponible: "Si"
+                }
+            );
+            If(
+                !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Navigate(capturista, ScreenTransition.Fade),Navigate(auditor, ScreenTransition.Fade)
+                )
+                      
+        Size: =24
+        Text: ="Login"
+        Width: =280
+        X: =165
+        Y: =348
+        ZIndex: =1
+
+    Label1 As label:
+        Height: =70
+        Size: =21
+        Text: ="Prueba"
+        Width: =202
+        X: =80
+        Y: =200
+        ZIndex: =2
+
+    Rectangle1 As rectangle:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =72
+        Width: =640
+        ZIndex: =3
+
+    Rectangle1_1 As rectangle:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =158
+        Width: =640
+        Y: =976
+        ZIndex: =4
+
+    Circle1 As circle:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =202
+        Width: =640
+        Y: =870
+        ZIndex: =5
+
+    Image1 As image:
+        Height: =320
+        Width: =320
+        X: =136
+        Y: =496
+        ZIndex: =6
+
