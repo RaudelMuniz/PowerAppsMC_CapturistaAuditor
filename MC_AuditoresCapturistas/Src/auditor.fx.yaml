@@ -126,3 +126,20 @@ auditor As screen:
         Y: =586
         ZIndex: =12
 
+    Button3 As button:
+        Height: =131
+        Size: =24
+        Text: ="Iniciar Auditoría"
+        Width: =396
+        X: =119
+        Y: =722
+        ZIndex: =13
+
+    Image1 As image:
+        Height: =90
+        Image: =carrier_logo
+        Width: =202
+        X: =219
+        Y: =1046
+        ZIndex: =14
+
