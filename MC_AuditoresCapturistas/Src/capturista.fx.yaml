@@ -27,7 +27,7 @@ capturista As screen:
         ZIndex: =2
 
     Form1 As form:
-        DataSource: =MesaControl_UserGeneral
+        DataSource: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
         Height: =1066
         Width: =640
         Y: =70
