@@ -238,25 +238,11 @@
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Icon",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Color",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Color",
         "DisabledColor",
         "PressedColor",
         "HoverColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Fill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Fill",
         "DisabledFill",
         "PressedFill",
         "HoverFill",
@@ -293,7 +279,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon2",
-      "ParentIndex": 3,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -480,7 +466,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3",
-      "ParentIndex": 4,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
