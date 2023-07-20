@@ -2,7 +2,7 @@ Screen1 As screen:
 
     Button1 As button:
         Fill: =RGBA(0, 18, 107, 1)
-        Height: =70
+        Height: =74
         OnSelect: |
             =Patch(
                 MesaControl_UserGeneral, 
@@ -21,9 +21,9 @@ Screen1 As screen:
                       
         Size: =24
         Text: ="Log in"
-        Width: =280
-        X: =165
-        Y: =348
+        Width: =430
+        X: =105
+        Y: =342
         ZIndex: =1
 
     Rectangle1 As rectangle:
@@ -54,7 +54,7 @@ Screen1 As screen:
         Size: =30
         Text: ="Log in"
         Width: =141
-        X: =234
+        X: =249
         Y: =13
         ZIndex: =5
 
