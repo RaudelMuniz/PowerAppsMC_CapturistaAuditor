@@ -29,6 +29,7 @@
     "Label8": 21,
     "Label8_1": 22,
     "Label9": 37,
+    "mesaControlLabel": 40,
     "Rectangle1": 29,
     "Rectangle1_1": 33,
     "Rectangle2": 35,
@@ -38,11 +39,12 @@
     "Rectangle5_1": 19,
     "Rectangle5_2": 20,
     "Rectangle6": 24,
-    "Screen1": 27
+    "Screen1": 27,
+    "zonaLabel": 39
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/20/2023 22:08:07",
+  "HeaderLastSavedDateTimeUTC": "07/20/2023 22:13:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "223a2896-6108-448a-9017-1629d7b85cd5": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4\""
@@ -110,6 +112,7 @@
     "Label8": {},
     "Label8_1": {},
     "Label9": {},
+    "mesaControlLabel": {},
     "Rectangle1": {},
     "Rectangle1_1": {},
     "Rectangle2": {},
@@ -119,7 +122,8 @@
     "Rectangle5_1": {},
     "Rectangle5_2": {},
     "Rectangle6": {},
-    "Screen1": {}
+    "Screen1": {},
+    "zonaLabel": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -151,6 +155,7 @@
     "Label8": 20,
     "Label8_1": 21,
     "Label9": 0,
+    "mesaControlLabel": 0,
     "Rectangle1": 28,
     "Rectangle1_1": 32,
     "Rectangle2": 0,
@@ -160,7 +165,8 @@
     "Rectangle5_1": 18,
     "Rectangle5_2": 19,
     "Rectangle6": 23,
-    "Screen1": 26
+    "Screen1": 26,
+    "zonaLabel": 0
   },
   "ResourcesJsonIndices": {
     "Image-Carrier_Logo": 1,
