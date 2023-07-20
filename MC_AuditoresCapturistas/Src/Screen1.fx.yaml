@@ -20,7 +20,7 @@ Screen1 As screen:
                 )
                       
         Size: =24
-        Text: ="Login"
+        Text: ="Log in"
         Width: =280
         X: =165
         Y: =348
@@ -58,7 +58,7 @@ Screen1 As screen:
     Image1 As image:
         Height: =320
         Width: =320
-        X: =136
-        Y: =496
+        X: =145
+        Y: =537
         ZIndex: =6
 
