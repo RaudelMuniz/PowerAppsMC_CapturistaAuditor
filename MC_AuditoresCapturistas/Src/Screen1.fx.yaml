@@ -16,7 +16,7 @@ Screen1 As screen:
                 }
             );
             If(
-                !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Navigate(capturista, ScreenTransition.Fade),Navigate(auditor, ScreenTransition.Fade)
+                !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Navigate(capturista, ScreenTransition.Fade),Navigate(AuditorDetalle, ScreenTransition.Fade)
                 )
                       
         Size: =24

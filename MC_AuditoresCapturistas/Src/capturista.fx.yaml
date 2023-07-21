@@ -16,7 +16,7 @@ capturista As screen:
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(CapturistaDetalle,ScreenTransition.Fade)
         TemplateSize: =237
-        Y: =170
+        Y: =142
         ZIndex: =1
 
         Button2 As button:
