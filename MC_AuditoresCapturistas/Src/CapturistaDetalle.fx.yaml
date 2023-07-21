@@ -226,23 +226,25 @@ CapturistaDetalle As screen:
             ZIndex: =23
 
         Button2 As button:
+            Fill: =RGBA(152, 208, 70, 1)
             Height: =66
             Size: =24
             Text: ="Aceptar"
             Visible: =ShowPop
             Width: =201
-            X: =365
+            X: =340
             Y: =387
             ZIndex: =24
 
         Button2_1 As button:
+            Fill: =RGBA(255, 191, 0, 1)
             Height: =66
             OnSelect: =Set(ShowPop,false)
             Size: =24
             Text: ="Cancelar"
             Visible: =ShowPop
             Width: =201
-            X: =79
+            X: =104
             Y: =387
             ZIndex: =25
 
