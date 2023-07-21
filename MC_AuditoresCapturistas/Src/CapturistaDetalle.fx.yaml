@@ -226,8 +226,13 @@ CapturistaDetalle As screen:
             ZIndex: =23
 
         Button2 As button:
+            DisabledColor: =RGBA(0, 0, 0, 1)
             Fill: =RGBA(152, 208, 70, 1)
             Height: =66
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =ColorFade(Self.BorderColor, 20%)
+            PressedColor: =RGBA(0, 0, 0, 1)
+            PressedFill: =ColorFade(Self.BorderColor, 20%)
             Size: =24
             Text: ="Aceptar"
             Visible: =ShowPop
@@ -241,6 +246,7 @@ CapturistaDetalle As screen:
             DisabledFill: =RGBA(0, 0, 0, 1)
             Fill: =RGBA(255, 191, 0, 1)
             Height: =66
+            HoverColor: =RGBA(0, 0, 0, 1)
             HoverFill: =ColorFade(Self.BorderColor, 20%)
             OnSelect: =Set(ShowPop,false)
             PressedColor: =RGBA(0, 0, 0,1)
