@@ -59,7 +59,18 @@ auditor As screen:
         OnSelect: =Navigate(AuditorDetalle,ScreenTransition.Fade)
         TemplateSize: =214
         Width: =505
-        X: =54
-        Y: =414
+        X: =50
+        Y: =331
         ZIndex: =10
+
+        Button7 As button:
+            Fill: =RGBA(0, 18, 107, 1)
+            Height: =74
+            OnSelect: =Navigate(AuditorDetalle,ScreenTransition.Fade)
+            Size: =24
+            Text: =ThisItem.Zona
+            Width: =430
+            X: =36
+            Y: =66
+            ZIndex: =1
 
