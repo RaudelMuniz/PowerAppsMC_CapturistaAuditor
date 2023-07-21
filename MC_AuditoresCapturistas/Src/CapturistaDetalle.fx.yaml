@@ -138,6 +138,33 @@ CapturistaDetalle As screen:
 
     Button3_1 As button:
         Height: =131
+        OnSelect: |-
+            =Patch(
+                    MesaControl_UserGeneral,
+                    LookUp(
+                        MesaControl_UserGeneral,
+                        correoUser = User().Email
+                    ),
+                    {
+                        Disponible:"No",
+                        EnProceso: "Si"
+                    }
+            );
+            Patch(
+                MesaControl_Request,
+                LookUp(
+                    MesaControl_Request,
+                    no_Zona=zonaLabel_1.Text
+                ),
+                {
+                    estatusF2:"Terminado",
+                    estatusF3:"En Proceso",
+                    hrsEstatusF3:Now(),
+                    hrsEstatusF2Fin:Now(),
+                    Fase:"En Captura"
+                }
+            );
+            Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         Size: =24
         Text: ="Iniciar Captura"
         Width: =396
