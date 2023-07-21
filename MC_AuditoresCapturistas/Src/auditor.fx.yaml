@@ -80,7 +80,7 @@ auditor As screen:
             ="Estás Iniciando Sesión Como:
              Auditor"
         Width: =560
-        X: =39
-        Y: =340
+        X: =40
+        Y: =360
         ZIndex: =9
 
