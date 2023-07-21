@@ -122,7 +122,7 @@ AuditorDetalle As screen:
         BorderThickness: =0.5
         Height: =83
         Size: =21
-        Text: =galeriaCapturistas.Selected.mesaControl
+        Text: =galeriaAuditores.Selected.mesaControl
         Width: =310
         X: =319
         Y: =586
