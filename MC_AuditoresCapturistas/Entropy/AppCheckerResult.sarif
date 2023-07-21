@@ -630,66 +630,6 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 5
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 5
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 5
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 5
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 5
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Error occurred running rule app-InefficientDelayLoading."
-              }
             }
           ]
         }
@@ -1089,19 +1029,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "auditor.Gallery2.AccessibleLabel"
+                  "fullyQualifiedName": "auditor.Gallery9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "auditor.Gallery2.AccessibleLabel",
+                  "fullyQualifiedName": "auditor.Gallery9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "auditor",
-                "type": "auditor.Gallery2"
+                "type": "auditor.Gallery9"
               }
             }
           ],
@@ -1119,19 +1059,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "auditor.Gallery2.TabIndex"
+                  "fullyQualifiedName": "auditor.Gallery9.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "auditor.Gallery2.TabIndex",
+                  "fullyQualifiedName": "auditor.Gallery9.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "auditor",
-                "type": "auditor.Gallery2"
+                "type": "auditor.Gallery9"
               }
             }
           ],
@@ -1250,36 +1190,6 @@
               },
               "properties": {
                 "member": "MesaControl_UserGeneral",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-NotOfflineConnectors",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.MesaControl_Zonas"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.MesaControl_Zonas",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "MesaControl_Zonas",
                 "module": "App",
                 "type": "App"
               }
