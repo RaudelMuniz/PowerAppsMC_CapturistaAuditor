@@ -1,12 +1,13 @@
 auditor As screen:
 
     Label3 As label:
-        Height: =70
+        Height: =65
         Size: =21
-        Text: ="Usuario"
-        Width: =173
-        X: =66
-        Y: =132
+        Text: |-
+            ="Nombre: " & User().FullName
+        Width: =406
+        X: =51
+        Y: =213
         ZIndex: =1
 
     Rectangle3 As rectangle:
