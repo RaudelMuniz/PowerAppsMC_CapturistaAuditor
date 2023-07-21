@@ -26,7 +26,7 @@ capturista As screen:
         X: =576
         ZIndex: =2
 
-    "galeriaCapturistas As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+    galeriaCapturistas As gallery.galleryVertical:
         DelayItemLoading: =true
         Items: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
         Layout: =Layout.Vertical
