@@ -182,6 +182,7 @@ CapturistaDetalle As screen:
 
     Button4 As button:
         Height: =70
+        OnSelect: =Set(ShowPop,true)
         Size: =24
         Text: ="Capturado"
         Width: =280
@@ -189,28 +190,72 @@ CapturistaDetalle As screen:
         Y: =886
         ZIndex: =20
 
-    rectanguloPopUp As rectangle:
-        Fill: =RGBA(56, 96, 178, 0.5)
-        Height: =1136
-        Width: =640
-        ZIndex: =21
+    popup As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =26
 
-    Rectangle5 As rectangle:
-        BorderColor: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =306
-        Width: =549
-        X: =42
-        Y: =177
-        ZIndex: =22
+        rectanguloPopUp As rectangle:
+            Fill: =RGBA(56, 96, 178, 0.5)
+            Height: =1136
+            Visible: =ShowPop
+            Width: =640
+            ZIndex: =21
 
-    Label7 As label:
-        Align: =Align.Center
-        Height: =125
-        Size: =21
-        Text: ="¿Desea dar por terminada la captura de datos?"
-        Width: =497
-        X: =70
-        Y: =208
-        ZIndex: =23
+        Rectangle5 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =306
+            Visible: =ShowPop
+            Width: =549
+            X: =42
+            Y: =177
+            ZIndex: =22
+
+        Label7 As label:
+            Align: =Align.Center
+            Height: =125
+            Size: =21
+            Text: ="¿Desea dar por terminada la captura de datos?"
+            Visible: =ShowPop
+            Width: =497
+            X: =70
+            Y: =208
+            ZIndex: =23
+
+        Button2 As button:
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(152, 208, 70, 1)
+            Height: =66
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =ColorFade(Self.BorderColor, 20%)
+            PressedColor: =RGBA(0, 0, 0, 1)
+            PressedFill: =ColorFade(Self.BorderColor, 20%)
+            Size: =24
+            Text: ="Aceptar"
+            Visible: =ShowPop
+            Width: =201
+            X: =340
+            Y: =387
+            ZIndex: =24
+
+        Button2_1 As button:
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            DisabledFill: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(255, 191, 0, 1)
+            Height: =66
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =ColorFade(Self.BorderColor, 20%)
+            OnSelect: =Set(ShowPop,false)
+            PressedColor: =RGBA(0, 0, 0,1)
+            PressedFill: =ColorFade(Self.BorderColor, 20%)
+            Size: =24
+            Text: ="Cancelar"
+            Visible: =ShowPop
+            Width: =201
+            X: =104
+            Y: =387
+            ZIndex: =25
 
