@@ -50,7 +50,7 @@ auditor As screen:
         Y: =142
         ZIndex: =8
 
-    Gallery1 As gallery.galleryVertical:
+    galeriaAuditores As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =298
         Items: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
@@ -62,15 +62,4 @@ auditor As screen:
         X: =54
         Y: =414
         ZIndex: =10
-
-        Button7 As button:
-            Fill: =RGBA(0, 18, 107, 1)
-            Height: =74
-            OnSelect: =Navigate(AuditorDetalle,ScreenTransition.Fade)
-            Size: =24
-            Text: =ThisItem.Zona
-            Width: =430
-            X: =44
-            Y: =100
-            ZIndex: =2
 
