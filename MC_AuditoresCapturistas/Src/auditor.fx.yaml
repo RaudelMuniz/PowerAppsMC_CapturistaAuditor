@@ -50,6 +50,7 @@ auditor As screen:
     Icon1 As icon.Reload:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.Reload
+        OnSelect: =Refresh(MesaControl_UserGeneral)
         X: =15
         Y: =10
         ZIndex: =5
@@ -110,7 +111,7 @@ auditor As screen:
         BorderThickness: =0.5
         Height: =83
         Size: =21
-        Text: ="Text"
+        Text: =galeriaCapturistas.Selected.Zona
         Width: =310
         X: =9
         Y: =586
@@ -121,7 +122,7 @@ auditor As screen:
         BorderThickness: =0.5
         Height: =83
         Size: =21
-        Text: ="Text"
+        Text: =galeriaCapturistas.Selected.mesaControl
         Width: =310
         X: =319
         Y: =586
