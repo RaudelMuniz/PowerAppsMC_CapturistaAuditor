@@ -1,18 +1,5 @@
 auditor As screen:
 
-    Label7 As label:
-        Align: =Align.Center
-        Height: =128
-        Size: =21
-        Text: |-
-            ="Estas Iniciando Sesión Como: 
-            Auditor
-            "
-        Width: =425
-        X: =107
-        Y: =297
-        ZIndex: =1
-
     galeriaAuditores As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =274
