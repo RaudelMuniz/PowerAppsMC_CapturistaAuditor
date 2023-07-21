@@ -237,7 +237,7 @@ CapturistaDetalle As screen:
 
         Button2_1 As button:
             Height: =66
-            OnSelect: =Set(ShowPop,true)
+            OnSelect: =Set(ShowPop,false)
             Size: =24
             Text: ="Cancelar"
             Visible: =ShowPop
