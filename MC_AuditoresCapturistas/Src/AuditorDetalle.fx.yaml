@@ -111,7 +111,7 @@ AuditorDetalle As screen:
         BorderThickness: =0.5
         Height: =83
         Size: =21
-        Text: =galeriaCapturistas.Selected.Zona
+        Text: =galeriaAuditores.Selected.Zona
         Width: =310
         X: =9
         Y: =586

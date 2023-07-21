@@ -1029,19 +1029,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "auditor.Gallery9.AccessibleLabel"
+                  "fullyQualifiedName": "auditor.galeriaAuditores.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "auditor.Gallery9.AccessibleLabel",
+                  "fullyQualifiedName": "auditor.galeriaAuditores.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "auditor",
-                "type": "auditor.Gallery9"
+                "type": "auditor.galeriaAuditores"
               }
             }
           ],
@@ -1059,19 +1059,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "auditor.Gallery9.TabIndex"
+                  "fullyQualifiedName": "auditor.galeriaAuditores.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "auditor.Gallery9.TabIndex",
+                  "fullyQualifiedName": "auditor.galeriaAuditores.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "auditor",
-                "type": "auditor.Gallery9"
+                "type": "auditor.galeriaAuditores"
               }
             }
           ],
