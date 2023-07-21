@@ -1,27 +1,5 @@
 auditor As screen:
 
-    galeriaAuditores As gallery.galleryVertical:
-        DelayItemLoading: =true
-        Height: =274
-        Items: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        OnSelect: =Navigate(AuditorDetalle,Fade)
-        TemplateSize: =268
-        Y: =392
-        ZIndex: =2
-
-        Button8 As button:
-            Fill: =RGBA(0, 18, 107, 1)
-            Height: =70
-            OnSelect: =Select(Parent)
-            Size: =24
-            Text: ="Log In"
-            Width: =280
-            X: =168
-            Y: =158
-            ZIndex: =1
-
     Rectangle1_2 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =113
@@ -54,12 +32,12 @@ auditor As screen:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
-        Height: =58
+        Height: =60
         Size: =30
-        Text: ="Log in"
-        Width: =141
-        X: =249
-        Y: =13
+        Text: ="Auditores"
+        Width: =220
+        X: =209
+        Y: =12
         ZIndex: =7
 
     Label3_1 As label:
@@ -81,6 +59,25 @@ auditor As screen:
              Auditor"
         Width: =560
         X: =40
-        Y: =360
+        Y: =264
         ZIndex: =9
+
+    Gallery1 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Items: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        Y: =379
+        ZIndex: =10
+
+        Label12 As label:
+            Height: =70
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =ThisItem.Zona
+            Width: =560
+            X: =70
+            Y: =161
+            ZIndex: =1
 
