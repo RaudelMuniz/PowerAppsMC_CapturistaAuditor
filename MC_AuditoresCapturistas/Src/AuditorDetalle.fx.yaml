@@ -130,6 +130,7 @@ AuditorDetalle As screen:
 
     Button3 As button:
         Fill: =RGBA(39, 67, 125, 1)
+        FontWeight: =FontWeight.Bold
         Height: =131
         OnSelect: |-
             =Patch(
@@ -147,14 +148,14 @@ AuditorDetalle As screen:
                 MesaControl_Request,
                 LookUp(
                     MesaControl_Request,
-                    no_Zona=zonaLabel.Text
+                    no_Zona=galeriaAuditores.Selected.Zona
                 ),
                 {
-                    estatusF2:"Terminado",
-                    estatusF3:"En Proceso",
-                    hrsEstatusF3:Now(),
-                    hrsEstatusF2Fin:Now(),
-                    Fase:"En Captura"
+                    estatusF4:"Terminado",
+                    estatusF5:"En Proceso",
+                    hrsEstatusF5:Now(),
+                    hrsEstatusF4Fin:Now(),
+                    Fase:"En Auditoria"
                 }
             );
             Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
