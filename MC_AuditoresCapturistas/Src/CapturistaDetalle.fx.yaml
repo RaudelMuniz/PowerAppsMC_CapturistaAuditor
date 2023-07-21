@@ -237,9 +237,14 @@ CapturistaDetalle As screen:
             ZIndex: =24
 
         Button2_1 As button:
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            DisabledFill: =RGBA(0, 0, 0, 1)
             Fill: =RGBA(255, 191, 0, 1)
             Height: =66
+            HoverFill: =ColorFade(Self.BorderColor, 20%)
             OnSelect: =Set(ShowPop,false)
+            PressedColor: =RGBA(0, 0, 0,1)
+            PressedFill: =ColorFade(Self.BorderColor, 20%)
             Size: =24
             Text: ="Cancelar"
             Visible: =ShowPop
