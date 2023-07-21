@@ -50,7 +50,7 @@ auditor As screen:
         Y: =142
         ZIndex: =8
 
-    Gallery1 As gallery.galleryVertical:
+    galeriaAuditores As gallery.galleryVertical:
         DelayItemLoading: =true
         Height: =298
         Items: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
