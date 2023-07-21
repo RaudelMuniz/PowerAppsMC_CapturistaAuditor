@@ -969,36 +969,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.MesaControl_Request"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.MesaControl_Request",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "MesaControl_Request",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-NotOfflineConnectors",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.MesaControl_UserGeneral"
                 }
               ],
