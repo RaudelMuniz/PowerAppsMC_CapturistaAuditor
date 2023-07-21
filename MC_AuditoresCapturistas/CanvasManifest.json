@@ -132,8 +132,9 @@
   },
   "ScreenOrder": [
     "Screen1",
-    "capturista",
     "auditor",
+    "capturista",
+    "AuditorDetalle",
     "CapturistaDetalle"
   ]
 }

@@ -1,0 +1,147 @@
+AuditorDetalle As screen:
+
+    Label3 As label:
+        Height: =65
+        Size: =21
+        Text: |-
+            ="Nombre: " & User().FullName
+        Width: =406
+        X: =51
+        Y: =213
+        ZIndex: =1
+
+    Rectangle3 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =84
+        Width: =640
+        ZIndex: =2
+
+    Label6 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =30
+        Text: ="Mis Zonas"
+        Width: =220
+        X: =210
+        ZIndex: =3
+
+    Icon2 As icon.Leave:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Leave
+        OnSelect: |-
+            =Patch(
+                MesaControl_UserGeneral,
+                LookUp(
+                    MesaControl_UserGeneral,
+                    correoUser = User().Email
+                ),
+                {
+                    Activo: "No",
+                    Disponible: "No"
+                }
+            );
+            Back(ScreenTransition.Fade)
+        X: =576
+        Y: =10
+        ZIndex: =4
+
+    Icon1 As icon.Reload:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Reload
+        OnSelect: =Refresh(MesaControl_UserGeneral)
+        X: =15
+        Y: =10
+        ZIndex: =5
+
+    Label5 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: |-
+            ="Rol: Auditor"
+        Width: =258
+        X: =191
+        Y: =413
+        ZIndex: =6
+
+    Rectangle2 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =13
+        Y: =441
+        ZIndex: =7
+
+    Rectangle2_1 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =13
+        X: =490
+        Y: =441
+        ZIndex: =8
+
+    Label9 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =62
+        Size: =25
+        Text: ="Zona"
+        Width: =310
+        X: =9
+        Y: =524
+        ZIndex: =9
+
+    Label10 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =62
+        Size: =25
+        Text: ="Mesa Control"
+        Width: =310
+        X: =319
+        Y: =524
+        ZIndex: =10
+
+    zonaLabel As label:
+        Align: =Align.Center
+        BorderThickness: =0.5
+        Height: =83
+        Size: =21
+        Text: =galeriaCapturistas.Selected.Zona
+        Width: =310
+        X: =9
+        Y: =586
+        ZIndex: =11
+
+    mesaControlLabel As label:
+        Align: =Align.Center
+        BorderThickness: =0.5
+        Height: =83
+        Size: =21
+        Text: =galeriaCapturistas.Selected.mesaControl
+        Width: =310
+        X: =319
+        Y: =586
+        ZIndex: =12
+
+    Button3 As button:
+        Height: =131
+        Size: =24
+        Text: ="Iniciar Auditoría"
+        Width: =396
+        X: =119
+        Y: =722
+        ZIndex: =13
+
+    Image1 As image:
+        Height: =90
+        Image: =carrier_logo
+        Width: =202
+        X: =219
+        Y: =1046
+        ZIndex: =14
+
