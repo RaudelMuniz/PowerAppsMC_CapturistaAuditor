@@ -190,10 +190,9 @@ AuditorDetalle As screen:
         DisplayMode: =If(zonaLabel.Text="N/A" || mesaControlLabel.Text="N/A",DisplayMode.Disabled,If(Dropdown1.SelectedText.Rol="Capturista",If(validadorEstatusF3.SelectedText.estatusF3="Terminado",DisplayMode.Disabled,DisplayMode.Edit),If(validadorEstatusF5.SelectedText.estatusF5="Terminado",DisplayMode.Disabled,If(Dropdown1.SelectedText.EnProceso="Terminado",DisplayMode.Disabled,DisplayMode.Edit))))
         Fill: =RGBA(39, 67, 125, 1)
         Height: =70
-        OnSelect: =Set(ShowPopUpAuditores,true)
+        OnSelect: =Set(ShowPopUp,true)
         Size: =24
         Text: ="Auditado"
-        Visible: =
         Width: =280
         X: =177
         Y: =727
