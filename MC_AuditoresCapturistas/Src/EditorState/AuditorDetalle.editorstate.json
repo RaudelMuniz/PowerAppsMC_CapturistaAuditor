@@ -667,7 +667,14 @@
         "DisabledColor",
         "PressedColor",
         "HoverColor",
-        "DisplayMode",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "If(zonaLabel.Text=\"N/A\" || mesaControlLabel.Text=\"N/A\",DisplayMode.Disabled,If(Dropdown1.SelectedText.Rol=\"Capturista\",If(validadorEstatusF3.SelectedText.estatusF3=\"Terminado\",DisplayMode.Disabled,DisplayMode.Edit),If(validadorEstatusF5.SelectedText.estatusF5=\"Terminado\",DisplayMode.Disabled,If(Dropdown1.SelectedText.EnProceso=\"Terminado\",DisplayMode.Disabled,DisplayMode.Edit))))",
+          "InvariantPropertyName": "DisplayMode",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
