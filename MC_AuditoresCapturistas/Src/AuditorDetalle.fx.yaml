@@ -132,7 +132,7 @@ AuditorDetalle As screen:
         DisplayMode: |-
             =If(
                 Or(
-                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, estatusF2 = "Terminado"),
+                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, estatusF5 = "Terminado"),
                     LookUp(MesaControl_UserGeneral, Zona = galeriaAuditores.Selected.Zona, Zona  = "N/A")
                 ),
                 DisplayMode.Disabled,
