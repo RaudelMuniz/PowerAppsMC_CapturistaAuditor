@@ -7,7 +7,7 @@ AuditorDetalle As screen:
             ="Nombre: " & User().FullName
         Width: =406
         X: =51
-        Y: =213
+        Y: =150
         ZIndex: =1
 
     Rectangle3 As rectangle:
@@ -64,20 +64,20 @@ AuditorDetalle As screen:
             ="Rol: Auditor"
         Width: =258
         X: =191
-        Y: =413
+        Y: =254
         ZIndex: =6
 
     Rectangle2 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =13
-        Y: =441
+        Y: =282
         ZIndex: =7
 
     Rectangle2_1 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =13
         X: =490
-        Y: =441
+        Y: =282
         ZIndex: =8
 
     Label9 As label:
@@ -90,7 +90,7 @@ AuditorDetalle As screen:
         Text: ="Zona"
         Width: =310
         X: =9
-        Y: =524
+        Y: =365
         ZIndex: =9
 
     Label10 As label:
@@ -103,7 +103,7 @@ AuditorDetalle As screen:
         Text: ="Mesa Control"
         Width: =310
         X: =319
-        Y: =524
+        Y: =365
         ZIndex: =10
 
     zonaLabel As label:
@@ -114,7 +114,7 @@ AuditorDetalle As screen:
         Text: =galeriaAuditores.Selected.Zona
         Width: =310
         X: =9
-        Y: =586
+        Y: =427
         ZIndex: =11
 
     mesaControlLabel As label:
@@ -125,7 +125,7 @@ AuditorDetalle As screen:
         Text: =galeriaAuditores.Selected.mesaControl
         Width: =310
         X: =319
-        Y: =586
+        Y: =427
         ZIndex: =12
 
     Button3 As button:
@@ -166,7 +166,7 @@ AuditorDetalle As screen:
             )
         Width: =396
         X: =119
-        Y: =722
+        Y: =563
         ZIndex: =13
 
     Image1 As image:
@@ -185,7 +185,7 @@ AuditorDetalle As screen:
         Text: ="Finalizar"
         Width: =280
         X: =177
-        Y: =886
+        Y: =727
         ZIndex: =15
 
     PopUp_Auditores As group:
