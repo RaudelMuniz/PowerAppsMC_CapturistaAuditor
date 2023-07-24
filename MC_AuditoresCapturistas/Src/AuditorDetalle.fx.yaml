@@ -170,9 +170,6 @@ AuditorDetalle As screen:
             Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         Size: =24
         Text: ="Iniciar Auditoría"
-        Visible: |-
-            =If(Filter(MesaControl_Request,no_Zona=galeriaAuditores.Selected.Zona,Text(estatusF4)) = "Terminado",false,true
-            )
         Width: =396
         X: =119
         Y: =563
@@ -198,7 +195,7 @@ AuditorDetalle As screen:
             )
         Fill: =RGBA(39, 67, 125, 1)
         Height: =70
-        OnSelect: =Set(ShowPopUp,true)
+        OnSelect: =Set(ShowPopUpAuditores,true)
         Size: =24
         Text: ="Auditado"
         Width: =280
