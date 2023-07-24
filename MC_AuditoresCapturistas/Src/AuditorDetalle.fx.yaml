@@ -190,19 +190,6 @@ AuditorDetalle As screen:
         Y: =727
         ZIndex: =15
 
-    Label11 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 16, 96, 1)
-        BorderThickness: =0.5
-        FontWeight: =FontWeight.Bold
-        Height: =62
-        Size: =25
-        Text: ="Entrega en"
-        Width: =310
-        X: =165
-        Y: =821
-        ZIndex: =21
-
     PopUp_Auditores As group:
         Height: =5
         Width: =5
@@ -260,12 +247,25 @@ AuditorDetalle As screen:
             Y: =383
             ZIndex: =20
 
+    Label11 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 16, 96, 1)
+        BorderThickness: =0.5
+        FontWeight: =FontWeight.Bold
+        Height: =62
+        Size: =25
+        Text: ="Entrega en"
+        Width: =310
+        X: =165
+        Y: =821
+        ZIndex: =21
+
     Label12 As label:
         Align: =Align.Center
         BorderThickness: =0.5
         Height: =77
         Size: =21
-        Text: ="Mesa " & validadorEstatusF3.SelectedText.mesaControlValidacionF4
+        Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = galeriaAuditores.Selected.Zona,mesaControlCierreF6)
         Width: =310
         X: =165
         Y: =883
