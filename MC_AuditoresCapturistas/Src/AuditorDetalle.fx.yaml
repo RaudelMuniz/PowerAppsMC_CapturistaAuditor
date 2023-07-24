@@ -129,6 +129,15 @@ AuditorDetalle As screen:
         ZIndex: =12
 
     Button3 As button:
+        DisplayMode: |-
+            =If(
+                Or(
+                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, estatusF2 = "Terminado"),
+                    LookUp(MesaControl_UserGeneral, Zona = galeriaAuditores.Selected.Zona, Zona  = "N/A")
+                ),
+                DisplayMode.Disabled,
+                DisplayMode.Edit
+            )
         Fill: =RGBA(39, 67, 125, 1)
         FontWeight: =FontWeight.Bold
         Height: =131
