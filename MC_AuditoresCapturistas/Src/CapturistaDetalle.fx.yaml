@@ -61,26 +61,6 @@ CapturistaDetalle As screen:
         X: =210
         ZIndex: =10
 
-    Icon2_2 As icon.Leave:
-        Color: =RGBA(255, 255, 255, 1)
-        Icon: =Icon.Leave
-        OnSelect: |-
-            =Patch(
-                MesaControl_UserGeneral,
-                LookUp(
-                    MesaControl_UserGeneral,
-                    correoUser = User().Email
-                ),
-                {
-                    Activo: "No",
-                    Disponible: "No"
-                }
-            );
-            Back(ScreenTransition.Fade)
-        X: =576
-        Y: =10
-        ZIndex: =11
-
     Icon1_1 As icon.Reload:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.Reload
@@ -137,6 +117,15 @@ CapturistaDetalle As screen:
         ZIndex: =17
 
     Button3_1 As button:
+        DisplayMode: |
+            =If(
+                Or(
+                    LookUp(MesaControl_Request, no_Zona = galeriaCapturistas.Selected.Zona, estatusF2 = "Terminado"),
+                    LookUp(MesaControl_UserGeneral, Zona = galeriaCapturistas.Selected.Zona, Zona  = "N/A")
+                ),
+                DisplayMode.Disabled,
+                DisplayMode.Edit
+            )
         Height: =131
         OnSelect: |-
             =Patch(
@@ -181,6 +170,15 @@ CapturistaDetalle As screen:
         ZIndex: =19
 
     Button4 As button:
+        DisplayMode: |-
+            =If(
+                Or(
+                    LookUp(MesaControl_Request, no_Zona = galeriaCapturistas.Selected.Zona, estatusF3 = "Terminado"),
+                    LookUp(MesaControl_UserGeneral, Zona = galeriaCapturistas.Selected.Zona, Zona  = "N/A")
+                ),
+                DisplayMode.Disabled,
+                DisplayMode.Edit
+            )
         Height: =70
         OnSelect: =Set(ShowPop,true)
         Size: =24
@@ -189,6 +187,15 @@ CapturistaDetalle As screen:
         X: =177
         Y: =886
         ZIndex: =20
+
+    Image2 As image:
+        Height: =74
+        Image: ='return-button (1)'
+        OnSelect: =Back(ScreenTransition.Fade)
+        Width: =68
+        X: =561
+        Y: =5
+        ZIndex: =26
 
     popup As group:
         Height: =5
@@ -231,6 +238,29 @@ CapturistaDetalle As screen:
             Height: =66
             HoverColor: =RGBA(0, 0, 0, 1)
             HoverFill: =ColorFade(Self.BorderColor, 20%)
+            OnSelect: |-
+                =Patch(
+                        MesaControl_Request,
+                        LookUp(
+                            MesaControl_Request,
+                            no_Zona = zonaLabel.Text
+                        ),
+                        {
+                            estatusF3: "Terminado",
+                            estatusF4: "Pendiente",
+                            hrsEstatusF3Fin: Now(),
+                            hrsEstatusF4: Now(),
+                            Fase: "Esperando Validación Mesa de Control"
+                        }
+                    );
+                    Patch(
+                        MesaControl_UserGeneral,
+                        LookUp(
+                            MesaControl_UserGeneral,
+                            Zona = zonaLabel.Text
+                        ),
+                        {EnProceso: "No"}
+                    );Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request);Navigate(capturista,ScreenTransition.Fade)
             PressedColor: =RGBA(0, 0, 0, 1)
             PressedFill: =ColorFade(Self.BorderColor, 20%)
             Size: =24
