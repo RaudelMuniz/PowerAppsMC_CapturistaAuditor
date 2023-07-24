@@ -1156,12 +1156,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AuditorDetalle.Button3.Visible"
+                  "fullyQualifiedName": "AuditorDetalle.botón1.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AuditorDetalle.Button3.Visible",
+                  "fullyQualifiedName": "AuditorDetalle.botón1.Visible",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1175,7 +1175,7 @@
               "properties": {
                 "member": "Visible",
                 "module": "AuditorDetalle",
-                "type": "AuditorDetalle.Button3"
+                "type": "AuditorDetalle.botón1"
               }
             }
           ],
@@ -1196,12 +1196,12 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AuditorDetalle.Button3.Visible"
+                  "fullyQualifiedName": "AuditorDetalle.botón1.Visible"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AuditorDetalle.Button3.Visible",
+                  "fullyQualifiedName": "AuditorDetalle.botón1.Visible",
                   "relativeAddress": 0
                 },
                 "region": {
@@ -1215,7 +1215,7 @@
               "properties": {
                 "member": "Visible",
                 "module": "AuditorDetalle",
-                "type": "AuditorDetalle.Button3"
+                "type": "AuditorDetalle.botón1"
               }
             }
           ],

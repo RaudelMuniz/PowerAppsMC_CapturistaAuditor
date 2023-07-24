@@ -128,7 +128,7 @@ AuditorDetalle As screen:
         Y: =427
         ZIndex: =12
 
-    Button3 As button:
+    botón1 As button:
         DisplayMode: |-
             =If(
                 Or(
@@ -186,7 +186,7 @@ AuditorDetalle As screen:
         Y: =1046
         ZIndex: =14
 
-    Button4_2 As button:
+    botón2 As button:
         DisplayMode: |-
             =If(
                 Or(
@@ -276,7 +276,7 @@ AuditorDetalle As screen:
             Y: =383
             ZIndex: =20
 
-    Label12 As label:
+    label_entrega As label:
         Align: =Align.Center
         BorderThickness: =0.5
         Height: =77
