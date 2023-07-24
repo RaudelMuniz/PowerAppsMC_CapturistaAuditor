@@ -190,6 +190,19 @@ AuditorDetalle As screen:
         Y: =727
         ZIndex: =15
 
+    Label11 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 16, 96, 1)
+        BorderThickness: =0.5
+        FontWeight: =FontWeight.Bold
+        Height: =62
+        Size: =25
+        Text: ="Entrega en"
+        Width: =310
+        X: =165
+        Y: =821
+        ZIndex: =21
+
     PopUp_Auditores As group:
         Height: =5
         Width: =5
@@ -246,19 +259,6 @@ AuditorDetalle As screen:
             X: =362
             Y: =383
             ZIndex: =20
-
-    Label11 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 16, 96, 1)
-        BorderThickness: =0.5
-        FontWeight: =FontWeight.Bold
-        Height: =62
-        Size: =25
-        Text: ="Entrega en"
-        Width: =310
-        X: =165
-        Y: =821
-        ZIndex: =21
 
     Label12 As label:
         Align: =Align.Center

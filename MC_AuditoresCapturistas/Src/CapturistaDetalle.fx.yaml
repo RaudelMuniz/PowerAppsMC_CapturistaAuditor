@@ -188,6 +188,15 @@ CapturistaDetalle As screen:
         Y: =886
         ZIndex: =20
 
+    Image2 As image:
+        Height: =74
+        Image: ='return-button (1)'
+        OnSelect: =Back(ScreenTransition.Fade)
+        Width: =68
+        X: =561
+        Y: =5
+        ZIndex: =26
+
     popup As group:
         Height: =5
         Width: =5
@@ -279,13 +288,4 @@ CapturistaDetalle As screen:
             X: =104
             Y: =387
             ZIndex: =25
-
-    Image2 As image:
-        Height: =74
-        Image: ='return-button (1)'
-        OnSelect: =Back(ScreenTransition.Fade)
-        Width: =68
-        X: =561
-        Y: =5
-        ZIndex: =26
 
