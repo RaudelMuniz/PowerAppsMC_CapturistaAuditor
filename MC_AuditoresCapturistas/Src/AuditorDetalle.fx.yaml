@@ -296,7 +296,6 @@ AuditorDetalle As screen:
         OnTimerEnd: =Reset(Timer1)
         OnTimerStart: =Refresh(MesaControl_Request); Refresh(MesaControl_UserGeneral);
         Repeat: =true
-        Reset: =true
         Width: =124
         Y: =1066
         ZIndex: =23
