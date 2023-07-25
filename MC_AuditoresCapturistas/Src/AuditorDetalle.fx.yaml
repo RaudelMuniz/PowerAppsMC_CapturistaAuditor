@@ -187,7 +187,7 @@ AuditorDetalle As screen:
         DisplayMode: |-
             =If(
                 Or(
-                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, estatusF5 = "En Proceso"),
+                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, estatusF5 = "Terminado"),
                     LookUp(MesaControl_UserGeneral, Zona = galeriaAuditores.Selected.Zona, Zona  = "N/A")
                 ),
                 DisplayMode.Disabled,
@@ -289,14 +289,14 @@ AuditorDetalle As screen:
         Y: =883
         ZIndex: =22
 
-    Timer1 As timer:
+    Timer2 As timer:
         AutoStart: =true
-        Duration: =10000
         Height: =70
-        OnTimerEnd: =Reset(Timer1)
-        OnTimerStart: =Refresh(MesaControl_Request); Refresh(MesaControl_UserGeneral);
+        OnTimerStart: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         Repeat: =true
-        Width: =124
+        Visible: =false
+        Width: =183
+        X: =457
         Y: =1066
-        ZIndex: =23
+        ZIndex: =24
 
