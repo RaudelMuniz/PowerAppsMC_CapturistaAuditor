@@ -62,5 +62,39 @@
       "sqc8107pmi001.229b7873c6f5.database.windows.net,CMXEDataCollection"
     ],
     "id": "223a2896-6108-448a-9017-1629d7b85cd5"
+  },
+  "db561882-e400-44fe-ad6c-85681e60fe10": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1645/1.0.1645.3345/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "223a2896-6108-448a-9017-1629d7b85cd5": {
+          "value": "shared_sql"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "c5ed34a9-af2e-47b6-9c3c-a3010c8c0416"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sql": {
+          "value": "223a2896-6108-448a-9017-1629d7b85cd5"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "c5ed34a9-af2e-47b6-9c3c-a3010c8c0416"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "AuditoresApp"
+    ],
+    "dependencies": {
+      "shared_sql": "223a2896-6108-448a-9017-1629d7b85cd5"
+    },
+    "dependents": [],
+    "id": "db561882-e400-44fe-ad6c-85681e60fe10"
   }
 }
