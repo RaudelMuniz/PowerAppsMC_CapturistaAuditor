@@ -1,0 +1,44 @@
+<application xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:service="https://unitedstates-002.azure-apim.net/apim/logicflows" xmlns:siena="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11" siena:serviceId="AuditoresApp" xmlns="http://wadl.dev.java.net/2009/02">
+  <doc title="AuditoresApp" />
+  <grammars>
+    <jsonTypes targetNamespace="https://unitedstates-002.azure-apim.net/apim/logicflows" xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+      <string name="ManualTriggerInput_Executestoredprocedure_ux28_V2_ux29__zona_def" />
+      <string name="ManualTriggerInput_Executestoredprocedure_ux28_V2_ux29__hrsF5Fin_def" />
+      <string name="ManualTriggerInput_Executestoredprocedure_ux28_V2_ux29__hrsF6_def" />
+      <string name="ManualTriggerInput_Executestoredprocedure_ux28_V2_ux29__correoUser_def" />
+      <object name="ManualTriggerInput">
+        <property name="Executestoredprocedure(V2)_zona" type="string" />
+        <property name="Executestoredprocedure(V2)_hrsF5Fin" type="string" />
+        <property name="Executestoredprocedure(V2)_hrsF6" type="string" />
+        <property name="Executestoredprocedure(V2)_correoUser" type="string" />
+      </object>
+    </jsonTypes>
+  </grammars>
+  <resources siena:authenticationProviderHref="#PowerAppAuth" base="https://unitedstates-002.azure-apim.net/apim/logicflows">
+    <resource path="/{connectionId}/triggers/manual/run">
+      <param style="template" name="connectionId" type="xs:string" required="true" />
+      <method siena:requiresAuthentication="true" name="POST" id="Run">
+        <doc title="Runs a logic flow trigger." />
+        <request>
+          <param style="query" name="api-version" type="xs:string" required="true" fixed="2015-02-01-preview">
+            <doc title="The api version" />
+          </param>
+          <representation mediaType="application/json">
+            <param style="plain" name="Executestoredprocedure(V2)_zona" path="/Executestoredprocedure(V2)_zona" type="xs:string" required="true" />
+            <param style="plain" name="Executestoredprocedure(V2)_hrsF5Fin" path="/Executestoredprocedure(V2)_hrsF5Fin" type="xs:string" required="true" />
+            <param style="plain" name="Executestoredprocedure(V2)_hrsF6" path="/Executestoredprocedure(V2)_hrsF6" type="xs:string" required="true" />
+            <param style="plain" name="Executestoredprocedure(V2)_correoUser" path="/Executestoredprocedure(V2)_correoUser" type="xs:string" required="true" />
+          </representation>
+        </request>
+      </method>
+    </resource>
+  </resources>
+  <authenticationProviders xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <connectionProvider id="PowerAppAuth" siena:connectionProviderId="logicflows" />
+  </authenticationProviders>
+  <template xmlns="http://schemas.microsoft.com/MicrosoftProjectSiena/WADL/2014/11">
+    <variable name="connectionId">
+      <modifyParams style="template" name="connectionId" attribute="fixed" />
+    </variable>
+  </template>
+</application>
