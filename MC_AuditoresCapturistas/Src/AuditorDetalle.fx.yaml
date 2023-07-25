@@ -190,8 +190,8 @@ AuditorDetalle As screen:
                     LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, estatusF5 = "En Proceso"),
                     LookUp(MesaControl_UserGeneral, Zona = galeriaAuditores.Selected.Zona, Zona  = "N/A")
                 ),
-                DisplayMode.Edit,
-                DisplayMode.Disabled
+                DisplayMode.Disabled,
+                DisplayMode.Edit
                 
             )
         Fill: =RGBA(39, 67, 125, 1)
@@ -291,9 +291,11 @@ AuditorDetalle As screen:
 
     Timer1 As timer:
         AutoStart: =true
+        Duration: =10000
         Height: =70
         OnTimerEnd: =Reset(Timer1)
         OnTimerStart: =Refresh(MesaControl_Request); Refresh(MesaControl_UserGeneral);
+        Repeat: =true
         Reset: =true
         Width: =124
         Y: =1066
