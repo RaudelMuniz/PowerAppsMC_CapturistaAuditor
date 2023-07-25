@@ -57,7 +57,9 @@
       "MesaControl_Zonas"
     ],
     "dependencies": {},
-    "dependents": [],
+    "dependents": [
+      "db561882-e400-44fe-ad6c-85681e60fe10"
+    ],
     "endpoints": [
       "sqc8107pmi001.229b7873c6f5.database.windows.net,CMXEDataCollection"
     ],
