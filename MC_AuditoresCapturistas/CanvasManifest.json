@@ -135,6 +135,7 @@
     "auditor",
     "capturista",
     "AuditorDetalle",
-    "CapturistaDetalle"
+    "CapturistaDetalle",
+    "Inicio"
   ]
 }
