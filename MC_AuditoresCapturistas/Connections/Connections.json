@@ -8,8 +8,8 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
         "appVer": "3.23072.22",
-        "modifiedOn": "2023-07-25 20:42:16",
-        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[mesacontrol_admin]\":[\"get\"],\"[dbo].[mesacontrol_historialuser]\":[\"get\"],\"[dbo].[mesacontrol_liderope]\":[\"get\"],\"[dbo].[mesacontrol_mesascontrol]\":[\"get\"],\"[dbo].[mesacontrol_request]\":[\"post\",\"patch\",\"get\"],\"[dbo].[mesacontrol_usergeneral]\":[\"post\",\"patch\",\"get\"],\"[dbo].[mesacontrol_zonas]\":[\"get\"]}}",
+        "modifiedOn": "2023-07-27 20:08:29",
+        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[mesacontrol_admin]\":[\"get\"],\"[dbo].[mesacontrol_historialuser]\":[\"get\"],\"[dbo].[mesacontrol_liderope]\":[\"get\"],\"[dbo].[mesacontrol_mesascontrol]\":[\"get\"],\"[dbo].[mesacontrol_request]\":[\"get\"],\"[dbo].[mesacontrol_usergeneral]\":[\"get\"],\"[dbo].[mesacontrol_zonas]\":[\"get\"]}}",
         "version": 1
       },
       "gatewayObjectIdHint": "217359fc-552c-470d-bcb6-5f7d514806f1",
