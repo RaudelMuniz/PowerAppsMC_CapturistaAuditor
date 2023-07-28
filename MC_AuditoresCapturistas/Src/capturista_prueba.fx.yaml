@@ -9,12 +9,12 @@ capturista_prueba As screen:
 
     Label2_1 As label:
         Color: =RGBA(255, 255, 255, 1)
-        Height: =70
-        Size: =24
+        Height: =77
+        Size: =27
         Text: ="Capturista"
-        Width: =174
-        X: =244
-        Y: =7
+        Width: =190
+        X: =224
+        Y: =3
         ZIndex: =2
 
     Icon2_2 As icon.Leave:
