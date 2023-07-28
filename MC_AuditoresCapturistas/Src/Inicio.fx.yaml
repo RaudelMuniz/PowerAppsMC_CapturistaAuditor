@@ -81,14 +81,14 @@ Inicio As screen:
             Width: =274
             ZIndex: =3
 
-    Container1 As groupContainer.manualLayoutContainer:
+    contenedor_auditores As groupContainer.manualLayoutContainer:
         Height: =289
         Width: =274
         X: =183
         Y: =565
         ZIndex: =12
 
-        Button9 As button:
+        botón_auditores As button:
             Color: =RGBA(0, 0, 0, 1)
             Fill: =RGBA(255, 255, 255, 1)
             Height: =289
@@ -105,4 +105,20 @@ Inicio As screen:
             X: =62
             Y: =62
             ZIndex: =2
+
+        Overlay_button2 As button:
+            BorderStyle: =BorderStyle.None
+            Color: =Color.Transparent
+            DisabledColor: =Color.Transparent
+            DisabledFill: =Color.Transparent
+            Fill: =Color.Transparent
+            Height: =289
+            HoverColor: =Color.Transparent
+            HoverFill: =RGBA(0,0,0,0.05)
+            PressedColor: =Color.Transparent
+            PressedFill: =Color.Transparent
+            Size: =24
+            Text: =""
+            Width: =274
+            ZIndex: =3
 
