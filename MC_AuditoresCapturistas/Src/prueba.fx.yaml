@@ -44,7 +44,7 @@ prueba As screen:
         Height: =289
         Width: =274
         X: =183
-        Y: =205
+        Y: =230
         ZIndex: =11
 
         botón_capturistas As button:
