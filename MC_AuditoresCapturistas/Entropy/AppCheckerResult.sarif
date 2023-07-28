@@ -1338,6 +1338,18 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 5
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
             }
           ]
         }
@@ -1917,19 +1929,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "prueba.contenedor_capturistas.Icon4_1.AccessibleLabel"
+                  "fullyQualifiedName": "Inicio.contenedor_capturistas.Icon4_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "prueba.contenedor_capturistas.Icon4_1.AccessibleLabel",
+                  "fullyQualifiedName": "Inicio.contenedor_capturistas.Icon4_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "prueba",
-                "type": "prueba.contenedor_capturistas.Icon4_1"
+                "module": "Inicio",
+                "type": "Inicio.contenedor_capturistas.Icon4_1"
               }
             }
           ],
@@ -1947,19 +1959,79 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "prueba.contenedor_capturistas.Icon4_1.TabIndex"
+                  "fullyQualifiedName": "Inicio.contenedor_capturistas.Icon4_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "prueba.contenedor_capturistas.Icon4_1.TabIndex",
+                  "fullyQualifiedName": "Inicio.contenedor_capturistas.Icon4_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "prueba",
-                "type": "prueba.contenedor_capturistas.Icon4_1"
+                "module": "Inicio",
+                "type": "Inicio.contenedor_capturistas.Icon4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio_1.contenedor_capturistas_1.Icon4_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio_1.contenedor_capturistas_1.Icon4_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Inicio_1",
+                "type": "Inicio_1.contenedor_capturistas_1.Icon4_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Inicio_1.contenedor_capturistas_1.Icon4_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Inicio_1.contenedor_capturistas_1.Icon4_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Inicio_1",
+                "type": "Inicio_1.contenedor_capturistas_1.Icon4_2"
               }
             }
           ],

@@ -1,27 +1,27 @@
-prueba As screen:
+Inicio_1 As screen:
     Fill: =RGBA(255, 255, 255, 1)
 
-    Rectangle1_6 As rectangle:
+    Rectangle1_8 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =148
         Width: =640
         ZIndex: =1
 
-    Rectangle1_7 As rectangle:
+    Rectangle1_9 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =113
         Width: =640
         Y: =1020
         ZIndex: =2
 
-    Circle1_3 As circle:
+    Circle1_4 As circle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =145
         Width: =640
         Y: =951
         ZIndex: =3
 
-    Label1_3 As label:
+    Label1_4 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Height: =58
@@ -32,7 +32,7 @@ prueba As screen:
         Y: =45
         ZIndex: =4
 
-    logo_1 As image:
+    logo_2 As image:
         Height: =182
         Image: =carrier_logo
         Width: =393
@@ -40,14 +40,14 @@ prueba As screen:
         Y: =951
         ZIndex: =7
 
-    contenedor_capturistas As groupContainer.manualLayoutContainer:
+    contenedor_capturistas_1 As groupContainer.manualLayoutContainer:
         Height: =289
         Width: =274
         X: =183
         Y: =230
         ZIndex: =11
 
-        botón_capturistas As button:
+        botón_capturistas_1 As button:
             Color: =RGBA(0, 0, 0, 1)
             Fill: =RGBA(255, 255, 255, 1)
             Height: =289
@@ -57,7 +57,7 @@ prueba As screen:
             Width: =274
             ZIndex: =1
 
-        Icon4_1 As icon.Support:
+        Icon4_2 As icon.Support:
             Height: =114
             Icon: =Icon.Support
             Width: =109
@@ -65,7 +65,7 @@ prueba As screen:
             Y: =73
             ZIndex: =2
 
-        Overlay_button As button:
+        Overlay_button_1 As button:
             BorderStyle: =BorderStyle.None
             Color: =Color.Transparent
             DisabledColor: =Color.Transparent
@@ -81,14 +81,14 @@ prueba As screen:
             Width: =274
             ZIndex: =3
 
-    Group2_1 As group:
+    Group2_2 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =11
 
-        Button5_3 As button:
+        Button5_4 As button:
             Color: =RGBA(0, 0, 0, 1)
             Fill: =RGBA(255, 255, 255, 1)
             Height: =289
@@ -101,7 +101,7 @@ prueba As screen:
             Y: =572
             ZIndex: =6
 
-        Icon5_1 As icon.Person:
+        Icon5_2 As icon.Person:
             Height: =142
             Icon: =Icon.Person
             Width: =149
