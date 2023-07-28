@@ -2,25 +2,33 @@ Inicio As screen:
     BackgroundImage: =
     Fill: =RGBA(255, 255, 255, 1)
 
+    fondo_prueba As image:
+        Height: =877
+        Image: ='Diseño sin título'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =156
+        ZIndex: =1
+
     Rectangle1_6 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
-        Height: =236
+        Height: =200
         Width: =640
-        ZIndex: =1
+        ZIndex: =2
 
     Rectangle1_7 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =113
         Width: =640
         Y: =1020
-        ZIndex: =2
+        ZIndex: =3
 
     Circle1_3 As circle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =145
         Width: =640
         Y: =951
-        ZIndex: =3
+        ZIndex: =4
 
     Label1_3 As label:
         Align: =Align.Center
@@ -30,8 +38,8 @@ Inicio As screen:
         Text: ="Log in"
         Width: =141
         X: =249
-        Y: =65
-        ZIndex: =4
+        Y: =60
+        ZIndex: =5
 
     logo_1 As image:
         Height: =182
@@ -39,14 +47,14 @@ Inicio As screen:
         Width: =393
         X: =123
         Y: =951
-        ZIndex: =7
+        ZIndex: =6
 
     contenedor_capturistas As groupContainer.manualLayoutContainer:
         Height: =289
         Width: =274
         X: =27
         Y: =366
-        ZIndex: =11
+        ZIndex: =7
 
         botón_capturistas As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -87,7 +95,7 @@ Inicio As screen:
         Width: =274
         X: =324
         Y: =366
-        ZIndex: =12
+        ZIndex: =8
 
         botón_auditores As button:
             Color: =RGBA(0, 0, 0, 1)
