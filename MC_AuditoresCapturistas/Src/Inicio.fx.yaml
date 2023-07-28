@@ -60,7 +60,7 @@ Inicio As screen:
             Fill: =Color.Transparent
             Height: =289
             HoverColor: =Color.Transparent
-            HoverFill: =RGBA(0,0,0,0.05)
+            HoverFill: =RGBA(0,0,0,0.20)
             OnSelect: |-
                 =Patch(
                     MesaControl_UserGeneral, 
@@ -116,7 +116,7 @@ Inicio As screen:
             Fill: =Color.Transparent
             Height: =289
             HoverColor: =Color.Transparent
-            HoverFill: =RGBA(0,0,0,0.05)
+            HoverFill: =RGBA(0,0,0,0.20)
             OnSelect: |-
                 =Patch(
                     MesaControl_UserGeneral, 
