@@ -89,3 +89,12 @@ capturista_prueba As screen:
             Y: =17
             ZIndex: =7
 
+    Button11 As button:
+        Height: =70
+        Size: =24
+        Text: ="Button"
+        Width: =280
+        X: =312
+        Y: =907
+        ZIndex: =5
+

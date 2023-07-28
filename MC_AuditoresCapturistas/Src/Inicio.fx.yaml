@@ -3,7 +3,7 @@ Inicio As screen:
 
     Rectangle1_6 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
-        Height: =148
+        Height: =236
         Width: =640
         ZIndex: =1
 
@@ -24,12 +24,12 @@ Inicio As screen:
     Label1_3 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
-        Height: =58
-        Size: =30
+        Height: =80
+        Size: =34
         Text: ="Log in"
         Width: =141
         X: =249
-        Y: =45
+        Y: =65
         ZIndex: =4
 
     logo_1 As image:
@@ -43,8 +43,8 @@ Inicio As screen:
     contenedor_capturistas As groupContainer.manualLayoutContainer:
         Height: =289
         Width: =274
-        X: =183
-        Y: =230
+        X: =27
+        Y: =366
         ZIndex: =11
 
         botón_capturistas As button:
@@ -65,7 +65,7 @@ Inicio As screen:
             Y: =73
             ZIndex: =2
 
-        Overlay_button As button:
+        Overlay_capturistas As button:
             BorderStyle: =BorderStyle.None
             Color: =Color.Transparent
             DisabledColor: =Color.Transparent
@@ -75,7 +75,7 @@ Inicio As screen:
             HoverColor: =Color.Transparent
             HoverFill: =RGBA(0,0,0,0.05)
             PressedColor: =Color.Transparent
-            PressedFill: =Color.Transparent
+            PressedFill: =RGBA( 0, 18, 107, 0.5 )
             Size: =24
             Text: =""
             Width: =274
@@ -84,8 +84,8 @@ Inicio As screen:
     contenedor_auditores As groupContainer.manualLayoutContainer:
         Height: =289
         Width: =274
-        X: =183
-        Y: =565
+        X: =324
+        Y: =366
         ZIndex: =12
 
         botón_auditores As button:
@@ -106,7 +106,7 @@ Inicio As screen:
             Y: =62
             ZIndex: =2
 
-        Overlay_button2 As button:
+        Overlay_auditores As button:
             BorderStyle: =BorderStyle.None
             Color: =Color.Transparent
             DisabledColor: =Color.Transparent
@@ -115,8 +115,7 @@ Inicio As screen:
             Height: =289
             HoverColor: =Color.Transparent
             HoverFill: =RGBA(0,0,0,0.05)
-            PressedColor: =Color.Transparent
-            PressedFill: =Color.Transparent
+            PressedFill: =RGBA( 0, 18, 107, 0.5 )
             Size: =24
             Text: =""
             Width: =274
