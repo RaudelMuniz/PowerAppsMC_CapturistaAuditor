@@ -1,4 +1,5 @@
 Inicio As screen:
+    BackgroundImage: =
     Fill: =RGBA(255, 255, 255, 1)
 
     Rectangle1_6 As rectangle:
