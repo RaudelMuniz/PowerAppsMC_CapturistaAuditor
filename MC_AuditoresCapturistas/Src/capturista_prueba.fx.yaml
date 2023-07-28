@@ -1,5 +1,5 @@
 capturista_prueba As screen:
-    Fill: =RGBA(255, 255, 255, 1)
+    Fill: =RGBA(219, 219, 219, 1)
 
     Rectangle3_2 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
@@ -35,21 +35,23 @@ capturista_prueba As screen:
             );
             Back(ScreenTransition.Fade)
         Width: =50
-        X: =577
-        Y: =14
+        X: =568
+        Y: =13
         ZIndex: =3
 
     galeriaCapturistas_1 As gallery.galleryVertical:
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =626
+        Height: =926
         Items: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(CapturistaDetalle,ScreenTransition.Fade)
         TemplatePadding: =0
         TemplateSize: =110
-        Y: =91
+        Width: =598
+        X: =20
+        Y: =97
         ZIndex: =4
 
         NextArrow1_1 As icon.ChevronRight:
@@ -64,7 +66,7 @@ capturista_prueba As screen:
             PaddingTop: =16
             Tooltip: ="View item details"
             Width: =108
-            X: =532
+            X: =490
             Y: =17
             ZIndex: =4
 
@@ -85,6 +87,7 @@ capturista_prueba As screen:
             ZIndex: =6
 
         Label8_1 As label:
+            FontWeight: =FontWeight.Semibold
             Height: =70
             OnSelect: =Select(Parent)
             Size: =21
@@ -118,7 +121,7 @@ capturista_prueba As screen:
         logo_3 As image:
             Height: =182
             Image: =carrier_logo
-            Width: =393
+            Width: =392
             X: =123
             Y: =954
             ZIndex: =7
