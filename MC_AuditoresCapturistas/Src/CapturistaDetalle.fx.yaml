@@ -65,7 +65,7 @@ CapturistaDetalle As screen:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.Reload
         OnSelect: =Refresh(MesaControl_UserGeneral)
-        X: =15
+        X: =23
         Y: =10
         ZIndex: =12
 
@@ -188,15 +188,6 @@ CapturistaDetalle As screen:
         Y: =886
         ZIndex: =20
 
-    Image2 As image:
-        Height: =74
-        Image: ='return-button (1)'
-        OnSelect: =Back(ScreenTransition.Fade)
-        Width: =68
-        X: =561
-        Y: =5
-        ZIndex: =26
-
     popup As group:
         Height: =5
         Width: =5
@@ -288,4 +279,13 @@ CapturistaDetalle As screen:
             X: =104
             Y: =387
             ZIndex: =25
+
+    Arrow1 As arrow.backArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =64
+        OnSelect: =Back(ScreenTransition.Fade)
+        Width: =64
+        X: =554
+        Y: =10
+        ZIndex: =27
 
