@@ -61,6 +61,21 @@ Inicio As screen:
             Height: =289
             HoverColor: =Color.Transparent
             HoverFill: =RGBA(0,0,0,0.05)
+            OnSelect: |-
+                =Patch(
+                    MesaControl_UserGeneral, 
+                    LookUp(
+                        MesaControl_UserGeneral,
+                        correoUser = User().Email
+                    ),
+                    {
+                        Activo: "Si",
+                        Disponible: "Si"
+                    }
+                );
+                If(
+                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Navigate(capturista, ScreenTransition.Fade),Navigate(capturista_prueba, ScreenTransition.Fade)
+                    )
             PressedColor: =Color.Transparent
             PressedFill: =RGBA( 0, 18, 107, 0.5 )
             Size: =24
