@@ -87,7 +87,6 @@ capturista_prueba As screen:
             ZIndex: =6
 
         Label8_1 As label:
-            FontWeight: =FontWeight.Semibold
             Height: =70
             OnSelect: =Select(Parent)
             Size: =21
