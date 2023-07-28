@@ -52,8 +52,8 @@ Inicio As screen:
     contenedor_capturistas As groupContainer.manualLayoutContainer:
         Height: =289
         Width: =274
-        X: =27
-        Y: =366
+        X: =183
+        Y: =589
         ZIndex: =7
 
         botón_capturistas As button:
@@ -93,8 +93,8 @@ Inicio As screen:
     contenedor_auditores As groupContainer.manualLayoutContainer:
         Height: =289
         Width: =274
-        X: =324
-        Y: =366
+        X: =183
+        Y: =250
         ZIndex: =8
 
         botón_auditores As button:
