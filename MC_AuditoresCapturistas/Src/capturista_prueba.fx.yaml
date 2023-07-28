@@ -9,14 +9,16 @@ capturista_prueba As screen:
     Label2_1 As label:
         Color: =RGBA(255, 255, 255, 1)
         Height: =70
-        Size: =21
+        Size: =24
         Text: ="Capturista"
-        Width: =151
-        X: =242
+        Width: =174
+        X: =244
+        Y: =7
         ZIndex: =2
 
     Icon2_2 As icon.Leave:
         Color: =RGBA(255, 255, 255, 1)
+        Height: =56
         Icon: =Icon.Leave
         OnSelect: |-
             =Patch(
@@ -31,7 +33,9 @@ capturista_prueba As screen:
                 }
             );
             Back(ScreenTransition.Fade)
-        X: =576
+        Width: =50
+        X: =577
+        Y: =14
         ZIndex: =3
 
     galeriaCapturistas_1 As gallery.galleryVertical:
