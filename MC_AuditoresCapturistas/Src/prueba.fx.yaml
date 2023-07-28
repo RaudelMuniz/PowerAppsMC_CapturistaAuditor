@@ -60,8 +60,6 @@ prueba As screen:
         Icon4_1 As icon.Support:
             Height: =114
             Icon: =Icon.Support
-            OnSelect: |-
-                =UpdateContext({iconoPresionado: "colorOriginalBoton"})
             Width: =109
             X: =82
             Y: =73
