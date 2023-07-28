@@ -1,5 +1,5 @@
 prueba As screen:
-    Fill: =RGBA(237, 237, 237, 1)
+    Fill: =RGBA(255, 255, 255, 1)
 
     Rectangle1_6 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
