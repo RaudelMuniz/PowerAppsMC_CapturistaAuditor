@@ -47,20 +47,9 @@ prueba As screen:
         Y: =205
         ZIndex: =11
 
-        boton_capturistas As button:
-            Color: |-
-                =If(
-                    Overlay_button.Pressed,
-                    RGBA(40,167,69,1),
-                    White
-                )
-            DisabledFill: =RGBA(255, 255, 255, 1)
-            Fill: |-
-                =If(
-                    Overlay_button.Pressed,
-                    White,
-                    RGBA(40,167,69,1)
-                )
+        Button3 As button:
+            Color: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(255, 255, 255, 1)
             Height: =289
             Size: =24
             Text: ="Capturistas"
@@ -69,34 +58,12 @@ prueba As screen:
             ZIndex: =1
 
         Icon4_1 As icon.Support:
-            Color: |-
-                =If(
-                    Overlay_button.Pressed,
-                    RGBA(40,167,69,1),
-                    White
-                )
             Height: =114
             Icon: =Icon.Support
             Width: =109
             X: =82
-            Y: =87
+            Y: =73
             ZIndex: =2
-
-        Overlay_button As button:
-            BorderStyle: =BorderStyle.None
-            Color: =Color.Transparent
-            DisabledColor: =Color.Transparent
-            DisabledFill: =Color.Transparent
-            Fill: =Color.Transparent
-            Height: =289
-            HoverColor: =Color.Transparent
-            HoverFill: =RGBA(0,0,0,0.05)
-            PressedColor: =Color.Transparent
-            PressedFill: =Color.Transparent
-            Size: =24
-            Text: =""
-            Width: =274
-            ZIndex: =3
 
     Group2_1 As group:
         Height: =5
