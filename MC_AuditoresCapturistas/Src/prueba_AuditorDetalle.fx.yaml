@@ -309,15 +309,15 @@ prueba_AuditorDetalle As screen:
             Size: =20
             Text: =User().FullName
             Width: =201
-            X: =250
-            Y: =87
+            X: =76
+            Y: =94
             ZIndex: =22
 
         Image5 As image:
             Height: =94
             Image: ='user icon'
             Width: =59
-            X: =191
-            Y: =67
+            X: =17
+            Y: =74
             ZIndex: =23
 
