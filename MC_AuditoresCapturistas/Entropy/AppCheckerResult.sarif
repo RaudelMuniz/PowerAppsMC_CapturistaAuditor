@@ -3069,36 +3069,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.Audit"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.Audit",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Audit",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "App.MesaControl_Request"
                 }
               ],
