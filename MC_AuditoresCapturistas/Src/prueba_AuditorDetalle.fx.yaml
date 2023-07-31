@@ -1,23 +1,23 @@
 prueba_AuditorDetalle As screen:
     Fill: =RGBA(202, 202, 202, 1)
 
+    Rectangle3_3 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =150
+        Width: =640
+        ZIndex: =1
+
     boton_5 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =859
+        Height: =950
         HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
         HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -0%)
         Size: =24
         Text: =""
         Width: =614
         X: =15
-        Y: =207
-        ZIndex: =1
-
-    Rectangle3_3 As rectangle:
-        Fill: =RGBA(21, 44, 115, 1)
-        Height: =84
-        Width: =640
+        Y: =116
         ZIndex: =2
 
     Label6_2 As label:
@@ -28,6 +28,7 @@ prueba_AuditorDetalle As screen:
         Text: ="Mis Zonas"
         Width: =220
         X: =210
+        Y: =10
         ZIndex: =3
 
     Icon2_3 As icon.Leave:
@@ -70,19 +71,6 @@ prueba_AuditorDetalle As screen:
         Y: =254
         ZIndex: =6
 
-    Rectangle2_4 As rectangle:
-        Fill: =RGBA(21, 44, 115, 1)
-        Height: =13
-        Y: =282
-        ZIndex: =7
-
-    Rectangle2_5 As rectangle:
-        Fill: =RGBA(21, 44, 115, 1)
-        Height: =13
-        X: =490
-        Y: =282
-        ZIndex: =8
-
     Label9_2 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
@@ -91,8 +79,8 @@ prueba_AuditorDetalle As screen:
         Height: =62
         Size: =25
         Text: ="Zona"
-        Width: =310
-        X: =9
+        Width: =304
+        X: =15
         Y: =365
         ZIndex: =9
 
@@ -115,8 +103,8 @@ prueba_AuditorDetalle As screen:
         Height: =83
         Size: =21
         Text: =galeriaAuditores.Selected.Zona
-        Width: =310
-        X: =9
+        Width: =304
+        X: =15
         Y: =427
         ZIndex: =11
 
