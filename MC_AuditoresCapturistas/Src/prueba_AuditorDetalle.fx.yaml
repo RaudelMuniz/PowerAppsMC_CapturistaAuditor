@@ -169,7 +169,7 @@ prueba_AuditorDetalle As screen:
         Text: ="Iniciar Auditoría"
         Width: =396
         X: =119
-        Y: =563
+        Y: =544
         ZIndex: =11
 
     Image1_2 As image:
@@ -198,13 +198,15 @@ prueba_AuditorDetalle As screen:
         Text: ="Auditado"
         Width: =280
         X: =177
-        Y: =727
+        Y: =689
         ZIndex: =13
 
     Label11_1 As label:
         Align: =Align.Center
         BorderColor: =RGBA(0, 16, 96, 1)
         BorderThickness: =0.5
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 18, 107, 1)
         Font: =Font.'Segoe UI'
         FontWeight: =FontWeight.Semibold
         Height: =62
