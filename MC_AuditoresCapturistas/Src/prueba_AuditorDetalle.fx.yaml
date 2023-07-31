@@ -302,9 +302,11 @@ prueba_AuditorDetalle As screen:
         ZIndex: =24
 
     Button5 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
         Fill: =RGBA(255, 255, 255, 1)
         Height: =428
-        HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -10%)
+        HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -0%)
         Size: =24
         Text: =""
         Width: =412
