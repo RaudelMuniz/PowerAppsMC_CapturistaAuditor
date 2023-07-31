@@ -23,7 +23,7 @@
     galeriaCapturistas_2 As gallery.galleryVertical:
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =490
+        Height: =516
         Items: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -32,7 +32,7 @@
         TemplateSize: =110
         Width: =598
         X: =20
-        Y: =532
+        Y: =504
         ZIndex: =3
 
         NextArrow1_2 As icon.ChevronRight:
