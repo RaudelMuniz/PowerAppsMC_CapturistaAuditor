@@ -33,6 +33,7 @@ prueba_AuditorDetalle As screen:
 
     Icon2_3 As icon.Leave:
         Color: =RGBA(255, 255, 255, 1)
+        Height: =56
         Icon: =Icon.Leave
         OnSelect: |-
             =Patch(
@@ -47,16 +48,19 @@ prueba_AuditorDetalle As screen:
                 }
             );
             Back(ScreenTransition.Fade)
+        Width: =50
         X: =576
-        Y: =10
+        Y: =18
         ZIndex: =4
 
     Icon1_3 As icon.Reload:
         Color: =RGBA(255, 255, 255, 1)
+        Height: =56
         Icon: =Icon.Reload
         OnSelect: =Refresh(MesaControl_UserGeneral)
-        X: =15
-        Y: =10
+        Width: =47
+        X: =28
+        Y: =18
         ZIndex: =5
 
     Label5_2 As label:
@@ -291,22 +295,29 @@ prueba_AuditorDetalle As screen:
             Y: =383
             ZIndex: =18
 
-    Label3_3 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        Font: =Font.'Segoe UI'
-        Height: =54
-        Size: =20
-        Text: =User().FullName
-        Width: =201
-        X: =250
-        Y: =87
-        ZIndex: =22
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =24
 
-    Image2 As image:
-        Height: =96
-        Image: ='user icon'
-        Width: =97
-        X: =172
-        Y: =66
-        ZIndex: =23
+        Label3_3 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
+            Height: =54
+            Size: =20
+            Text: =User().FullName
+            Width: =201
+            X: =250
+            Y: =87
+            ZIndex: =22
+
+        Image5 As image:
+            Height: =94
+            Image: ='user icon'
+            Width: =59
+            X: =191
+            Y: =67
+            ZIndex: =23
 
