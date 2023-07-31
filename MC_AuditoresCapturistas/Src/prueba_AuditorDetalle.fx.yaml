@@ -69,8 +69,7 @@ prueba_AuditorDetalle As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =30
-        Text: |-
-            ="Rol: Auditor"
+        Text: ="Auditor"
         Width: =258
         X: =191
         Y: =254
