@@ -45,7 +45,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Arrow1_1",
-      "ParentIndex": 4,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -221,7 +221,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "boton_7",
-      "ParentIndex": 9,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1641,7 +1641,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Icon1_4",
-      "ParentIndex": 3,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2034,7 +2034,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image5_1",
-      "ParentIndex": 6,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2309,7 +2309,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label10_3",
-      "ParentIndex": 13,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2592,7 +2592,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label12_1",
-      "ParentIndex": 5,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2868,7 +2868,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label13_1",
-      "ParentIndex": 10,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3151,7 +3151,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_4",
-      "ParentIndex": 7,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3448,7 +3448,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label6_3",
-      "ParentIndex": 2,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3725,7 +3725,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label7_1",
-      "ParentIndex": 11,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4055,7 +4055,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label9_3",
-      "ParentIndex": 12,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4366,7 +4366,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "mesaControlLabel_3",
-      "ParentIndex": 15,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4737,7 +4737,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle3_4",
-      "ParentIndex": 0,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4870,7 +4870,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle5_1",
-      "ParentIndex": 8,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5001,7 +5001,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "rectanguloPopUp_1",
-      "ParentIndex": 1,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5197,7 +5197,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "zonaLabel_3",
-      "ParentIndex": 14,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
