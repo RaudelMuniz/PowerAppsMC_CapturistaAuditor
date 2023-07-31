@@ -168,8 +168,8 @@ prueba_AuditorDetalle As screen:
         Size: =24
         Text: ="Iniciar Auditoría"
         Width: =396
-        X: =119
-        Y: =544
+        X: =121
+        Y: =551
         ZIndex: =11
 
     Image1_2 As image:
@@ -197,36 +197,9 @@ prueba_AuditorDetalle As screen:
         Size: =24
         Text: ="Auditado"
         Width: =280
-        X: =177
-        Y: =689
+        X: =176
+        Y: =708
         ZIndex: =13
-
-    Label11_1 As label:
-        Align: =Align.Center
-        BorderColor: =RGBA(0, 16, 96, 1)
-        BorderThickness: =0.5
-        Color: =RGBA(255, 255, 255, 1)
-        Fill: =RGBA(0, 18, 107, 1)
-        Font: =Font.'Segoe UI'
-        FontWeight: =FontWeight.Semibold
-        Height: =62
-        Size: =25
-        Text: ="Entrega en"
-        Width: =310
-        X: =165
-        Y: =821
-        ZIndex: =19
-
-    label_entrega_1 As label:
-        Align: =Align.Center
-        BorderThickness: =0.5
-        Height: =77
-        Size: =21
-        Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = galeriaAuditores.Selected.Zona,mesaControlCierreF6)
-        Width: =310
-        X: =165
-        Y: =883
-        ZIndex: =20
 
     Timer2_1 As timer:
         AutoStart: =true
@@ -346,4 +319,38 @@ prueba_AuditorDetalle As screen:
             X: =79
             Y: =94
             ZIndex: =24
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =26
+
+        Label11_1 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(0, 16, 96, 1)
+            BorderThickness: =0.5
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(0, 18, 107, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =FontWeight.Semibold
+            Height: =62
+            Size: =25
+            Text: ="Entrega en"
+            Width: =310
+            X: =161
+            Y: =834
+            ZIndex: =19
+
+        label_entrega_1 As label:
+            Align: =Align.Center
+            BorderThickness: =0.5
+            Height: =77
+            Size: =21
+            Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = galeriaAuditores.Selected.Zona,mesaControlCierreF6)
+            Width: =310
+            X: =161
+            Y: =896
+            ZIndex: =20
 
