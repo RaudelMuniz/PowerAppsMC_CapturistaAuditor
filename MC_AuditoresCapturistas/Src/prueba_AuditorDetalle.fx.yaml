@@ -1,21 +1,11 @@
 prueba_AuditorDetalle As screen:
-
-    Label3_3 As label:
-        Font: =Font.'Segoe UI'
-        Height: =65
-        Size: =21
-        Text: |-
-            ="Nombre: " & User().FullName
-        Width: =406
-        X: =51
-        Y: =150
-        ZIndex: =1
+    Fill: =RGBA(202, 202, 202, 1)
 
     Rectangle3_3 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =84
         Width: =640
-        ZIndex: =2
+        ZIndex: =1
 
     Label6_2 As label:
         Align: =Align.Center
@@ -25,7 +15,7 @@ prueba_AuditorDetalle As screen:
         Text: ="Mis Zonas"
         Width: =220
         X: =210
-        ZIndex: =3
+        ZIndex: =2
 
     Icon2_3 As icon.Leave:
         Color: =RGBA(255, 255, 255, 1)
@@ -45,7 +35,7 @@ prueba_AuditorDetalle As screen:
             Back(ScreenTransition.Fade)
         X: =576
         Y: =10
-        ZIndex: =4
+        ZIndex: =3
 
     Icon1_3 As icon.Reload:
         Color: =RGBA(255, 255, 255, 1)
@@ -53,7 +43,7 @@ prueba_AuditorDetalle As screen:
         OnSelect: =Refresh(MesaControl_UserGeneral)
         X: =15
         Y: =10
-        ZIndex: =5
+        ZIndex: =4
 
     Label5_2 As label:
         Align: =Align.Center
@@ -65,20 +55,20 @@ prueba_AuditorDetalle As screen:
         Width: =258
         X: =191
         Y: =254
-        ZIndex: =6
+        ZIndex: =5
 
     Rectangle2_4 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =13
         Y: =282
-        ZIndex: =7
+        ZIndex: =6
 
     Rectangle2_5 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =13
         X: =490
         Y: =282
-        ZIndex: =8
+        ZIndex: =7
 
     Label9_2 As label:
         Align: =Align.Center
@@ -91,7 +81,7 @@ prueba_AuditorDetalle As screen:
         Width: =310
         X: =9
         Y: =365
-        ZIndex: =9
+        ZIndex: =8
 
     Label10_2 As label:
         Align: =Align.Center
@@ -104,7 +94,7 @@ prueba_AuditorDetalle As screen:
         Width: =310
         X: =319
         Y: =365
-        ZIndex: =10
+        ZIndex: =9
 
     zonaLabel_2 As label:
         Align: =Align.Center
@@ -115,7 +105,7 @@ prueba_AuditorDetalle As screen:
         Width: =310
         X: =9
         Y: =427
-        ZIndex: =11
+        ZIndex: =10
 
     mesaControlLabel_2 As label:
         Align: =Align.Center
@@ -126,7 +116,7 @@ prueba_AuditorDetalle As screen:
         Width: =310
         X: =319
         Y: =427
-        ZIndex: =12
+        ZIndex: =11
 
     botón1_1 As button:
         DisplayMode: |-
@@ -173,7 +163,7 @@ prueba_AuditorDetalle As screen:
         Width: =396
         X: =119
         Y: =563
-        ZIndex: =13
+        ZIndex: =12
 
     Image1_2 As image:
         Height: =90
@@ -181,7 +171,7 @@ prueba_AuditorDetalle As screen:
         Width: =202
         X: =219
         Y: =1046
-        ZIndex: =14
+        ZIndex: =13
 
     botón2_1 As button:
         DisplayMode: |-
@@ -202,7 +192,7 @@ prueba_AuditorDetalle As screen:
         Width: =280
         X: =177
         Y: =727
-        ZIndex: =15
+        ZIndex: =14
 
     Label11_1 As label:
         Align: =Align.Center
@@ -215,6 +205,17 @@ prueba_AuditorDetalle As screen:
         Width: =310
         X: =165
         Y: =821
+        ZIndex: =20
+
+    label_entrega_1 As label:
+        Align: =Align.Center
+        BorderThickness: =0.5
+        Height: =77
+        Size: =21
+        Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = galeriaAuditores.Selected.Zona,mesaControlCierreF6)
+        Width: =310
+        X: =165
+        Y: =883
         ZIndex: =21
 
     PopUp_Auditores_1 As group:
@@ -229,7 +230,7 @@ prueba_AuditorDetalle As screen:
             Height: =1136
             Visible: =ShowPopUpAuditores
             Width: =640
-            ZIndex: =16
+            ZIndex: =15
 
         fondo_blanco_1 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
@@ -238,7 +239,7 @@ prueba_AuditorDetalle As screen:
             Width: =497
             X: =79
             Y: =176
-            ZIndex: =17
+            ZIndex: =16
 
         Label4_1 As label:
             Align: =Align.Center
@@ -249,7 +250,7 @@ prueba_AuditorDetalle As screen:
             Width: =419
             X: =119
             Y: =228
-            ZIndex: =18
+            ZIndex: =17
 
         cancelar_1 As button:
             Fill: =RGBA(168, 0, 0, 1)
@@ -261,7 +262,7 @@ prueba_AuditorDetalle As screen:
             Width: =158
             X: =119
             Y: =383
-            ZIndex: =19
+            ZIndex: =18
 
         aceptar_1 As button:
             Fill: =RGBA(141, 198, 63, 1)
@@ -276,18 +277,7 @@ prueba_AuditorDetalle As screen:
             Width: =158
             X: =362
             Y: =383
-            ZIndex: =20
-
-    label_entrega_1 As label:
-        Align: =Align.Center
-        BorderThickness: =0.5
-        Height: =77
-        Size: =21
-        Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = galeriaAuditores.Selected.Zona,mesaControlCierreF6)
-        Width: =310
-        X: =165
-        Y: =883
-        ZIndex: =22
+            ZIndex: =19
 
     Timer2_1 As timer:
         AutoStart: =true
@@ -298,5 +288,27 @@ prueba_AuditorDetalle As screen:
         Width: =183
         X: =457
         Y: =1066
+        ZIndex: =22
+
+    Label3_3 As label:
+        Font: =Font.'Segoe UI'
+        Height: =65
+        Size: =21
+        Text: |-
+            ="Nombre: " & User().FullName
+        Width: =406
+        X: =51
+        Y: =150
         ZIndex: =24
+
+    Button5 As button:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =428
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -10%)
+        Size: =24
+        Text: =""
+        Width: =412
+        X: =122
+        Y: =344
+        ZIndex: =25
 
