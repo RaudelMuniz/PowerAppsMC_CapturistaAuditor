@@ -3,21 +3,21 @@ prueba_AuditorDetalle As screen:
 
     Rectangle3_3 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
-        Height: =192
+        Height: =228
         Width: =640
         ZIndex: =1
 
     boton_5 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =950
+        Height: =908
         HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
         HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -0%)
         Size: =24
         Text: =""
         Width: =614
         X: =15
-        Y: =116
+        Y: =158
         ZIndex: =2
 
     Label6_2 As label:
