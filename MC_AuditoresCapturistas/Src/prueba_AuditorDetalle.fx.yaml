@@ -10,7 +10,7 @@ prueba_AuditorDetalle As screen:
     boton_5 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =873
+        Height: =932
         HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
         HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -0%)
         Size: =24
@@ -64,17 +64,6 @@ prueba_AuditorDetalle As screen:
         Y: =18
         ZIndex: =5
 
-    Label5_2 As label:
-        Align: =Align.Center
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =30
-        Text: ="Auditor"
-        Width: =258
-        X: =191
-        Y: =254
-        ZIndex: =6
-
     Label9_2 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
@@ -86,7 +75,7 @@ prueba_AuditorDetalle As screen:
         Width: =290
         X: =28
         Y: =365
-        ZIndex: =7
+        ZIndex: =6
 
     Label10_2 As label:
         Align: =Align.Center
@@ -99,7 +88,7 @@ prueba_AuditorDetalle As screen:
         Width: =298
         X: =319
         Y: =365
-        ZIndex: =8
+        ZIndex: =7
 
     zonaLabel_2 As label:
         Align: =Align.Center
@@ -110,7 +99,7 @@ prueba_AuditorDetalle As screen:
         Width: =291
         X: =28
         Y: =427
-        ZIndex: =9
+        ZIndex: =8
 
     mesaControlLabel_2 As label:
         Align: =Align.Center
@@ -121,7 +110,7 @@ prueba_AuditorDetalle As screen:
         Width: =298
         X: =319
         Y: =427
-        ZIndex: =10
+        ZIndex: =9
 
     botón1_1 As button:
         DisplayMode: |-
@@ -168,7 +157,7 @@ prueba_AuditorDetalle As screen:
         Width: =396
         X: =119
         Y: =563
-        ZIndex: =11
+        ZIndex: =10
 
     Image1_2 As image:
         Height: =90
@@ -176,7 +165,7 @@ prueba_AuditorDetalle As screen:
         Width: =202
         X: =219
         Y: =1046
-        ZIndex: =12
+        ZIndex: =11
 
     botón2_1 As button:
         DisplayMode: |-
@@ -197,7 +186,7 @@ prueba_AuditorDetalle As screen:
         Width: =280
         X: =177
         Y: =727
-        ZIndex: =13
+        ZIndex: =12
 
     Label11_1 As label:
         Align: =Align.Center
@@ -210,7 +199,7 @@ prueba_AuditorDetalle As screen:
         Width: =310
         X: =165
         Y: =821
-        ZIndex: =19
+        ZIndex: =18
 
     label_entrega_1 As label:
         Align: =Align.Center
@@ -221,7 +210,7 @@ prueba_AuditorDetalle As screen:
         Width: =310
         X: =165
         Y: =883
-        ZIndex: =20
+        ZIndex: =19
 
     Timer2_1 As timer:
         AutoStart: =true
@@ -232,7 +221,7 @@ prueba_AuditorDetalle As screen:
         Width: =183
         X: =457
         Y: =1066
-        ZIndex: =21
+        ZIndex: =20
 
     PopUp_Auditores_1 As group:
         Height: =5
@@ -246,7 +235,7 @@ prueba_AuditorDetalle As screen:
             Height: =1136
             Visible: =ShowPopUpAuditores
             Width: =640
-            ZIndex: =14
+            ZIndex: =13
 
         fondo_blanco_1 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
@@ -255,7 +244,7 @@ prueba_AuditorDetalle As screen:
             Width: =497
             X: =79
             Y: =176
-            ZIndex: =15
+            ZIndex: =14
 
         Label4_1 As label:
             Align: =Align.Center
@@ -266,7 +255,7 @@ prueba_AuditorDetalle As screen:
             Width: =419
             X: =119
             Y: =228
-            ZIndex: =16
+            ZIndex: =15
 
         cancelar_1 As button:
             Fill: =RGBA(168, 0, 0, 1)
@@ -278,7 +267,7 @@ prueba_AuditorDetalle As screen:
             Width: =158
             X: =119
             Y: =383
-            ZIndex: =17
+            ZIndex: =16
 
         aceptar_1 As button:
             Fill: =RGBA(141, 198, 63, 1)
@@ -293,7 +282,19 @@ prueba_AuditorDetalle As screen:
             Width: =158
             X: =362
             Y: =383
-            ZIndex: =18
+            ZIndex: =17
+
+    Label5_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: ="Auditor"
+        Width: =258
+        X: =190
+        Y: =215
+        ZIndex: =25
 
     Group3 As group:
         Height: =5

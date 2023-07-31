@@ -2523,6 +2523,66 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.Diseño sin título (1)"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Diseño sin título (1)",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Diseño sin título (1)",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Diseño sin título (2)"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Diseño sin título (2)",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Diseño sin título (2)",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.MesaControl_Request"
                 }
               ],
