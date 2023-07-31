@@ -142,7 +142,7 @@ prueba_CapturistaDetalle As screen:
         Text: ="Zona"
         Width: =292
         X: =25
-        Y: =274
+        Y: =275
         ZIndex: =18
 
     Label10_3 As label:
@@ -155,7 +155,7 @@ prueba_CapturistaDetalle As screen:
         Text: ="Mesa Control"
         Width: =298
         X: =317
-        Y: =274
+        Y: =275
         ZIndex: =19
 
     zonaLabel_3 As label:
@@ -166,7 +166,7 @@ prueba_CapturistaDetalle As screen:
         Text: =galeriaCapturistas.Selected.Zona
         Width: =292
         X: =25
-        Y: =336
+        Y: =337
         ZIndex: =20
 
     mesaControlLabel_3 As label:
@@ -177,7 +177,7 @@ prueba_CapturistaDetalle As screen:
         Text: =galeriaCapturistas.Selected.mesaControl
         Width: =298
         X: =317
-        Y: =336
+        Y: =337
         ZIndex: =21
 
     popup_1 As group:
