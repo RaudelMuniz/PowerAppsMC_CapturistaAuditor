@@ -15,8 +15,8 @@ prueba_AuditorDetalle As screen:
         HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -0%)
         Size: =24
         Text: =""
-        Width: =614
-        X: =15
+        Width: =589
+        X: =28
         Y: =192
         ZIndex: =2
 
@@ -72,8 +72,8 @@ prueba_AuditorDetalle As screen:
         Height: =62
         Size: =25
         Text: ="Zona"
-        Width: =290
-        X: =28
+        Width: =279
+        X: =38
         Y: =365
         ZIndex: =6
 
@@ -85,7 +85,7 @@ prueba_AuditorDetalle As screen:
         Height: =62
         Size: =25
         Text: ="Mesa Control"
-        Width: =298
+        Width: =287
         X: =319
         Y: =365
         ZIndex: =7
@@ -96,8 +96,8 @@ prueba_AuditorDetalle As screen:
         Height: =83
         Size: =21
         Text: =galeriaAuditores.Selected.Zona
-        Width: =291
-        X: =28
+        Width: =281
+        X: =38
         Y: =427
         ZIndex: =8
 
@@ -107,7 +107,7 @@ prueba_AuditorDetalle As screen:
         Height: =83
         Size: =21
         Text: =galeriaAuditores.Selected.mesaControl
-        Width: =298
+        Width: =287
         X: =319
         Y: =427
         ZIndex: =9
