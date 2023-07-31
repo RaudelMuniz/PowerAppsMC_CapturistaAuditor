@@ -130,7 +130,7 @@ Inicio As screen:
                     }
                 );
                 If(
-                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Navigate(capturista, ScreenTransition.Fade),Navigate(AuditorDetalle, ScreenTransition.Fade)
+                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Navigate(capturista, ScreenTransition.Fade),Navigate(prueba_AuditorDetalle, ScreenTransition.Fade)
                     )
             PressedFill: =RGBA( 0, 18, 107, 0.5 )
             Size: =24
