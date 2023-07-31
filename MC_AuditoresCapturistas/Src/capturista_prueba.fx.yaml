@@ -182,7 +182,7 @@ capturista_prueba As screen:
         Color: =RGBA(219, 219, 219, 1)
         Height: =70
         Size: =18
-        Text: ="Zonas disponibles"
+        Text: ="Zonas asignadas"
         Width: =269
         X: =181
         Y: =98
