@@ -23,9 +23,10 @@ prueba_AuditorDetalle As screen:
     Label6_2 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
         Height: =84
         Size: =30
-        Text: ="MIS ZONAS"
+        Text: ="Mis Zonas"
         Width: =247
         X: =196
         Y: =10
@@ -326,7 +327,7 @@ prueba_AuditorDetalle As screen:
             Font: =Font.'Segoe UI'
             Height: =34
             Size: =15
-            Text: ="Auditor"
+            Text: ="AUDITOR"
             Width: =97
             X: =79
             Y: =94
