@@ -195,7 +195,7 @@ prueba_CapturistaDetalle As screen:
 
     Image4 As image:
         Height: =338
-        Image: ='diseño3'
+        Image: =diseño3
         Width: =345
         X: =144
         Y: =453
