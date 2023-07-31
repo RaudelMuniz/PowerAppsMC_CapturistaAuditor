@@ -296,7 +296,7 @@ prueba_AuditorDetalle As screen:
         Font: =Font.'Segoe UI'
         Height: =54
         Size: =20
-        Text: ="Claudia Ibarra"
+        Text: =User().FullName
         Width: =201
         X: =250
         Y: =87
