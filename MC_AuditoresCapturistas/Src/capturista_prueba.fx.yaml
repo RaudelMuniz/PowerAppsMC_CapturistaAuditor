@@ -4,7 +4,7 @@ capturista_prueba As screen:
     boton_6 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =574
+        Height: =611
         HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
         HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -0%)
         Size: =24
@@ -23,7 +23,7 @@ capturista_prueba As screen:
     galeriaCapturistas_2 As gallery.galleryVertical:
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =541
+        Height: =582
         Items: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -97,35 +97,6 @@ capturista_prueba As screen:
         X: =218
         ZIndex: =8
 
-    logo_5 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =3
-        ZIndex: =8
-
-        Rectangle1_9 As rectangle:
-            Fill: =RGBA(21, 44, 115, 1)
-            Height: =113
-            Width: =640
-            Y: =1023
-            ZIndex: =4
-
-        Circle1_5 As circle:
-            Fill: =RGBA(21, 44, 115, 1)
-            Height: =145
-            Width: =640
-            Y: =954
-            ZIndex: =5
-
-        logo_4 As image:
-            Height: =182
-            Image: =carrier_logo
-            Width: =392
-            X: =123
-            Y: =954
-            ZIndex: =6
-
     Icon2_4 As icon.Leave:
         Color: =RGBA(255, 255, 255, 1)
         Height: =56
@@ -198,4 +169,33 @@ capturista_prueba As screen:
         X: =35
         Y: =434
         ZIndex: =14
+
+    logo_2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =18
+
+        Rectangle1_8 As rectangle:
+            Fill: =RGBA(21, 44, 115, 1)
+            Height: =77
+            Width: =640
+            Y: =1058
+            ZIndex: =15
+
+        Circle1_4 As circle:
+            Fill: =RGBA(21, 44, 115, 1)
+            Height: =128
+            Width: =640
+            Y: =991
+            ZIndex: =16
+
+        logo_3 As image:
+            Height: =145
+            Image: =carrier_logo
+            Width: =300
+            X: =165
+            Y: =991
+            ZIndex: =17
 
