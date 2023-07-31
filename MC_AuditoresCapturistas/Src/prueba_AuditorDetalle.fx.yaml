@@ -1,24 +1,37 @@
 prueba_AuditorDetalle As screen:
     Fill: =RGBA(202, 202, 202, 1)
 
-    Rectangle3_3 As rectangle:
-        Fill: =RGBA(21, 44, 115, 1)
-        Height: =228
-        Width: =640
-        ZIndex: =1
-
-    boton_5 As button:
+    boton_6 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =932
+        Height: =636
         HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
         HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -0%)
         Size: =24
         Text: =""
-        Width: =589
-        X: =28
-        Y: =192
+        Width: =600
+        X: =20
+        Y: =483
+        ZIndex: =1
+
+    Rectangle3_3 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =228
+        Width: =640
         ZIndex: =2
+
+    boton_5 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =268
+        HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -0%)
+        Size: =24
+        Text: =""
+        Width: =600
+        X: =20
+        Y: =192
+        ZIndex: =3
 
     Label6_2 As label:
         Align: =Align.Center
@@ -30,7 +43,7 @@ prueba_AuditorDetalle As screen:
         Width: =247
         X: =196
         Y: =10
-        ZIndex: =3
+        ZIndex: =4
 
     Icon2_3 As icon.Leave:
         Color: =RGBA(255, 255, 255, 1)
@@ -52,7 +65,7 @@ prueba_AuditorDetalle As screen:
         Width: =50
         X: =576
         Y: =18
-        ZIndex: =4
+        ZIndex: =5
 
     Icon1_3 As icon.Reload:
         Color: =RGBA(255, 255, 255, 1)
@@ -62,7 +75,7 @@ prueba_AuditorDetalle As screen:
         Width: =47
         X: =28
         Y: =18
-        ZIndex: =5
+        ZIndex: =6
 
     Label9_2 As label:
         Align: =Align.Center
@@ -72,10 +85,10 @@ prueba_AuditorDetalle As screen:
         Height: =62
         Size: =25
         Text: ="Zona"
-        Width: =279
-        X: =38
-        Y: =365
-        ZIndex: =6
+        Width: =289
+        X: =28
+        Y: =275
+        ZIndex: =7
 
     Label10_2 As label:
         Align: =Align.Center
@@ -85,10 +98,10 @@ prueba_AuditorDetalle As screen:
         Height: =62
         Size: =25
         Text: ="Mesa Control"
-        Width: =287
+        Width: =296
         X: =319
-        Y: =365
-        ZIndex: =7
+        Y: =275
+        ZIndex: =8
 
     zonaLabel_2 As label:
         Align: =Align.Center
@@ -96,10 +109,10 @@ prueba_AuditorDetalle As screen:
         Height: =83
         Size: =21
         Text: =galeriaAuditores.Selected.Zona
-        Width: =281
-        X: =38
-        Y: =427
-        ZIndex: =8
+        Width: =291
+        X: =28
+        Y: =337
+        ZIndex: =9
 
     mesaControlLabel_2 As label:
         Align: =Align.Center
@@ -107,10 +120,10 @@ prueba_AuditorDetalle As screen:
         Height: =83
         Size: =21
         Text: =galeriaAuditores.Selected.mesaControl
-        Width: =287
+        Width: =296
         X: =319
-        Y: =427
-        ZIndex: =9
+        Y: =337
+        ZIndex: =10
 
     botón1_1 As button:
         DisplayMode: |-
@@ -157,15 +170,15 @@ prueba_AuditorDetalle As screen:
         Width: =396
         X: =119
         Y: =563
-        ZIndex: =10
+        ZIndex: =11
 
     Image1_2 As image:
         Height: =90
         Image: =carrier_logo
         Width: =202
         X: =219
-        Y: =1046
-        ZIndex: =11
+        Y: =1029
+        ZIndex: =12
 
     botón2_1 As button:
         DisplayMode: |-
@@ -186,7 +199,7 @@ prueba_AuditorDetalle As screen:
         Width: =280
         X: =177
         Y: =727
-        ZIndex: =12
+        ZIndex: =13
 
     Label11_1 As label:
         Align: =Align.Center
@@ -200,7 +213,7 @@ prueba_AuditorDetalle As screen:
         Width: =310
         X: =165
         Y: =821
-        ZIndex: =18
+        ZIndex: =19
 
     label_entrega_1 As label:
         Align: =Align.Center
@@ -211,7 +224,7 @@ prueba_AuditorDetalle As screen:
         Width: =310
         X: =165
         Y: =883
-        ZIndex: =19
+        ZIndex: =20
 
     Timer2_1 As timer:
         AutoStart: =true
@@ -222,7 +235,7 @@ prueba_AuditorDetalle As screen:
         Width: =183
         X: =457
         Y: =1066
-        ZIndex: =20
+        ZIndex: =21
 
     PopUp_Auditores_1 As group:
         Height: =5
@@ -236,7 +249,7 @@ prueba_AuditorDetalle As screen:
             Height: =1136
             Visible: =ShowPopUpAuditores
             Width: =640
-            ZIndex: =13
+            ZIndex: =14
 
         fondo_blanco_1 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
@@ -245,7 +258,7 @@ prueba_AuditorDetalle As screen:
             Width: =497
             X: =79
             Y: =176
-            ZIndex: =14
+            ZIndex: =15
 
         Label4_1 As label:
             Align: =Align.Center
@@ -256,7 +269,7 @@ prueba_AuditorDetalle As screen:
             Width: =419
             X: =119
             Y: =228
-            ZIndex: =15
+            ZIndex: =16
 
         cancelar_1 As button:
             Fill: =RGBA(168, 0, 0, 1)
@@ -268,7 +281,7 @@ prueba_AuditorDetalle As screen:
             Width: =158
             X: =119
             Y: =383
-            ZIndex: =16
+            ZIndex: =17
 
         aceptar_1 As button:
             Fill: =RGBA(141, 198, 63, 1)
@@ -283,18 +296,16 @@ prueba_AuditorDetalle As screen:
             Width: =158
             X: =362
             Y: =383
-            ZIndex: =17
+            ZIndex: =18
 
-    Label5_2 As label:
+    Label13 As label:
         Align: =Align.Center
-        Color: =RGBA(0, 18, 107, 1)
-        FontWeight: =FontWeight.Bold
         Height: =70
-        Size: =30
-        Text: ="Auditor"
-        Width: =258
-        X: =190
-        Y: =215
+        Size: =19
+        Text: ="Zonas asignadas"
+        Width: =241
+        X: =196
+        Y: =193
         ZIndex: =25
 
     Group3 As group:
