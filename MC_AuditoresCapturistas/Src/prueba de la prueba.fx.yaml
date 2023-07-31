@@ -162,6 +162,29 @@
         Icon: =Icon.Waypoint
         Width: =204
         X: =218
-        Y: =145
+        Y: =187
         ZIndex: =11
+
+    Label14 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        Height: =70
+        Size: =20
+        Text: ="Selecciona tu zona"
+        Width: =271
+        X: =181
+        Y: =141
+        ZIndex: =12
+
+    Label15 As label:
+        Align: =Align.Center
+        Color: =RGBA(219, 219, 219, 1)
+        Height: =70
+        Size: =18
+        Text: ="Zonas disponibles"
+        Width: =269
+        X: =181
+        Y: =98
+        ZIndex: =13
 
