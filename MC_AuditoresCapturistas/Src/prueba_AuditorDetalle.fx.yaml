@@ -155,8 +155,8 @@ prueba_AuditorDetalle As screen:
         Size: =24
         Text: ="Iniciar Auditoría"
         Width: =396
-        X: =124
-        Y: =637
+        X: =118
+        Y: =643
         ZIndex: =11
 
     Image1_2 As image:
@@ -184,8 +184,8 @@ prueba_AuditorDetalle As screen:
         Size: =24
         Text: ="Auditado"
         Width: =280
-        X: =178
-        Y: =750
+        X: =180
+        Y: =753
         ZIndex: =13
 
     Timer2_1 As timer:
@@ -311,8 +311,8 @@ prueba_AuditorDetalle As screen:
         Height: =226
         Image: =Audit
         Width: =260
-        X: =178
-        Y: =420
+        X: =176
+        Y: =424
         ZIndex: =26
 
     Group1 As group:
@@ -334,8 +334,8 @@ prueba_AuditorDetalle As screen:
             Size: =25
             Text: ="Entrega en"
             Width: =310
-            X: =164
-            Y: =861
+            X: =161
+            Y: =847
             ZIndex: =19
 
         label_entrega_1 As label:
@@ -345,7 +345,7 @@ prueba_AuditorDetalle As screen:
             Size: =21
             Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = galeriaAuditores.Selected.Zona,mesaControlCierreF6)
             Width: =310
-            X: =164
-            Y: =923
+            X: =161
+            Y: =909
             ZIndex: =20
 
