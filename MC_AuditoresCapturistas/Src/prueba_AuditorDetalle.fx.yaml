@@ -192,7 +192,8 @@ prueba_AuditorDetalle As screen:
         Align: =Align.Center
         BorderColor: =RGBA(0, 16, 96, 1)
         BorderThickness: =0.5
-        FontWeight: =FontWeight.Bold
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
         Height: =62
         Size: =25
         Text: ="Entrega en"
