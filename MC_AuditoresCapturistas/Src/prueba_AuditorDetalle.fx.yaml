@@ -1,6 +1,7 @@
 prueba_AuditorDetalle As screen:
 
     Label3_3 As label:
+        Font: =Font.'Segoe UI'
         Height: =65
         Size: =21
         Text: |-
