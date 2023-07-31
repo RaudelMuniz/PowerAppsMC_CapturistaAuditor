@@ -173,7 +173,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/31/2023 22:28:18",
+  "HeaderLastSavedDateTimeUTC": "07/31/2023 22:28:26",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "223a2896-6108-448a-9017-1629d7b85cd5": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4\"",
