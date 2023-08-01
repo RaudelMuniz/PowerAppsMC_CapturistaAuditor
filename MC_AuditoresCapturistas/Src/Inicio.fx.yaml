@@ -19,12 +19,12 @@ Inicio As screen:
     Label1_3 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
-        Height: =80
+        Height: =68
         Size: =34
-        Text: ="Log in"
-        Width: =141
-        X: =249
-        Y: =60
+        Text: ="Bienvenido"
+        Width: =252
+        X: =194
+        Y: =66
         ZIndex: =5
 
     contenedor_capturistas As groupContainer.manualLayoutContainer:
