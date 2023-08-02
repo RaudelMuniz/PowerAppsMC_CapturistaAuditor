@@ -307,8 +307,8 @@ prueba_CapturistaDetalle As screen:
             Size: =20
             Text: =User().FullName
             Width: =344
-            X: =116
-            Y: =114
+            X: =104
+            Y: =113
             ZIndex: =14
 
         Image5_1 As image:
@@ -326,7 +326,7 @@ prueba_CapturistaDetalle As screen:
             Size: =15
             Text: ="CAPTURISTA"
             Width: =224
-            X: =121
-            Y: =94
+            X: =109
+            Y: =93
             ZIndex: =16
 
