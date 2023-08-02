@@ -306,15 +306,15 @@ prueba_CapturistaDetalle As screen:
             Height: =54
             Size: =20
             Text: =User().FullName
-            Width: =201
-            X: =76
+            Width: =344
+            X: =116
             Y: =114
             ZIndex: =14
 
         Image5_1 As image:
             Height: =86
             Image: ='user icon'
-            Width: =63
+            Width: =108
             X: =20
             Y: =98
             ZIndex: =15
@@ -325,8 +325,8 @@ prueba_CapturistaDetalle As screen:
             Height: =34
             Size: =15
             Text: ="CAPTURISTA"
-            Width: =131
-            X: =79
+            Width: =224
+            X: =121
             Y: =94
             ZIndex: =16
 
