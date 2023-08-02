@@ -43,7 +43,7 @@ auditor__prueba_1 As screen:
         Size: =27
         Text: ="Auditor"
         Width: =155
-        X: =254
+        X: =241
         Y: =1
         ZIndex: =13
 
@@ -67,4 +67,68 @@ auditor__prueba_1 As screen:
             Width: =640
             Y: =38
             ZIndex: =12
+
+    Icon1_7 As icon.Reload:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =59
+        Icon: =Icon.Reload
+        OnSelect: =Refresh(MesaControl_UserGeneral)
+        Width: =49
+        X: =20
+        Y: =12
+        ZIndex: =14
+
+    Icon2_6 As icon.Leave:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =56
+        Icon: =Icon.Leave
+        OnSelect: |-
+            =Patch(
+                MesaControl_UserGeneral,
+                LookUp(
+                    MesaControl_UserGeneral,
+                    correoUser = User().Email
+                ),
+                {
+                    Activo: "No",
+                    Disponible: "No"
+                }
+            );
+            Back(ScreenTransition.Fade)
+        Width: =50
+        X: =568
+        Y: =13
+        ZIndex: =15
+
+    Icon3_2 As icon.Waypoint:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =249
+        Icon: =Icon.Waypoint
+        Width: =204
+        X: =218
+        Y: =187
+        ZIndex: =16
+
+    Label14_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        Height: =70
+        Size: =20
+        Text: ="Selecciona tu zona"
+        Width: =271
+        X: =181
+        Y: =141
+        ZIndex: =17
+
+    Label15_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(219, 219, 219, 1)
+        Height: =70
+        Size: =18
+        Text: ="Zonas asignadas"
+        Width: =269
+        X: =181
+        Y: =98
+        ZIndex: =18
 
