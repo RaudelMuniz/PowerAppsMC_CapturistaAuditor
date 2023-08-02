@@ -284,7 +284,7 @@ prueba_AuditorDetalle As screen:
             Size: =20
             Text: =User().FullName
             Width: =342
-            X: =115
+            X: =101
             Y: =114
             ZIndex: =22
 
@@ -303,7 +303,7 @@ prueba_AuditorDetalle As screen:
             Size: =15
             Text: ="AUDITOR"
             Width: =165
-            X: =120
+            X: =106
             Y: =94
             ZIndex: =24
 
