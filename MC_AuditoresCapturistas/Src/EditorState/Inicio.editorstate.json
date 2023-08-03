@@ -624,7 +624,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Button3",
-      "ParentIndex": 8,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -851,7 +851,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Circle1_3",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -964,7 +964,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "contenedor_auditores",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1117,7 +1117,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "contenedor_capturistas",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1291,7 +1291,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "fondo_prueba",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1839,7 +1839,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image2",
-      "ParentIndex": 6,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2463,7 +2463,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label14",
-      "ParentIndex": 7,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2689,7 +2689,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "logo",
-      "ParentIndex": 8,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2771,7 +2771,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "logo_1",
-      "ParentIndex": 6,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3749,7 +3749,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle1_7",
-      "ParentIndex": 7,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3875,7 +3875,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle7",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4006,7 +4006,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle9",
-      "ParentIndex": 5,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
