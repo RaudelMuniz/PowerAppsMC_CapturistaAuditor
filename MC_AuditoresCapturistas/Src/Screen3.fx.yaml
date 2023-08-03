@@ -1,12 +1,2 @@
 Screen3 As screen:
 
-    Button3 As button:
-        Height: =70
-        OnSelect: =Navigate('Success Screen', ScreenTransition.Fade)
-        Size: =24
-        Text: ="Button"
-        Width: =280
-        X: =160
-        Y: =192
-        ZIndex: =1
-

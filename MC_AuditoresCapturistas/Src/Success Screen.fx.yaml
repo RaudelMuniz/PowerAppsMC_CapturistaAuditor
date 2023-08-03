@@ -9,17 +9,6 @@
         Y: =322
         ZIndex: =1
 
-    Label14 As label:
-        Align: =Align.Center
-        Color: =RGBA(0, 0, 0, Timer1.Value/Timer1.Duration)
-        Height: =76
-        Size: =19
-        Text: ="Se completó con éxito"
-        Width: =338
-        X: =162
-        Y: =450
-        ZIndex: =2
-
     Timer1 As timer:
         AutoStart: =true
         Duration: =3000
