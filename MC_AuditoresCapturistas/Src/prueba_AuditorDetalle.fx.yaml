@@ -36,19 +36,7 @@ prueba_AuditorDetalle As screen:
         Color: =RGBA(255, 255, 255, 1)
         Height: =56
         Icon: =Icon.Leave
-        OnSelect: |-
-            =Patch(
-                MesaControl_UserGeneral,
-                LookUp(
-                    MesaControl_UserGeneral,
-                    correoUser = User().Email
-                ),
-                {
-                    Activo: "No",
-                    Disponible: "No"
-                }
-            );
-            Back(ScreenTransition.Fade)
+        OnSelect: =Back(ScreenTransition.Fade)
         Width: =50
         X: =576
         Y: =18

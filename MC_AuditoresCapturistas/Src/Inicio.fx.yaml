@@ -74,7 +74,7 @@ Inicio As screen:
                     }
                 );
                 If(
-                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Navigate(capturista, ScreenTransition.Fade),Navigate(capturista_prueba_1, ScreenTransition.Fade)
+                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Navigate(capturista_prueba_1, ScreenTransition.Fade),""
                     )
             PressedColor: =Color.Transparent
             PressedFill: =RGBA( 0, 18, 107, 0.5 )
@@ -130,7 +130,7 @@ Inicio As screen:
                     }
                 );
                 If(
-                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Navigate(capturista, ScreenTransition.Fade),Navigate(auditor__prueba_1, ScreenTransition.Fade)
+                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Auditor")),Navigate(auditor__prueba_1, ScreenTransition.Fade),""
                     )
             PressedFill: =RGBA( 0, 18, 107, 0.5 )
             Size: =24
