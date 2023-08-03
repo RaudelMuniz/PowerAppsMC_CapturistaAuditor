@@ -29,18 +29,7 @@ prueba_AuditorDetalle As screen:
         Text: ="Mis Zonas"
         Width: =247
         X: =196
-        Y: =10
         ZIndex: =4
-
-    Icon2_3 As icon.Leave:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =56
-        Icon: =Icon.Leave
-        OnSelect: =Back(ScreenTransition.Fade)
-        Width: =50
-        X: =576
-        Y: =18
-        ZIndex: =5
 
     Icon1_3 As icon.Reload:
         Color: =RGBA(255, 255, 255, 1)
@@ -336,4 +325,13 @@ prueba_AuditorDetalle As screen:
             X: =161
             Y: =909
             ZIndex: =20
+
+    Arrow1_2 As arrow.backArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =52
+        OnSelect: =Back(ScreenTransition.Fade)
+        Width: =51
+        X: =564
+        Y: =20
+        ZIndex: =27
 
