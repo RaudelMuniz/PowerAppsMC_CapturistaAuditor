@@ -97,7 +97,7 @@
     "Author": "",
     "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
-    "DefaultConnectedDataSourceMaxGetRowsCount": 500,
+    "DefaultConnectedDataSourceMaxGetRowsCount": 250,
     "DocumentAppType": "Phone",
     "DocumentLayoutHeight": 1136,
     "DocumentLayoutLockOrientation": false,
