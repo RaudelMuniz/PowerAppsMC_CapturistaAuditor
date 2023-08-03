@@ -22,7 +22,7 @@
 
     Timer1 As timer:
         AutoStart: =true
-        Duration: =2000
+        Duration: =3000
         Height: =70
         OnTimerEnd: =Navigate(Screen3, ScreenTransition.Fade)
         Width: =280
