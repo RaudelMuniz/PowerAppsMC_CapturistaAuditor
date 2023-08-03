@@ -5,8 +5,8 @@
         Height: =97
         Icon: =Icon.CheckBadge
         Width: =84
-        X: =272
-        Y: =318
+        X: =289
+        Y: =322
         ZIndex: =1
 
     Label14 As label:
@@ -16,8 +16,8 @@
         Size: =19
         Text: ="Se completó con éxito"
         Width: =338
-        X: =145
-        Y: =444
+        X: =162
+        Y: =450
         ZIndex: =2
 
     Timer1 As timer:
@@ -25,6 +25,7 @@
         Duration: =3000
         Height: =70
         OnTimerEnd: =Navigate(Screen3, ScreenTransition.Fade)
+        Visible: =false
         Width: =280
         X: =36
         Y: =68
@@ -34,6 +35,7 @@
         Height: =70
         Size: =12
         Text: =Timer1.Value
+        Visible: =false
         Width: =158
         X: =464
         Y: =20
@@ -43,6 +45,7 @@
         Height: =70
         Size: =12
         Text: =Timer1.Duration
+        Visible: =false
         Width: =102
         X: =464
         Y: =68
