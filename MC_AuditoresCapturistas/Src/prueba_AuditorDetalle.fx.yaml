@@ -320,7 +320,7 @@ prueba_AuditorDetalle As screen:
             BorderThickness: =0.5
             Height: =77
             Size: =21
-            Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = galeriaAuditores.Selected.Zona,mesaControlCierreF6)
+            Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = galeriaAuditores.Selected.Zona,mesaControlValidacionF4)
             Width: =310
             X: =161
             Y: =909
