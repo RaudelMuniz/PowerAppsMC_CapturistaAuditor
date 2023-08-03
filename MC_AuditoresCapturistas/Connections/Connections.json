@@ -5,11 +5,10 @@
       "authenticationType": "sqlAuthentication",
       "displayName": "SQL Server",
       "executionRestrictions": {
-        "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
-        "apiVer": 2,
+        "apiId": "unknown",
         "appVer": "3.23073.23",
-        "modifiedOn": "2023-08-03 21:10:02",
-        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[mesacontrol_request]\":[\"post\",\"patch\",\"get\"],\"[dbo].[mesacontrol_usergeneral]\":[\"post\",\"patch\",\"get\"]}}",
+        "modifiedOn": "2023-08-03 21:35:41",
+        "policy": "{\"type\":\"invalid\"}",
         "version": 1
       },
       "gatewayObjectIdHint": "217359fc-552c-470d-bcb6-5f7d514806f1",
@@ -20,22 +19,8 @@
       "parameterHintsV2": {},
       "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4"
     },
-    "datasets": {
-      "sqc8107pmi001.229b7873c6f5.database.windows.net,CMXEDataCollection": {
-        "dataSources": {
-          "MesaControl_Request": {
-            "tableName": "[dbo].[MesaControl_Request]"
-          },
-          "MesaControl_UserGeneral": {
-            "tableName": "[dbo].[MesaControl_UserGeneral]"
-          }
-        }
-      }
-    },
-    "dataSources": [
-      "MesaControl_UserGeneral",
-      "MesaControl_Request"
-    ],
+    "datasets": {},
+    "dataSources": [],
     "dependencies": {},
     "dependents": [
       "fd98dd97-16db-47e4-976a-fb472b67931c"
@@ -44,6 +29,68 @@
       "sqc8107pmi001.229b7873c6f5.database.windows.net,CMXEDataCollection"
     ],
     "id": "223a2896-6108-448a-9017-1629d7b85cd5"
+  },
+  "6f36d5da-df2a-4de0-80fb-4885930f8dc6": {
+    "connectionRef": {
+      "authenticationType": "sqlAuthentication",
+      "displayName": "SQL Server",
+      "executionRestrictions": {
+        "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
+        "apiVer": 2,
+        "appVer": "3.23073.23",
+        "modifiedOn": "2023-08-03 21:35:41",
+        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[mesacontrol_request]\":[\"post\",\"patch\",\"get\"],\"[dbo].[mesacontrol_admin]\":[\"get\"]}}",
+        "version": 1
+      },
+      "gatewayObjectIdHint": "07d9c54a-5560-4815-aeb5-b2183ad08d62",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/partial-builds/sql-1644-2/1.0.1644.3343/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "isOnPremiseConnection": true,
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/98c9afb4a49b4033adaa1bf0caedf526",
+      "xrmConnectionReferenceLogicalName": "crea9_98c9afb4a49b4033adaa1bf0caedf526"
+    },
+    "datasets": {
+      "sqc8107pmi001.229b7873c6f5.database.windows.net,CMXEDataCollection": {
+        "dataSources": {
+          "MesaControl_Admin": {
+            "tableName": "[dbo].[MesaControl_Admin]"
+          },
+          "MesaControl_HistorialUser": {
+            "tableName": "[dbo].[MesaControl_HistorialUser]"
+          },
+          "MesaControl_LiderOpe": {
+            "tableName": "[dbo].[MesaControl_LiderOpe]"
+          },
+          "MesaControl_MesasControl": {
+            "tableName": "[dbo].[MesaControl_MesasControl]"
+          },
+          "MesaControl_Request": {
+            "tableName": "[dbo].[MesaControl_Request]"
+          },
+          "MesaControl_UserGeneral": {
+            "tableName": "[dbo].[MesaControl_UserGeneral]"
+          },
+          "MesaControl_Zonas": {
+            "tableName": "[dbo].[MesaControl_Zonas]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "MesaControl_Request",
+      "MesaControl_Admin",
+      "MesaControl_HistorialUser",
+      "MesaControl_LiderOpe",
+      "MesaControl_MesasControl",
+      "MesaControl_UserGeneral",
+      "MesaControl_Zonas"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "endpoints": [
+      "sqc8107pmi001.229b7873c6f5.database.windows.net,CMXEDataCollection"
+    ],
+    "id": "6f36d5da-df2a-4de0-80fb-4885930f8dc6"
   },
   "fd98dd97-16db-47e4-976a-fb472b67931c": {
     "connectionRef": {
