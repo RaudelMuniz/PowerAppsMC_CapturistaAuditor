@@ -1,0 +1,50 @@
+"'Success Screen' As screen":
+
+    Icon3 As icon.CheckBadge:
+        Color: =RGBA(0, 18, 107, Timer1.Value/Timer1.Duration)
+        Height: =97
+        Icon: =Icon.CheckBadge
+        Width: =84
+        X: =272
+        Y: =318
+        ZIndex: =1
+
+    Label14 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 0, 0, Timer1.Value/Timer1.Duration)
+        Height: =76
+        Size: =19
+        Text: ="Se completó con éxito"
+        Width: =338
+        X: =145
+        Y: =444
+        ZIndex: =2
+
+    Timer1 As timer:
+        AutoStart: =true
+        Duration: =2000
+        Height: =70
+        OnTimerEnd: =Navigate(Screen3, ScreenTransition.Fade)
+        Width: =280
+        X: =36
+        Y: =68
+        ZIndex: =3
+
+    Label15 As label:
+        Height: =70
+        Size: =12
+        Text: =Timer1.Value
+        Width: =158
+        X: =464
+        Y: =20
+        ZIndex: =4
+
+    Label16 As label:
+        Height: =70
+        Size: =12
+        Text: =Timer1.Duration
+        Width: =102
+        X: =464
+        Y: =68
+        ZIndex: =5
+
