@@ -1,0 +1,3 @@
+capturista_prueba_1 As screen:
+    Fill: =RGBA(22, 45, 115, 0.47)
+

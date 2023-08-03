@@ -8,8 +8,8 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
         "appVer": "3.23073.23",
-        "modifiedOn": "2023-08-03 14:54:22",
-        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[mesacontrol_admin]\":[\"get\"],\"[dbo].[mesacontrol_historialuser]\":[\"get\"],\"[dbo].[mesacontrol_liderope]\":[\"get\"],\"[dbo].[mesacontrol_mesascontrol]\":[\"get\"],\"[dbo].[mesacontrol_request]\":[\"get\"],\"[dbo].[mesacontrol_usergeneral]\":[\"get\"],\"[dbo].[mesacontrol_zonas]\":[\"get\"]}}",
+        "modifiedOn": "2023-08-03 21:10:02",
+        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[mesacontrol_request]\":[\"post\",\"patch\",\"get\"],\"[dbo].[mesacontrol_usergeneral]\":[\"post\",\"patch\",\"get\"]}}",
         "version": 1
       },
       "gatewayObjectIdHint": "217359fc-552c-470d-bcb6-5f7d514806f1",
@@ -23,38 +23,18 @@
     "datasets": {
       "sqc8107pmi001.229b7873c6f5.database.windows.net,CMXEDataCollection": {
         "dataSources": {
-          "MesaControl_Admin": {
-            "tableName": "[dbo].[MesaControl_Admin]"
-          },
-          "MesaControl_HistorialUser": {
-            "tableName": "[dbo].[MesaControl_HistorialUser]"
-          },
-          "MesaControl_LiderOpe": {
-            "tableName": "[dbo].[MesaControl_LiderOpe]"
-          },
-          "MesaControl_MesasControl": {
-            "tableName": "[dbo].[MesaControl_MesasControl]"
-          },
           "MesaControl_Request": {
             "tableName": "[dbo].[MesaControl_Request]"
           },
           "MesaControl_UserGeneral": {
             "tableName": "[dbo].[MesaControl_UserGeneral]"
-          },
-          "MesaControl_Zonas": {
-            "tableName": "[dbo].[MesaControl_Zonas]"
           }
         }
       }
     },
     "dataSources": [
-      "MesaControl_Admin",
-      "MesaControl_HistorialUser",
-      "MesaControl_LiderOpe",
-      "MesaControl_MesasControl",
-      "MesaControl_Request",
       "MesaControl_UserGeneral",
-      "MesaControl_Zonas"
+      "MesaControl_Request"
     ],
     "dependencies": {},
     "dependents": [
