@@ -61,8 +61,9 @@ Inicio As screen:
             Height: =289
             HoverColor: =Color.Transparent
             HoverFill: =RGBA(0,0,0,0.20)
-            OnSelect: |-
-                =Patch(
+            OnSelect: |+
+                =If(
+                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Patch(
                     MesaControl_UserGeneral, 
                     LookUp(
                         MesaControl_UserGeneral,
@@ -72,10 +73,12 @@ Inicio As screen:
                         Activo: "Si",
                         Disponible: "Si"
                     }
-                );
-                If(
-                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Capturista")),Navigate(capturista_prueba, ScreenTransition.Fade),Set(popupRoles,true)
+                );Navigate(capturista_prueba, ScreenTransition.Fade)
+                    
+                    ,Set(popupRoles,true)
                     )
+                
+                
             PressedColor: =Color.Transparent
             PressedFill: =RGBA( 0, 18, 107, 0.5 )
             Size: =24
@@ -117,8 +120,9 @@ Inicio As screen:
             Height: =289
             HoverColor: =Color.Transparent
             HoverFill: =RGBA(0,0,0,0.20)
-            OnSelect: |-
-                =Patch(
+            OnSelect: |
+                =If(
+                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Auditor")),Patch(
                     MesaControl_UserGeneral, 
                     LookUp(
                         MesaControl_UserGeneral,
@@ -128,9 +132,8 @@ Inicio As screen:
                         Activo: "Si",
                         Disponible: "Si"
                     }
-                );
-                If(
-                    !IsBlank(LookUp(MesaControl_UserGeneral, correoUser = User().Email && Rol="Auditor")),Navigate(auditor__prueba, ScreenTransition.Fade),Set(popupRoles,true)
+                );Navigate(auditor__prueba, ScreenTransition.Fade)   
+                    ,Set(popupRoles,true)
                     )
             PressedFill: =RGBA( 0, 18, 107, 0.5 )
             Size: =24
