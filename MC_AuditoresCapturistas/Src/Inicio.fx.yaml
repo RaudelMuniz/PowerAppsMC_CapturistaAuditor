@@ -14,7 +14,7 @@ Inicio As screen:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =200
         Width: =640
-        ZIndex: =2
+        ZIndex: =3
 
     Label1_3 As label:
         Align: =Align.Center
@@ -25,14 +25,14 @@ Inicio As screen:
         Width: =252
         X: =194
         Y: =66
-        ZIndex: =5
+        ZIndex: =6
 
     contenedor_capturistas As groupContainer.manualLayoutContainer:
         Height: =289
         Width: =274
         X: =183
         Y: =589
-        ZIndex: =7
+        ZIndex: =8
 
         botón_capturistas As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -88,7 +88,7 @@ Inicio As screen:
         Width: =274
         X: =183
         Y: =250
-        ZIndex: =8
+        ZIndex: =9
 
         botón_auditores As button:
             Color: =RGBA(0, 0, 0, 1)
@@ -150,14 +150,14 @@ Inicio As screen:
             Height: =113
             Width: =640
             Y: =1023
-            ZIndex: =3
+            ZIndex: =4
 
         Circle1_3 As circle:
             Fill: =RGBA(21, 44, 115, 1)
             Height: =168
             Width: =640
             Y: =951
-            ZIndex: =4
+            ZIndex: =5
 
         logo_1 As image:
             Height: =185
@@ -165,26 +165,65 @@ Inicio As screen:
             Width: =393
             X: =123
             Y: =951
-            ZIndex: =6
+            ZIndex: =7
 
-    Group4 As group:
+    popupAviso As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =15
 
-        boton_11 As button:
-            BorderColor: =ColorFade(Self.Fill, -0%)
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =328
-            HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
-            HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -0%)
-            Size: =24
-            Text: =""
+        Rectangle9 As rectangle:
+            Fill: =RGBA(56, 96, 178, 0.5)
+            Height: =1136
             Visible: =popupRoles
-            Width: =433
-            X: =103
-            Y: =328
+            Width: =640
+            ZIndex: =10
+
+        Rectangle10 As rectangle:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =308
+            Visible: =popupRoles
+            Width: =446
+            X: =96
+            Y: =312
             ZIndex: =11
+
+        Button5 As button:
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(255, 191, 0, 1)
+            Height: =39
+            HoverFill: =ColorFade(Self.BorderColor, 20%)
+            OnSelect: =Set(popupRoles,false)
+            PressedColor: =RGBA(255, 255, 255, 1)
+            PressedFill: =ColorFade(Self.BorderColor, 20%)
+            Size: =20
+            Text: ="Cerrar"
+            Visible: =popupRoles
+            Width: =186
+            X: =227
+            Y: =559
+            ZIndex: =12
+
+        Label14 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Height: =91
+            Size: =21
+            Text: ="No Estas Asignado Para Realizar Estas tarea"
+            Visible: =popupRoles
+            Width: =393
+            X: =122
+            Y: =435
+            ZIndex: =13
+
+        Image2 As image:
+            Height: =94
+            Image: =warning
+            Visible: =popupRoles
+            Width: =108
+            X: =264
+            Y: =327
+            ZIndex: =14
 
