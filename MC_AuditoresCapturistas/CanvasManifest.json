@@ -129,18 +129,18 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "Inicio",
+    "auditor__prueba",
+    "capturista_prueba",
+    "prueba_AuditorDetalle",
+    "prueba_CapturistaDetalle",
     "Screen1",
     "auditor",
     "capturista",
     "AuditorDetalle",
     "CapturistaDetalle",
-    "Inicio",
-    "auditor__prueba",
-    "prueba_AuditorDetalle",
     "auditorDetalle_prueba_success screen",
-    "capturista_prueba",
     "capturista_prueba_1",
-    "prueba_CapturistaDetalle",
     "Success Screen",
     "Screen3"
   ]
