@@ -16,9 +16,10 @@ auditor__prueba As screen:
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
         DelayItemLoading: =true
-        Items: =MesaControl_UserGeneral
+        Items: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =Navigate(prueba_AuditorDetalle,ScreenTransition.Fade)
         TemplatePadding: =0
         TemplateSize: =89
         Width: =592
@@ -134,7 +135,7 @@ auditor__prueba As screen:
         FontWeight: =FontWeight.Bold
         Height: =70
         Size: =27
-        Text: ="Capturista"
+        Text: ="Auditor"
         Width: =285
         X: =180
         Y: =11
