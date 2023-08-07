@@ -39,3 +39,15 @@ auditor__prueba As screen:
         Y: =18
         ZIndex: =3
 
+    Label17 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =27
+        Text: ="Capturista"
+        Width: =285
+        X: =180
+        Y: =11
+        ZIndex: =4
+
