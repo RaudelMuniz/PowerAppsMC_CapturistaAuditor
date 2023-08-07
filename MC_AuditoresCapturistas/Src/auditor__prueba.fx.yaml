@@ -20,7 +20,7 @@ auditor__prueba As screen:
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
-        TemplateSize: =80
+        TemplateSize: =89
         Width: =592
         X: =24
         Y: =475
@@ -161,4 +161,14 @@ auditor__prueba As screen:
         X: =160
         Y: =159
         ZIndex: =10
+
+    Label20 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Size: =17
+        Text: ="Habilitadas"
+        Width: =560
+        X: =38
+        Y: =446
+        ZIndex: =11
 
