@@ -3,7 +3,7 @@ auditor__prueba As screen:
 
     Rectangle7 As rectangle:
         Fill: =RGBA(0, 18, 107, 1)
-        Height: =346
+        Height: =430
         Width: =640
         ZIndex: =1
 
@@ -15,8 +15,8 @@ auditor__prueba As screen:
         TemplatePadding: =0
         TemplateSize: =80
         Width: =572
-        X: =28
-        Y: =376
+        X: =36
+        Y: =442
         ZIndex: =1
 
         Title4 As label:
@@ -107,4 +107,35 @@ auditor__prueba As screen:
         X: =180
         Y: =11
         ZIndex: =4
+
+    Label18 As label:
+        Align: =Align.Center
+        Color: =RGBA(219, 219, 219, 1)
+        Height: =76
+        Size: =17
+        Text: ="Zonas asignadas"
+        Width: =244
+        X: =196
+        Y: =111
+        ZIndex: =5
+
+    Label19 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =56
+        Size: =19
+        Text: ="Selecciona tu zona"
+        Width: =320
+        X: =160
+        Y: =159
+        ZIndex: =6
+
+    Icon5 As icon.Waypoint:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =206
+        Icon: =Icon.Waypoint
+        Width: =174
+        X: =231
+        Y: =203
+        ZIndex: =7
 
