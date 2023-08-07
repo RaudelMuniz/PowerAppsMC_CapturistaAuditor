@@ -1,3 +1,41 @@
 auditor__prueba As screen:
     Fill: =RGBA(22, 45, 115, 0.47)
 
+    Rectangle7 As rectangle:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =346
+        Width: =640
+        ZIndex: =1
+
+    Icon1_6 As icon.Reload:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =56
+        Icon: =Icon.Reload
+        OnSelect: =Refresh(MesaControl_UserGeneral)
+        Width: =47
+        X: =28
+        Y: =18
+        ZIndex: =2
+
+    Icon2_2 As icon.Leave:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =56
+        Icon: =Icon.Leave
+        OnSelect: |-
+            =Patch(
+                MesaControl_UserGeneral,
+                LookUp(
+                    MesaControl_UserGeneral,
+                    correoUser = User().Email
+                ),
+                {
+                    Activo: "No",
+                    Disponible: "No"
+                }
+            );
+            Back(ScreenTransition.Fade)
+        Width: =52
+        X: =570
+        Y: =18
+        ZIndex: =3
+
