@@ -95,7 +95,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 0,
+    "BindingErrorCount": 1,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 250,
     "DocumentAppType": "Phone",
@@ -131,7 +131,7 @@
   "ScreenOrder": [
     "Inicio",
     "auditor__prueba",
-    "capturista_prueba",
+    "capturista__prueba",
     "prueba_AuditorDetalle",
     "prueba_CapturistaDetalle",
     "Screen1",

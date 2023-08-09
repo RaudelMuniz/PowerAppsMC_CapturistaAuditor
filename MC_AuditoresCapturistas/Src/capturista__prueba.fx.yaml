@@ -1,0 +1,239 @@
+capturista__prueba As screen:
+    Fill: =RGBA(237, 237, 237, 1)
+
+    Rectangle7_2 As rectangle:
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =563
+        Width: =640
+        ZIndex: =1
+
+    Image6_1 As image:
+        Height: =562
+        Image: =Warehouse
+        ImagePosition: =ImagePosition.Fill
+        Transparency: =0.6
+        Width: =640
+        ZIndex: =2
+
+    Rectangle8_1 As rectangle:
+        Fill: =RGBA(0, 18, 107, 0.31)
+        Height: =427
+        Width: =640
+        ZIndex: =3
+
+    boton_11 As button:
+        BorderColor: =ColorFade(Self.Fill, -0%)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =747
+        HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
+        HoverFill: =ColorFade(RGBA(255, 255, 255, 100), -0%)
+        Size: =24
+        Text: =""
+        Width: =582
+        X: =29
+        Y: =387
+        ZIndex: =6
+
+    Label20_2 As label:
+        Color: =RGBA(0, 18, 107, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =50
+        Size: =18
+        Text: ="Habilitadas"
+        Width: =560
+        X: =42
+        Y: =387
+        ZIndex: =8
+
+    Container2_17 As groupContainer.manualLayoutContainer:
+        Height: =64
+        Width: =80
+        X: =24
+        Y: =17
+        ZIndex: =12
+
+        Button10_17 As button:
+            Fill: =RGBA(136, 160, 209, 0.51)
+            Height: =64
+            OnSelect: =Refresh(MesaControl_UserGeneral)
+            Size: =24
+            Text: =""
+            Width: =80
+            ZIndex: =1
+
+        Icon3_18 As icon.ChevronLeft:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =48
+            Icon: =Icon.Reload
+            Width: =50
+            X: =15
+            Y: =8
+            ZIndex: =2
+
+    Label1_10 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =55
+        Text: ="Mis Zonas"
+        Width: =424
+        X: =123
+        Y: =121
+        ZIndex: =13
+
+    Label17_4 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
+        Height: =70
+        Size: =21
+        Text: ="Selecciona tu zona"
+        Width: =294
+        X: =175
+        Y: =195
+        ZIndex: =14
+
+    Label17_5 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
+        Height: =51
+        Size: =17
+        Text: ="Capturista"
+        Width: =205
+        X: =435
+        Y: =336
+        ZIndex: =15
+
+    logo_7 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =15
+
+        Rectangle1_10 As rectangle:
+            Fill: =RGBA(21, 44, 115, 1)
+            Height: =75
+            Width: =640
+            Y: =1060
+            ZIndex: =9
+
+        Circle1_6 As circle:
+            Fill: =RGBA(21, 44, 115, 1)
+            Height: =112
+            Width: =640
+            Y: =1012
+            ZIndex: =10
+
+        logo_6 As image:
+            Height: =123
+            Image: =carrier_logo
+            Width: =393
+            X: =123
+            Y: =1012
+            ZIndex: =11
+
+    Container2_16 As groupContainer.manualLayoutContainer:
+        Height: =64
+        Width: =80
+        X: =531
+        Y: =17
+        ZIndex: =16
+
+        Button10_16 As button:
+            Fill: =RGBA(136, 160, 209, 0.51)
+            Height: =64
+            OnSelect: |-
+                =Patch(
+                    MesaControl_UserGeneral,
+                    LookUp(
+                        MesaControl_UserGeneral,
+                        correoUser = User().Email
+                    ),
+                    {
+                        Activo: "No",
+                        Disponible: "No"
+                    }
+                );
+                Back(ScreenTransition.Fade)
+            Size: =24
+            Text: =""
+            Width: =80
+            ZIndex: =1
+
+        Icon3_17 As icon.ChevronLeft:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =48
+            Icon: =Icon.Leave
+            Width: =50
+            X: =15
+            Y: =8
+            ZIndex: =2
+
+    "Gallery1_2 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =698
+        Items: =Filter(MesaControl_UserGeneral,correoUser=User().Email)
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =Navigate(prueba_CapturistaDetalle,ScreenTransition.Fade)
+        TemplatePadding: =0
+        TemplateSize: =89
+        Width: =569
+        X: =42
+        Y: =437
+        ZIndex: =17
+
+        Title2_2 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Normal, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =22
+            Text: =ThisItem.Zona
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - 86
+            X: =43
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        NextArrow3_2 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =68
+            Icon: =Icon.NextArrow
+            OnSelect: =Select(Parent)
+            PaddingBottom: =12
+            PaddingLeft: =12
+            PaddingRight: =12
+            PaddingTop: =12
+            Tooltip: ="View item details"
+            Width: =100
+            X: =438
+            Y: =10
+            ZIndex: =2
+
+        Separator3_2 As rectangle:
+            Fill: =RGBA(237, 237, 237, 1)
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =3
+
+        Rectangle11_2 As rectangle:
+            Height: =Parent.TemplateHeight - Separator3_2.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =4
+
