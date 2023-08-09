@@ -21,28 +21,6 @@ auditor__prueba As screen:
         Width: =640
         ZIndex: =3
 
-    Icon2_2 As icon.Leave:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =56
-        Icon: =Icon.Leave
-        OnSelect: |-
-            =Patch(
-                MesaControl_UserGeneral,
-                LookUp(
-                    MesaControl_UserGeneral,
-                    correoUser = User().Email
-                ),
-                {
-                    Activo: "No",
-                    Disponible: "No"
-                }
-            );
-            Back(ScreenTransition.Fade)
-        Width: =52
-        X: =570
-        Y: =18
-        ZIndex: =5
-
     boton_9 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
         Fill: =RGBA(255, 255, 255, 1)
@@ -219,4 +197,42 @@ auditor__prueba As screen:
             X: =123
             Y: =1012
             ZIndex: =11
+
+    Container2_15 As groupContainer.manualLayoutContainer:
+        Height: =64
+        Width: =80
+        X: =531
+        Y: =17
+        ZIndex: =16
+
+        Button10_15 As button:
+            Fill: =RGBA(136, 160, 209, 0.51)
+            Height: =64
+            OnSelect: |-
+                =Patch(
+                    MesaControl_UserGeneral,
+                    LookUp(
+                        MesaControl_UserGeneral,
+                        correoUser = User().Email
+                    ),
+                    {
+                        Activo: "No",
+                        Disponible: "No"
+                    }
+                );
+                Back(ScreenTransition.Fade)
+            Size: =24
+            Text: =""
+            Width: =80
+            ZIndex: =1
+
+        Icon3_16 As icon.ChevronLeft:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =48
+            Icon: =Icon.Leave
+            Width: =50
+            X: =15
+            Y: =8
+            ZIndex: =2
 
