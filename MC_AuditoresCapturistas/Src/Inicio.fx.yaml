@@ -73,7 +73,7 @@ Inicio As screen:
                         Activo: "Si",
                         Disponible: "Si"
                     }
-                );Navigate(capturista_prueba, ScreenTransition.Fade)
+                );Navigate(capturista__prueba, ScreenTransition.Fade)
                     
                     ,Set(popupRoles,true)
                     )
