@@ -1,5 +1,5 @@
 capturista_prueba As screen:
-    Fill: =RGBA(22, 45, 115, 0.47)
+    Fill: =RGBA(237, 237, 237, 1)
 
     boton_10 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
