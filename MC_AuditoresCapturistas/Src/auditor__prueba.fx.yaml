@@ -21,18 +21,6 @@ auditor__prueba As screen:
         Width: =640
         ZIndex: =3
 
-    Label17 As label:
-        Align: =Align.Center
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =27
-        Text: ="Auditor"
-        Width: =285
-        X: =180
-        Y: =11
-        ZIndex: =4
-
     Icon2_2 As icon.Leave:
         Color: =RGBA(255, 255, 255, 1)
         Height: =56
@@ -165,6 +153,43 @@ auditor__prueba As screen:
             X: =15
             Y: =8
             ZIndex: =2
+
+    Label1_9 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =55
+        Text: ="Mis Zonas"
+        Width: =424
+        X: =123
+        Y: =121
+        ZIndex: =13
+
+    Label17_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
+        Height: =70
+        Size: =21
+        Text: ="Selecciona tu zona"
+        Width: =294
+        X: =175
+        Y: =195
+        ZIndex: =14
+
+    Label17_3 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
+        Height: =51
+        Size: =17
+        Text: ="Auditor"
+        Width: =205
+        X: =435
+        Y: =336
+        ZIndex: =15
 
     logo_2 As group:
         Height: =5
