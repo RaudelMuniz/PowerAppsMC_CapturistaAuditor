@@ -214,7 +214,7 @@ Inicio As screen:
             FontWeight: =FontWeight.Semibold
             Height: =91
             Size: =21
-            Text: ="No Estas Asignado Para Realizar Estas tarea"
+            Text: ="No Estas Asignado Para Realizar Esta Tarea"
             Visible: =popupRoles
             Width: =393
             X: =122
