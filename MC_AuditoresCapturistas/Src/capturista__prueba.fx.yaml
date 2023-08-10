@@ -53,15 +53,6 @@ capturista__prueba As screen:
         Y: =17
         ZIndex: =12
 
-        Button10_17 As button:
-            Fill: =RGBA(136, 160, 209, 0.51)
-            Height: =64
-            OnSelect: =Refresh(MesaControl_UserGeneral)
-            Size: =24
-            Text: =""
-            Width: =80
-            ZIndex: =1
-
         Icon3_18 As icon.ChevronLeft:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
@@ -70,6 +61,16 @@ capturista__prueba As screen:
             Width: =50
             X: =15
             Y: =8
+            ZIndex: =1
+
+        Button10_17 As button:
+            Fill: =RGBA(136, 160, 209, 0.51)
+            Height: =64
+            HoverFill: =ColorFade(RGBA(0, 18, 107, 0.5), -0.5%)
+            OnSelect: =Refresh(MesaControl_UserGeneral)
+            Size: =24
+            Text: =""
+            Width: =80
             ZIndex: =2
 
     Label1_10 As label:
@@ -145,9 +146,20 @@ capturista__prueba As screen:
         Y: =17
         ZIndex: =16
 
+        Icon3_17 As icon.ChevronLeft:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =48
+            Icon: =Icon.Leave
+            Width: =50
+            X: =15
+            Y: =8
+            ZIndex: =1
+
         Button10_16 As button:
             Fill: =RGBA(136, 160, 209, 0.51)
             Height: =64
+            HoverFill: =ColorFade(RGBA(0, 18, 107, 0.5), -0.5%)
             OnSelect: |-
                 =Patch(
                     MesaControl_UserGeneral,
@@ -164,16 +176,6 @@ capturista__prueba As screen:
             Size: =24
             Text: =""
             Width: =80
-            ZIndex: =1
-
-        Icon3_17 As icon.ChevronLeft:
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Height: =48
-            Icon: =Icon.Leave
-            Width: =50
-            X: =15
-            Y: =8
             ZIndex: =2
 
     "Gallery1_2 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
