@@ -5,9 +5,9 @@ prueba_AuditorDetalle As screen:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =228
         Width: =640
-        ZIndex: =2
+        ZIndex: =1
 
-    boton_5 As button:
+    boton_10 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
         Fill: =RGBA(255, 255, 255, 1)
         Height: =927
@@ -16,9 +16,9 @@ prueba_AuditorDetalle As screen:
         Size: =24
         Text: =""
         Width: =600
-        X: =20
+        X: =19
         Y: =192
-        ZIndex: =3
+        ZIndex: =2
 
     Label6_2 As label:
         Align: =Align.Center
@@ -29,7 +29,7 @@ prueba_AuditorDetalle As screen:
         Text: ="Mis Zonas"
         Width: =247
         X: =196
-        ZIndex: =4
+        ZIndex: =3
 
     Icon1_3 As icon.Reload:
         Color: =RGBA(255, 255, 255, 1)
@@ -39,7 +39,7 @@ prueba_AuditorDetalle As screen:
         Width: =47
         X: =28
         Y: =18
-        ZIndex: =6
+        ZIndex: =4
 
     Label9_2 As label:
         Align: =Align.Center
@@ -52,7 +52,7 @@ prueba_AuditorDetalle As screen:
         Width: =289
         X: =28
         Y: =275
-        ZIndex: =7
+        ZIndex: =5
 
     Label10_2 As label:
         Align: =Align.Center
@@ -65,7 +65,7 @@ prueba_AuditorDetalle As screen:
         Width: =296
         X: =319
         Y: =275
-        ZIndex: =8
+        ZIndex: =6
 
     zonaLabel_2 As label:
         Align: =Align.Center
@@ -76,7 +76,7 @@ prueba_AuditorDetalle As screen:
         Width: =291
         X: =28
         Y: =337
-        ZIndex: =9
+        ZIndex: =7
 
     mesaControlLabel_2 As label:
         Align: =Align.Center
@@ -87,13 +87,14 @@ prueba_AuditorDetalle As screen:
         Width: =296
         X: =319
         Y: =337
-        ZIndex: =10
+        ZIndex: =8
 
     botón1_1 As button:
         DisplayMode: |-
             =If(
                 Or(
-                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, estatusF4 = "Terminado"),
+                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, Fase = "En Auditoria"),
+                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, Fase = "Esperando Cierre Mesa de Control"),
                     LookUp(MesaControl_UserGeneral, Zona = galeriaAuditores.Selected.Zona, Zona  = "N/A")
                 ),
                 DisplayMode.Disabled,
@@ -134,15 +135,7 @@ prueba_AuditorDetalle As screen:
         Width: =396
         X: =118
         Y: =643
-        ZIndex: =11
-
-    Image1_2 As image:
-        Height: =90
-        Image: =carrier_logo
-        Width: =202
-        X: =219
-        Y: =1046
-        ZIndex: =12
+        ZIndex: =9
 
     botón2_1 As button:
         DisplayMode: |-
@@ -163,7 +156,7 @@ prueba_AuditorDetalle As screen:
         Width: =280
         X: =180
         Y: =753
-        ZIndex: =13
+        ZIndex: =10
 
     Timer2_1 As timer:
         AutoStart: =true
@@ -174,7 +167,34 @@ prueba_AuditorDetalle As screen:
         Width: =183
         X: =457
         Y: =1066
-        ZIndex: =21
+        ZIndex: =13
+
+    Label13 As label:
+        Align: =Align.Center
+        Height: =70
+        Size: =19
+        Text: ="Zonas asignadas"
+        Width: =241
+        X: =196
+        Y: =193
+        ZIndex: =17
+
+    Image7 As image:
+        Height: =226
+        Image: =Audit
+        Width: =260
+        X: =176
+        Y: =424
+        ZIndex: =18
+
+    Arrow1_2 As arrow.backArrow:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =52
+        OnSelect: =Back(ScreenTransition.Fade)
+        Width: =51
+        X: =564
+        Y: =20
+        ZIndex: =19
 
     PopUp_Auditores_1 As group:
         Height: =5
@@ -188,7 +208,7 @@ prueba_AuditorDetalle As screen:
             Height: =1136
             Visible: =ShowPopUpAuditores
             Width: =640
-            ZIndex: =14
+            ZIndex: =20
 
         fondo_blanco_1 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
@@ -197,7 +217,7 @@ prueba_AuditorDetalle As screen:
             Width: =497
             X: =79
             Y: =176
-            ZIndex: =15
+            ZIndex: =21
 
         Label4_1 As label:
             Align: =Align.Center
@@ -208,7 +228,7 @@ prueba_AuditorDetalle As screen:
             Width: =419
             X: =119
             Y: =228
-            ZIndex: =16
+            ZIndex: =22
 
         cancelar_1 As button:
             Fill: =RGBA(168, 0, 0, 1)
@@ -220,7 +240,7 @@ prueba_AuditorDetalle As screen:
             Width: =158
             X: =119
             Y: =383
-            ZIndex: =17
+            ZIndex: =23
 
         aceptar_1 As button:
             Fill: =RGBA(141, 198, 63, 1)
@@ -229,22 +249,21 @@ prueba_AuditorDetalle As screen:
                 =    ///aqui SP
                     AuditoresApp.Run(zonaLabel_2.Text,Text(Now(),"mm-dd-yyyy hh:mm:ss"),Text(Now(),"mm-dd-yyyy hh:mm:ss"),User().Email);
                     Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);
+                    Set(ShowPopUpAuditores,false)
             Size: =24
             Text: ="Aceptar"
             Visible: =ShowPopUpAuditores
             Width: =158
             X: =362
             Y: =383
-            ZIndex: =18
+            ZIndex: =24
 
-    Label13 As label:
-        Align: =Align.Center
-        Height: =70
-        Size: =19
-        Text: ="Zonas asignadas"
-        Width: =241
-        X: =196
-        Y: =193
+    Image1_5 As image:
+        Height: =90
+        Image: =carrier_logo
+        Width: =202
+        X: =219
+        Y: =1029
         ZIndex: =25
 
     Group3 As group:
@@ -263,7 +282,7 @@ prueba_AuditorDetalle As screen:
             Width: =342
             X: =101
             Y: =114
-            ZIndex: =22
+            ZIndex: =14
 
         Image5 As image:
             Height: =86
@@ -271,7 +290,7 @@ prueba_AuditorDetalle As screen:
             Width: =107
             X: =20
             Y: =98
-            ZIndex: =23
+            ZIndex: =15
 
         Label12 As label:
             Color: =RGBA(255, 255, 255, 1)
@@ -282,15 +301,7 @@ prueba_AuditorDetalle As screen:
             Width: =165
             X: =106
             Y: =94
-            ZIndex: =24
-
-    Image7 As image:
-        Height: =226
-        Image: =Audit
-        Width: =260
-        X: =176
-        Y: =424
-        ZIndex: =26
+            ZIndex: =16
 
     Group1 As group:
         Height: =5
@@ -311,9 +322,9 @@ prueba_AuditorDetalle As screen:
             Size: =25
             Text: ="Entrega en"
             Width: =310
-            X: =161
+            X: =164
             Y: =847
-            ZIndex: =19
+            ZIndex: =11
 
         label_entrega_1 As label:
             Align: =Align.Center
@@ -322,16 +333,7 @@ prueba_AuditorDetalle As screen:
             Size: =21
             Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = galeriaAuditores.Selected.Zona,mesaControlValidacionF4)
             Width: =310
-            X: =161
+            X: =164
             Y: =909
-            ZIndex: =20
-
-    Arrow1_2 As arrow.backArrow:
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =52
-        OnSelect: =Back(ScreenTransition.Fade)
-        Width: =51
-        X: =564
-        Y: =20
-        ZIndex: =27
+            ZIndex: =12
 
