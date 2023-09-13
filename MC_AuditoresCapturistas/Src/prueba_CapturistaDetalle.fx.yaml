@@ -199,8 +199,8 @@ prueba_CapturistaDetalle As screen:
         Height: =273
         Image: =diseño3
         Width: =293
-        X: =172
-        Y: =461
+        X: =167
+        Y: =451
         ZIndex: =18
 
     Label9_5 As label:
@@ -348,9 +348,9 @@ prueba_CapturistaDetalle As screen:
     zonaLabel_5 As label:
         Align: =Align.Center
         BorderThickness: =0.5
-        Height: =54
+        Height: =62
         Size: =21
-        Text: =LookUp(MesaControl_Request, no_Zona = galeriaCapturistas.Selected.Zona,mesaControlValidacionF4)
+        Text: ="Mesa " & LookUp(MesaControl_Request, no_Zona = galeriaCapturistas.Selected.Zona,mesaControlValidacionF4)
         Width: =292
         X: =174
         Y: =965
