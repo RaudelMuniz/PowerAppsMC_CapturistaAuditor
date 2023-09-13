@@ -3,6 +3,7 @@ prueba_CapturistaDetalle As screen:
 
     boton_8 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
+        DisplayMode: =DisplayMode.View
         Fill: =RGBA(255, 255, 255, 1)
         Height: =636
         HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
@@ -51,7 +52,7 @@ prueba_CapturistaDetalle As screen:
                 DisplayMode.Disabled,
                 DisplayMode.Edit
             )
-        Height: =131
+        Height: =78
         OnSelect: |-
             =Patch(
                     MesaControl_UserGeneral,
@@ -81,17 +82,17 @@ prueba_CapturistaDetalle As screen:
             Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         Size: =24
         Text: ="Iniciar Captura"
-        Width: =396
-        X: =122
-        Y: =761
+        Width: =354
+        X: =143
+        Y: =724
         ZIndex: =5
 
     Image1_3 As image:
-        Height: =90
+        Height: =78
         Image: =carrier_logo
-        Width: =202
-        X: =219
-        Y: =1029
+        Width: =160
+        X: =238
+        Y: =1041
         ZIndex: =6
 
     Button4_1 As button:
@@ -110,7 +111,7 @@ prueba_CapturistaDetalle As screen:
         Text: ="Capturado"
         Width: =280
         X: =180
-        Y: =912
+        Y: =823
         ZIndex: =7
 
     Arrow1_1 As arrow.backArrow:
@@ -124,6 +125,7 @@ prueba_CapturistaDetalle As screen:
 
     boton_7 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
+        DisplayMode: =DisplayMode.View
         Fill: =RGBA(255, 255, 255, 1)
         Height: =268
         HoverBorderColor: =ColorFade(Self.BorderColor, 0%)
@@ -137,12 +139,12 @@ prueba_CapturistaDetalle As screen:
 
     Label13_1 As label:
         Align: =Align.Center
-        Height: =70
+        Height: =55
         Size: =19
         Text: ="Zonas asignadas"
         Width: =241
         X: =196
-        Y: =193
+        Y: =202
         ZIndex: =13
 
     Label9_3 As label:
@@ -150,12 +152,12 @@ prueba_CapturistaDetalle As screen:
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(0, 18, 107, 1)
         FontWeight: =FontWeight.Bold
-        Height: =62
+        Height: =49
         Size: =25
         Text: ="Zona"
         Width: =292
         X: =25
-        Y: =275
+        Y: =284
         ZIndex: =14
 
     Label10_3 As label:
@@ -163,43 +165,56 @@ prueba_CapturistaDetalle As screen:
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(0, 18, 107, 1)
         FontWeight: =FontWeight.Bold
-        Height: =62
+        Height: =49
         Size: =25
         Text: ="Mesa Control"
         Width: =298
         X: =317
-        Y: =275
+        Y: =284
         ZIndex: =15
 
     zonaLabel_3 As label:
         Align: =Align.Center
         BorderThickness: =0.5
-        Height: =83
+        Height: =63
         Size: =21
         Text: =galeriaCapturistas.Selected.Zona
         Width: =292
         X: =25
-        Y: =337
+        Y: =333
         ZIndex: =16
 
     mesaControlLabel_3 As label:
         Align: =Align.Center
         BorderThickness: =0.5
-        Height: =83
+        Height: =63
         Size: =21
         Text: =galeriaCapturistas.Selected.mesaControl
         Width: =298
         X: =317
-        Y: =337
+        Y: =333
         ZIndex: =17
 
     Image4 As image:
-        Height: =338
+        Height: =273
         Image: =diseño3
-        Width: =345
-        X: =144
-        Y: =453
+        Width: =293
+        X: =172
+        Y: =461
         ZIndex: =18
+
+    Label9_5 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(0, 18, 107, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =49
+        Size: =25
+        Text: ="Entrega En"
+        Width: =292
+        X: =174
+        Y: =916
+        ZIndex: =26
 
     popup_1 As group:
         Height: =5
@@ -291,7 +306,7 @@ prueba_CapturistaDetalle As screen:
             Width: =201
             X: =104
             Y: =387
-            ZIndex: =23
+            ZIndex: =25
 
     Group3_1 As group:
         Height: =5
@@ -329,4 +344,15 @@ prueba_CapturistaDetalle As screen:
             X: =109
             Y: =93
             ZIndex: =11
+
+    zonaLabel_5 As label:
+        Align: =Align.Center
+        BorderThickness: =0.5
+        Height: =54
+        Size: =21
+        Text: =LookUp(MesaControl_Request, no_Zona = galeriaCapturistas.Selected.Zona,mesaControlValidacionF4)
+        Width: =292
+        X: =174
+        Y: =965
+        ZIndex: =27
 

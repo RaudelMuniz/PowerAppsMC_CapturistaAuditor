@@ -232,7 +232,7 @@ auditor__prueba As screen:
                         Disponible: "No"
                     }
                 );
-                Back(ScreenTransition.Fade)
+                Navigate(Inicio,ScreenTransition.Fade)
             Size: =24
             Text: =""
             Width: =80
