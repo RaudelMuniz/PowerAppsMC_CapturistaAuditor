@@ -6,10 +6,9 @@
       "displayName": "SQL Server",
       "executionRestrictions": {
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
-        "apiVer": 2,
         "appVer": "3.23093.15",
-        "modifiedOn": "2023-09-29 20:35:04",
-        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[mesacontrol_usergeneral]\":[\"post\",\"patch\",\"get\"],\"[dbo].[mesacontrol_request]\":[\"post\",\"patch\",\"get\"]}}",
+        "modifiedOn": "2023-09-29 21:23:18",
+        "policy": "{\"type\":\"unused\"}",
         "version": 1
       },
       "gatewayObjectIdHint": "217359fc-552c-470d-bcb6-5f7d514806f1",
