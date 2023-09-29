@@ -156,7 +156,7 @@ prueba_AuditorDetalle As screen:
         Width: =280
         X: =180
         Y: =753
-        ZIndex: =10
+        ZIndex: =11
 
     Timer2_1 As timer:
         AutoStart: =true
@@ -196,6 +196,14 @@ prueba_AuditorDetalle As screen:
         Y: =20
         ZIndex: =19
 
+    Image1_5 As image:
+        Height: =90
+        Image: =carrier_logo
+        Width: =202
+        X: =219
+        Y: =1029
+        ZIndex: =20
+
     PopUp_Auditores_1 As group:
         Height: =5
         Width: =5
@@ -208,7 +216,7 @@ prueba_AuditorDetalle As screen:
             Height: =1136
             Visible: =ShowPopUpAuditores
             Width: =640
-            ZIndex: =20
+            ZIndex: =21
 
         fondo_blanco_1 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
@@ -217,7 +225,7 @@ prueba_AuditorDetalle As screen:
             Width: =497
             X: =79
             Y: =176
-            ZIndex: =21
+            ZIndex: =22
 
         Label4_1 As label:
             Align: =Align.Center
@@ -228,7 +236,7 @@ prueba_AuditorDetalle As screen:
             Width: =419
             X: =119
             Y: =228
-            ZIndex: =22
+            ZIndex: =23
 
         cancelar_1 As button:
             Fill: =RGBA(168, 0, 0, 1)
@@ -240,7 +248,7 @@ prueba_AuditorDetalle As screen:
             Width: =158
             X: =119
             Y: =383
-            ZIndex: =23
+            ZIndex: =24
 
         aceptar_1 As button:
             Fill: =RGBA(141, 198, 63, 1)
@@ -256,15 +264,7 @@ prueba_AuditorDetalle As screen:
             Width: =158
             X: =362
             Y: =383
-            ZIndex: =24
-
-    Image1_5 As image:
-        Height: =90
-        Image: =carrier_logo
-        Width: =202
-        X: =219
-        Y: =1029
-        ZIndex: =25
+            ZIndex: =25
 
     Group3 As group:
         Height: =5
@@ -324,7 +324,7 @@ prueba_AuditorDetalle As screen:
             Width: =310
             X: =164
             Y: =847
-            ZIndex: =11
+            ZIndex: =10
 
         label_entrega_1 As label:
             Align: =Align.Center

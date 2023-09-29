@@ -7,8 +7,8 @@
       "executionRestrictions": {
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
-        "appVer": "3.23084.14",
-        "modifiedOn": "2023-09-13 20:15:09",
+        "appVer": "3.23093.15",
+        "modifiedOn": "2023-09-29 20:35:04",
         "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[mesacontrol_usergeneral]\":[\"post\",\"patch\",\"get\"],\"[dbo].[mesacontrol_request]\":[\"post\",\"patch\",\"get\"]}}",
         "version": 1
       },
