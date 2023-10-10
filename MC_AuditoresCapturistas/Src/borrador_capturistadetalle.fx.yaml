@@ -106,7 +106,7 @@ borrador_capturistadetalle As screen:
                 DisplayMode.Edit
             )
         Height: =70
-        OnSelect: =Set(ShowPop,true)
+        OnSelect: =Set(ShowPop,true);Set(varCarga2,true);Set(varTimer2,true)
         Size: =24
         Text: ="Capturado"
         Width: =280
@@ -229,7 +229,7 @@ borrador_capturistadetalle As screen:
 
     Timer5 As timer:
         AutoStart: =varTimer
-        Duration: =6000
+        Duration: =5000
         Height: =70
         OnTimerEnd: =Set(varCarga,false)
         Visible: =false
@@ -376,4 +376,25 @@ borrador_capturistadetalle As screen:
         X: =20
         Y: =396
         ZIndex: =27
+
+    Timer6 As timer:
+        AutoStart: =varTimer2
+        Duration: =6000
+        Height: =70
+        OnTimerEnd: =Set(varCarga2,false)
+        Visible: =false
+        Width: =280
+        X: =25
+        Y: =957
+        ZIndex: =28
+
+    Image15 As image:
+        Height: =507
+        Image: =loading
+        ImagePosition: =ImagePosition.Fill
+        Visible: =varCarga2
+        Width: =600
+        X: =20
+        Y: =409
+        ZIndex: =29
 
