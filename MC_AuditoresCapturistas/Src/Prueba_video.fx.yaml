@@ -1,13 +1,13 @@
 Prueba_video As screen:
+    Fill: =RGBA(241, 244, 249, 0.39)
 
     Image9 As image:
-        Height: =718
+        Height: =684
         Image: =loading
         ImagePosition: =ImagePosition.Fill
         Visible: =varCarga
-        Width: =483
-        X: =78
-        Y: =200
+        Width: =640
+        Y: =234
         ZIndex: =1
 
     Button3 As button:
