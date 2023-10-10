@@ -371,6 +371,7 @@ borrador_auditordetalle As screen:
 
     Timer8 As timer:
         AutoStart: =varTimer2
+        Duration: =6000
         Height: =70
         OnTimerEnd: =Set(varCarga2,false)
         Visible: =false
