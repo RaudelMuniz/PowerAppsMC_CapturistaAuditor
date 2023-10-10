@@ -106,7 +106,7 @@ borrador_capturistadetalle As screen:
                 DisplayMode.Edit
             )
         Height: =70
-        OnSelect: =Set(ShowPop,true);Set(varCarga2,true);Set(varTimer2,true)
+        OnSelect: =Set(ShowPop,true)
         Size: =24
         Text: ="Capturado"
         Width: =280
@@ -301,7 +301,7 @@ borrador_capturistadetalle As screen:
                             Zona = zonaLabel.Text
                         ),
                         {EnProceso: "No"}
-                    );Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request);Set(ShowPop,false);Set(varCarga,true);Set(varTimer,true)
+                    );Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request);Set(ShowPop,false);Set(varCarga2,true);Set(varTimer2,true)
             PressedColor: =RGBA(0, 0, 0, 1)
             PressedFill: =ColorFade(Self.BorderColor, 20%)
             Size: =24
