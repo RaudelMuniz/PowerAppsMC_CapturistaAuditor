@@ -281,8 +281,7 @@ borrador_capturistadetalle As screen:
             HoverColor: =RGBA(0, 0, 0, 1)
             HoverFill: =ColorFade(Self.BorderColor, 20%)
             OnSelect: |-
-                =Set(varCarga2,true);Set(varTimer2,true);
-                Patch(
+                =Patch(
                         MesaControl_Request,
                         LookUp(
                             MesaControl_Request,
@@ -296,6 +295,7 @@ borrador_capturistadetalle As screen:
                             Fase: "Esperando Validación Mesa de Control"
                         }
                     );
+                    Set(varCarga2,true);Set(varTimer2,true);
                     Patch(
                         MesaControl_UserGeneral,
                         LookUp(
