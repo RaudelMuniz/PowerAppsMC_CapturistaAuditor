@@ -349,7 +349,7 @@ borrador_auditordetalle As screen:
 
     Timer4 As timer:
         AutoStart: =varTimer
-        Duration: =10000
+        Duration: =5000
         Height: =70
         OnTimerEnd: =Set(varCarga,false);Navigate(borrador_auditordetalle, ScreenTransition.Fade)
         Visible: =false
