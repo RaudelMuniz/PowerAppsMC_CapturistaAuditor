@@ -1,4 +1,4 @@
-borrador_auditordetalle As screen:
+gif_AuditorDetalle As screen:
     Fill: =RGBA(202, 202, 202, 1)
 
     Rectangle3_5 As rectangle:
@@ -353,7 +353,7 @@ borrador_auditordetalle As screen:
         AutoStart: =varTimer
         Duration: =8000
         Height: =70
-        OnTimerEnd: =Set(varCarga,false);Navigate(borrador_auditordetalle, ScreenTransition.Fade)
+        OnTimerEnd: =Set(varCarga,false);Navigate(gif_AuditorDetalle, ScreenTransition.Fade)
         Visible: =false
         Width: =280
         X: =360

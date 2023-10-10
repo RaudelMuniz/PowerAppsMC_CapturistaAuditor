@@ -912,19 +912,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.Icon1_5.AccessibleLabel"
+                  "fullyQualifiedName": "gif_AuditorDetalle.Icon1_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.Icon1_5.AccessibleLabel",
+                  "fullyQualifiedName": "gif_AuditorDetalle.Icon1_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.Icon1_5"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.Icon1_5"
               }
             }
           ],
@@ -942,19 +942,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.Icon1_5.TabIndex"
+                  "fullyQualifiedName": "gif_AuditorDetalle.Icon1_5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.Icon1_5.TabIndex",
+                  "fullyQualifiedName": "gif_AuditorDetalle.Icon1_5.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.Icon1_5"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.Icon1_5"
               }
             }
           ],
@@ -972,19 +972,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.Arrow1_3.AccessibleLabel"
+                  "fullyQualifiedName": "gif_AuditorDetalle.Arrow1_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.Arrow1_3.AccessibleLabel",
+                  "fullyQualifiedName": "gif_AuditorDetalle.Arrow1_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.Arrow1_3"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.Arrow1_3"
               }
             }
           ],
@@ -1002,19 +1002,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.Arrow1_3.TabIndex"
+                  "fullyQualifiedName": "gif_AuditorDetalle.Arrow1_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.Arrow1_3.TabIndex",
+                  "fullyQualifiedName": "gif_AuditorDetalle.Arrow1_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.Arrow1_3"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.Arrow1_3"
               }
             }
           ],
@@ -1032,19 +1032,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Icon1_6.AccessibleLabel"
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Icon1_6.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Icon1_6.AccessibleLabel",
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Icon1_6.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "borrador_capturistadetalle",
-                "type": "borrador_capturistadetalle.Icon1_6"
+                "module": "gif_CapturistaDetalle",
+                "type": "gif_CapturistaDetalle.Icon1_6"
               }
             }
           ],
@@ -1062,19 +1062,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Icon1_6.TabIndex"
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Icon1_6.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Icon1_6.TabIndex",
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Icon1_6.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "borrador_capturistadetalle",
-                "type": "borrador_capturistadetalle.Icon1_6"
+                "module": "gif_CapturistaDetalle",
+                "type": "gif_CapturistaDetalle.Icon1_6"
               }
             }
           ],
@@ -1092,19 +1092,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Arrow1_4.AccessibleLabel"
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Arrow1_4.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Arrow1_4.AccessibleLabel",
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Arrow1_4.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "borrador_capturistadetalle",
-                "type": "borrador_capturistadetalle.Arrow1_4"
+                "module": "gif_CapturistaDetalle",
+                "type": "gif_CapturistaDetalle.Arrow1_4"
               }
             }
           ],
@@ -1122,19 +1122,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Arrow1_4.TabIndex"
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Arrow1_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Arrow1_4.TabIndex",
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Arrow1_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "borrador_capturistadetalle",
-                "type": "borrador_capturistadetalle.Arrow1_4"
+                "module": "gif_CapturistaDetalle",
+                "type": "gif_CapturistaDetalle.Arrow1_4"
               }
             }
           ],
@@ -1152,19 +1152,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.Image16.AccessibleLabel"
+                  "fullyQualifiedName": "gif_AuditorDetalle.Image16.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.Image16.AccessibleLabel",
+                  "fullyQualifiedName": "gif_AuditorDetalle.Image16.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.Image16"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.Image16"
               }
             }
           ],
@@ -1182,19 +1182,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.Image16.TabIndex"
+                  "fullyQualifiedName": "gif_AuditorDetalle.Image16.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.Image16.TabIndex",
+                  "fullyQualifiedName": "gif_AuditorDetalle.Image16.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.Image16"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.Image16"
               }
             }
           ],
@@ -1632,19 +1632,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.zonaLabel_4.Text"
+                  "fullyQualifiedName": "gif_AuditorDetalle.zonaLabel_4.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.zonaLabel_4.Text",
+                  "fullyQualifiedName": "gif_AuditorDetalle.zonaLabel_4.Text",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Text",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.zonaLabel_4"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.zonaLabel_4"
               }
             }
           ],
@@ -1662,19 +1662,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.mesaControlLabel_4.Text"
+                  "fullyQualifiedName": "gif_AuditorDetalle.mesaControlLabel_4.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.mesaControlLabel_4.Text",
+                  "fullyQualifiedName": "gif_AuditorDetalle.mesaControlLabel_4.Text",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Text",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.mesaControlLabel_4"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.mesaControlLabel_4"
               }
             }
           ],
@@ -1692,19 +1692,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.botón2_2.DisplayMode"
+                  "fullyQualifiedName": "gif_AuditorDetalle.botón2_2.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.botón2_2.DisplayMode",
+                  "fullyQualifiedName": "gif_AuditorDetalle.botón2_2.DisplayMode",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "DisplayMode",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.botón2_2"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.botón2_2"
               }
             }
           ],
@@ -1722,19 +1722,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.botón1_2.DisplayMode"
+                  "fullyQualifiedName": "gif_AuditorDetalle.botón1_2.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.botón1_2.DisplayMode",
+                  "fullyQualifiedName": "gif_AuditorDetalle.botón1_2.DisplayMode",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "DisplayMode",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.botón1_2"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.botón1_2"
               }
             }
           ],
@@ -1752,19 +1752,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_auditordetalle.label_entrega_2.Text"
+                  "fullyQualifiedName": "gif_AuditorDetalle.label_entrega_2.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_auditordetalle.label_entrega_2.Text",
+                  "fullyQualifiedName": "gif_AuditorDetalle.label_entrega_2.Text",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Text",
-                "module": "borrador_auditordetalle",
-                "type": "borrador_auditordetalle.label_entrega_2"
+                "module": "gif_AuditorDetalle",
+                "type": "gif_AuditorDetalle.label_entrega_2"
               }
             }
           ],
@@ -2232,19 +2232,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_capturistadetalle.zonaLabel_6.Text"
+                  "fullyQualifiedName": "gif_CapturistaDetalle.zonaLabel_6.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_capturistadetalle.zonaLabel_6.Text",
+                  "fullyQualifiedName": "gif_CapturistaDetalle.zonaLabel_6.Text",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Text",
-                "module": "borrador_capturistadetalle",
-                "type": "borrador_capturistadetalle.zonaLabel_6"
+                "module": "gif_CapturistaDetalle",
+                "type": "gif_CapturistaDetalle.zonaLabel_6"
               }
             }
           ],
@@ -2262,19 +2262,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_capturistadetalle.mesaControlLabel_5.Text"
+                  "fullyQualifiedName": "gif_CapturistaDetalle.mesaControlLabel_5.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_capturistadetalle.mesaControlLabel_5.Text",
+                  "fullyQualifiedName": "gif_CapturistaDetalle.mesaControlLabel_5.Text",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Text",
-                "module": "borrador_capturistadetalle",
-                "type": "borrador_capturistadetalle.mesaControlLabel_5"
+                "module": "gif_CapturistaDetalle",
+                "type": "gif_CapturistaDetalle.mesaControlLabel_5"
               }
             }
           ],
@@ -2292,19 +2292,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Button3_3.DisplayMode"
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Button3_3.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Button3_3.DisplayMode",
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Button3_3.DisplayMode",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "DisplayMode",
-                "module": "borrador_capturistadetalle",
-                "type": "borrador_capturistadetalle.Button3_3"
+                "module": "gif_CapturistaDetalle",
+                "type": "gif_CapturistaDetalle.Button3_3"
               }
             }
           ],
@@ -2322,19 +2322,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Button4_2.DisplayMode"
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Button4_2.DisplayMode"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_capturistadetalle.Button4_2.DisplayMode",
+                  "fullyQualifiedName": "gif_CapturistaDetalle.Button4_2.DisplayMode",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "DisplayMode",
-                "module": "borrador_capturistadetalle",
-                "type": "borrador_capturistadetalle.Button4_2"
+                "module": "gif_CapturistaDetalle",
+                "type": "gif_CapturistaDetalle.Button4_2"
               }
             }
           ],
@@ -2352,19 +2352,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "borrador_capturistadetalle.zonaLabel_7.Text"
+                  "fullyQualifiedName": "gif_CapturistaDetalle.zonaLabel_7.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "borrador_capturistadetalle.zonaLabel_7.Text",
+                  "fullyQualifiedName": "gif_CapturistaDetalle.zonaLabel_7.Text",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "Text",
-                "module": "borrador_capturistadetalle",
-                "type": "borrador_capturistadetalle.zonaLabel_7"
+                "module": "gif_CapturistaDetalle",
+                "type": "gif_CapturistaDetalle.zonaLabel_7"
               }
             }
           ],

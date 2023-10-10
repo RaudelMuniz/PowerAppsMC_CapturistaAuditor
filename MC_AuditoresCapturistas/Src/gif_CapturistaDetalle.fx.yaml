@@ -1,4 +1,4 @@
-borrador_capturistadetalle As screen:
+gif_CapturistaDetalle As screen:
     Fill: =RGBA(202, 202, 202, 1)
 
     Timer6 As timer:

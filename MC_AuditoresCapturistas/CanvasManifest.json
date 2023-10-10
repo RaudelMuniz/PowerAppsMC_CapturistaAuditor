@@ -135,17 +135,17 @@
     "Inicio",
     "auditor__prueba",
     "capturista__prueba",
-    "prueba_AuditorDetalle",
-    "prueba_CapturistaDetalle",
+    "gif_AuditorDetalle",
+    "gif_CapturistaDetalle",
     "Screen1",
     "auditor",
     "capturista",
     "AuditorDetalle",
     "CapturistaDetalle",
     "Success Screen",
-    "borrador_capturistadetalle",
-    "borrador_auditordetalle",
     "Prueba_video",
-    "Screen2"
+    "Screen2",
+    "prueba_AuditorDetalle",
+    "prueba_CapturistaDetalle"
   ]
 }
