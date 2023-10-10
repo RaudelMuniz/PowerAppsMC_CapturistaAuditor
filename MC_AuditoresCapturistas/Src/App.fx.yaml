@@ -1,5 +1,6 @@
 App As appinfo:
     BackEnabled: =false
+    OnStart: =Set(varCarga,false);Set(varTimer,false)
     StartScreen: =Inicio
     Theme: =PowerAppsTheme
 

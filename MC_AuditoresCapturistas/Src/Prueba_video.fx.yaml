@@ -3,12 +3,13 @@ Prueba_video As screen:
     Image9 As image:
         Height: =1136
         Image: =loading
+        Visible: =varCarga
         Width: =640
         ZIndex: =1
 
     Button3 As button:
         Height: =70
-        OnSelect: =Set(varCarga,true)
+        OnSelect: =Set(varCarga,true);Set(varTimer,true)
         Size: =24
         Text: |-
             ="Accesar
@@ -17,4 +18,15 @@ Prueba_video As screen:
         X: =180
         Y: =764
         ZIndex: =2
+
+    Timer3 As timer:
+        AutoStart: =varTimer
+        Duration: =5000
+        Height: =70
+        OnTimerEnd: =Set(varCarga,false);Navigate(Screen2, ScreenTransition.Fade)
+        Visible: =false
+        Width: =280
+        X: =180
+        Y: =994
+        ZIndex: =3
 
