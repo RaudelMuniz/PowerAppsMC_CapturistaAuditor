@@ -151,7 +151,7 @@ borrador_auditordetalle As screen:
             )
         Fill: =RGBA(39, 67, 125, 1)
         Height: =70
-        OnSelect: =Set(ShowPopUpAuditores,true);Set(varTimer2,true);Set(varCarga2,true);
+        OnSelect: =Set(ShowPopUpAuditores,true)
         Size: =24
         Text: ="Auditado"
         Width: =280
@@ -257,8 +257,8 @@ borrador_auditordetalle As screen:
             OnSelect: |-
                 =    ///aqui SP
                     AuditoresApp.Run(zonaLabel_4.Text,Text(Now(),"mm-dd-yyyy hh:mm:ss"),Text(Now(),"mm-dd-yyyy hh:mm:ss"),User().Email);
-                    Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);
-                    Set(ShowPopUpAuditores,false);Set(varCarga,true);Set(varTimer,true)
+                    Set(varTimer2,true);Set(varCarga2,true);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);
+                    Set(ShowPopUpAuditores,false)
             Size: =24
             Text: ="Aceptar"
             Visible: =ShowPopUpAuditores
