@@ -79,7 +79,7 @@ borrador_capturistadetalle As screen:
                     Fase:"En Captura"
                 }
             );
-            Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+            Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);Set(varCarga,true);Set(varTimer,true)
         Size: =24
         Text: ="Iniciar Captura"
         Width: =354
@@ -227,6 +227,17 @@ borrador_capturistadetalle As screen:
         Y: =916
         ZIndex: =20
 
+    Timer5 As timer:
+        AutoStart: =varTimer
+        Duration: =6000
+        Height: =70
+        OnTimerEnd: =Set(varCarga,false)
+        Visible: =false
+        Width: =280
+        X: =360
+        Y: =107
+        ZIndex: =26
+
     popup_2 As group:
         Height: =5
         Width: =5
@@ -355,4 +366,14 @@ borrador_capturistadetalle As screen:
             X: =109
             Y: =93
             ZIndex: =11
+
+    Image12_2 As image:
+        Height: =520
+        Image: =loading
+        ImagePosition: =ImagePosition.Fill
+        Visible: =varCarga
+        Width: =600
+        X: =20
+        Y: =396
+        ZIndex: =27
 
