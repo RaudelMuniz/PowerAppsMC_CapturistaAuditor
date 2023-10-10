@@ -353,6 +353,7 @@ borrador_auditordetalle As screen:
         Duration: =7000
         Height: =70
         OnTimerEnd: =Set(varCarga,false);Navigate(borrador_auditordetalle, ScreenTransition.Fade)
+        Visible: =false
         Width: =280
         X: =360
         Y: =228
@@ -374,6 +375,7 @@ borrador_auditordetalle As screen:
         Duration: =5000
         Height: =70
         OnTimerEnd: =Set(varCarga2,false)
+        Visible: =false
         Width: =280
         X: =28
         Y: =996
