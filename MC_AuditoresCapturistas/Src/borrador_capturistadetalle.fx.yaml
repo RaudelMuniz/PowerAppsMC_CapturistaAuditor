@@ -231,7 +231,7 @@ borrador_capturistadetalle As screen:
         AutoStart: =varTimer
         Duration: =8000
         Height: =70
-        OnTimerEnd: =Set(varCarga,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+        OnTimerEnd: =Set(varCarga,false);Set(varTimer,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         OnTimerStart: =Set(varCarga,true)
         Width: =280
         X: =360
@@ -383,7 +383,7 @@ borrador_capturistadetalle As screen:
         AutoStart: =varTimer2
         Duration: =6000
         Height: =70
-        OnTimerEnd: =Set(varCarga2,false);Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request)
+        OnTimerEnd: =Set(varCarga2,false);Set(varTimer2,false);Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request)
         OnTimerStart: =Set(varCarga2,true)
         Width: =280
         X: =25
