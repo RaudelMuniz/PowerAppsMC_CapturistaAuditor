@@ -295,7 +295,6 @@ borrador_capturistadetalle As screen:
                             Fase: "Esperando Validación Mesa de Control"
                         }
                     );
-                    Set(varCarga2,true);Set(varTimer2,true);
                     Patch(
                         MesaControl_UserGeneral,
                         LookUp(
@@ -303,7 +302,7 @@ borrador_capturistadetalle As screen:
                             Zona = zonaLabel.Text
                         ),
                         {EnProceso: "No"}
-                    );Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request);Set(ShowPop,false)
+                    );Set(varCarga2,true);Set(varTimer2,true);Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request);Set(ShowPop,false)
             PressedColor: =RGBA(0, 0, 0, 1)
             PressedFill: =ColorFade(Self.BorderColor, 20%)
             Size: =24
