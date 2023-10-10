@@ -255,10 +255,11 @@ borrador_auditordetalle As screen:
             Fill: =RGBA(141, 198, 63, 1)
             Height: =77
             OnSelect: |-
-                =    ///aqui SP
+                =    ///aqui SP   
                     AuditoresApp.Run(zonaLabel_4.Text,Text(Now(),"mm-dd-yyyy hh:mm:ss"),Text(Now(),"mm-dd-yyyy hh:mm:ss"),User().Email);
-                    Set(varTimer2,true);Set(varCarga2,true);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);
-                    Set(ShowPopUpAuditores,false)
+                    Set(varTimer2,true);Set(varCarga2,true);
+                    Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);Set(ShowPopUpAuditores,false);
+                    
             Size: =24
             Text: ="Aceptar"
             Visible: =ShowPopUpAuditores
@@ -349,10 +350,9 @@ borrador_auditordetalle As screen:
 
     Timer4 As timer:
         AutoStart: =varTimer
-        Duration: =5000
+        Duration: =7000
         Height: =70
         OnTimerEnd: =Set(varCarga,false);Navigate(borrador_auditordetalle, ScreenTransition.Fade)
-        Visible: =false
         Width: =280
         X: =360
         Y: =228
@@ -371,10 +371,9 @@ borrador_auditordetalle As screen:
 
     Timer8 As timer:
         AutoStart: =varTimer2
-        Duration: =6000
+        Duration: =5000
         Height: =70
         OnTimerEnd: =Set(varCarga2,false)
-        Visible: =false
         Width: =280
         X: =28
         Y: =996
