@@ -257,8 +257,8 @@ borrador_auditordetalle As screen:
             OnSelect: |-
                 =    ///aqui SP   
                     AuditoresApp.Run(zonaLabel_4.Text,Text(Now(),"mm-dd-yyyy hh:mm:ss"),Text(Now(),"mm-dd-yyyy hh:mm:ss"),User().Email);
-                    Set(varTimer2,true);Set(varCarga2,true);
-                    Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);Set(ShowPopUpAuditores,false);
+                    Set(ShowPopUpAuditores,false);Set(varTimer2,true);Set(varCarga2,true);
+                    Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
                     
             Size: =24
             Text: ="Aceptar"
