@@ -301,7 +301,7 @@ borrador_capturistadetalle As screen:
                             Zona = zonaLabel.Text
                         ),
                         {EnProceso: "No"}
-                    );Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request);Navigate(capturista__prueba,ScreenTransition.Fade);Set(ShowPop,false)
+                    );Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request);Set(ShowPop,false);Set(varCarga,true);Set(varTimer,true)
             PressedColor: =RGBA(0, 0, 0, 1)
             PressedFill: =ColorFade(Self.BorderColor, 20%)
             Size: =24
