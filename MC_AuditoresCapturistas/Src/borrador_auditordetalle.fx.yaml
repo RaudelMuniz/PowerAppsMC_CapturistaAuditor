@@ -303,12 +303,6 @@ borrador_auditordetalle As screen:
             Y: =94
             ZIndex: =16
 
-    Rectangle13 As rectangle:
-        Fill: =RGBA(252, 252, 252, 0.76)
-        Height: =1136
-        Width: =640
-        ZIndex: =26
-
     Group1_1 As group:
         Height: =5
         Width: =5
@@ -344,11 +338,11 @@ borrador_auditordetalle As screen:
             ZIndex: =12
 
     Image12 As image:
-        Height: =524
+        Height: =423
         Image: =loading
-        Transparency: =0.1
-        Width: =512
-        X: =71
-        Y: =293
+        ImagePosition: =ImagePosition.Fill
+        Width: =587
+        X: =28
+        Y: =420
         ZIndex: =27
 
