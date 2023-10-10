@@ -129,7 +129,7 @@ borrador_auditordetalle As screen:
                     Fase:"En Auditoria"
                 }
             );
-            Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+            Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);Set(varCarga,true);Set(varTimer,true)
         Size: =24
         Text: ="Iniciar Auditoría"
         Width: =396
@@ -303,6 +303,15 @@ borrador_auditordetalle As screen:
             Y: =94
             ZIndex: =16
 
+    Image14 As image:
+        Height: =320
+        Image: =loading
+        Visible: =varCarga
+        Width: =320
+        X: =156
+        Y: =438
+        ZIndex: =26
+
     Group1_1 As group:
         Height: =5
         Width: =5
@@ -337,12 +346,13 @@ borrador_auditordetalle As screen:
             Y: =909
             ZIndex: =12
 
-    Image12 As image:
-        Height: =423
-        Image: =loading
-        ImagePosition: =ImagePosition.Fill
-        Width: =587
-        X: =28
-        Y: =420
+    Timer4 As timer:
+        AutoStart: =varTimer
+        Duration: =5000
+        Height: =70
+        OnTimerEnd: =Set(varCarga,false);Navigate(borrador_auditordetalle, ScreenTransition.Fade)
+        Width: =280
+        X: =20
+        Y: =986
         ZIndex: =27
 
