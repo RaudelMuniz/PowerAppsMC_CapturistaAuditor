@@ -233,7 +233,6 @@ borrador_capturistadetalle As screen:
         Duration: =6000
         Height: =70
         OnTimerEnd: =Set(varCarga,false)
-        Visible: =false
         Width: =280
         X: =360
         Y: =107
@@ -281,7 +280,9 @@ borrador_capturistadetalle As screen:
             HoverColor: =RGBA(0, 0, 0, 1)
             HoverFill: =ColorFade(Self.BorderColor, 20%)
             OnSelect: |-
-                =Patch(
+                =Set(ShowPop,false);
+                Set(varTimer2,true);Set(varCarga2,true);
+                Patch(
                         MesaControl_Request,
                         LookUp(
                             MesaControl_Request,
@@ -302,7 +303,7 @@ borrador_capturistadetalle As screen:
                             Zona = zonaLabel.Text
                         ),
                         {EnProceso: "No"}
-                    );Set(varTimer2,true);Set(varCarga2,true);Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request);Set(ShowPop,false)
+                    );Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request)
             PressedColor: =RGBA(0, 0, 0, 1)
             PressedFill: =ColorFade(Self.BorderColor, 20%)
             Size: =24
@@ -383,7 +384,6 @@ borrador_capturistadetalle As screen:
         Duration: =6000
         Height: =70
         OnTimerEnd: =Set(varCarga2,false)
-        Visible: =false
         Width: =280
         X: =25
         Y: =957
