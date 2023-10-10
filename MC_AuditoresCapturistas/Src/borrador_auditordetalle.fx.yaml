@@ -257,7 +257,7 @@ borrador_auditordetalle As screen:
                 =    ///aqui SP
                     AuditoresApp.Run(zonaLabel_4.Text,Text(Now(),"mm-dd-yyyy hh:mm:ss"),Text(Now(),"mm-dd-yyyy hh:mm:ss"),User().Email);
                     Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);
-                    Set(ShowPopUpAuditores,false)
+                    Set(ShowPopUpAuditores,false);Set(varCarga,true);Set(varTimer,true)
             Size: =24
             Text: ="Aceptar"
             Visible: =ShowPopUpAuditores
@@ -304,12 +304,12 @@ borrador_auditordetalle As screen:
             ZIndex: =16
 
     Image14 As image:
-        Height: =320
+        Height: =423
         Image: =loading
         Visible: =varCarga
-        Width: =320
-        X: =156
-        Y: =438
+        Width: =587
+        X: =28
+        Y: =424
         ZIndex: =26
 
     Group1_1 As group:
@@ -348,9 +348,10 @@ borrador_auditordetalle As screen:
 
     Timer4 As timer:
         AutoStart: =varTimer
-        Duration: =5000
+        Duration: =10000
         Height: =70
         OnTimerEnd: =Set(varCarga,false);Navigate(borrador_auditordetalle, ScreenTransition.Fade)
+        Visible: =false
         Width: =280
         X: =20
         Y: =986
