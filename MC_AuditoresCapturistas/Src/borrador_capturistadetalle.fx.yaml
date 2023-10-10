@@ -1,6 +1,28 @@
 borrador_capturistadetalle As screen:
     Fill: =RGBA(202, 202, 202, 1)
 
+    Timer6 As timer:
+        AutoStart: =varTimer2
+        Duration: =6000
+        Height: =70
+        OnTimerEnd: =Set(varCarga2,false);Set(varTimer2,false);Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request)
+        OnTimerStart: =Set(varCarga2,true)
+        Width: =280
+        X: =25
+        Y: =957
+        ZIndex: =1
+
+    Timer5 As timer:
+        AutoStart: =varTimer
+        Duration: =8000
+        Height: =70
+        OnTimerEnd: =Set(varCarga,false);Set(varTimer,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+        OnTimerStart: =Set(varCarga,true)
+        Width: =280
+        X: =360
+        Y: =107
+        ZIndex: =2
+
     boton_14 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
         DisplayMode: =DisplayMode.View
@@ -13,13 +35,13 @@ borrador_capturistadetalle As screen:
         Width: =600
         X: =20
         Y: =483
-        ZIndex: =1
+        ZIndex: =3
 
     Rectangle3_6 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =228
         Width: =640
-        ZIndex: =2
+        ZIndex: =4
 
     Label6_5 As label:
         Align: =Align.Center
@@ -30,7 +52,7 @@ borrador_capturistadetalle As screen:
         Text: ="Mis Zonas"
         Width: =220
         X: =210
-        ZIndex: =3
+        ZIndex: =5
 
     Icon1_6 As icon.Reload:
         Color: =RGBA(255, 255, 255, 1)
@@ -40,7 +62,7 @@ borrador_capturistadetalle As screen:
         Width: =47
         X: =32
         Y: =18
-        ZIndex: =4
+        ZIndex: =6
 
     Button3_3 As button:
         DisplayMode: |
@@ -85,7 +107,7 @@ borrador_capturistadetalle As screen:
         Width: =354
         X: =143
         Y: =724
-        ZIndex: =5
+        ZIndex: =7
 
     Image1_4 As image:
         Height: =78
@@ -93,7 +115,7 @@ borrador_capturistadetalle As screen:
         Width: =160
         X: =238
         Y: =1041
-        ZIndex: =6
+        ZIndex: =8
 
     Button4_2 As button:
         DisplayMode: |-
@@ -112,7 +134,7 @@ borrador_capturistadetalle As screen:
         Width: =280
         X: =180
         Y: =823
-        ZIndex: =7
+        ZIndex: =9
 
     Arrow1_4 As arrow.backArrow:
         Fill: =RGBA(255, 255, 255, 1)
@@ -121,7 +143,7 @@ borrador_capturistadetalle As screen:
         Width: =51
         X: =556
         Y: =18
-        ZIndex: =8
+        ZIndex: =10
 
     boton_13 As button:
         BorderColor: =ColorFade(Self.Fill, -0%)
@@ -135,7 +157,7 @@ borrador_capturistadetalle As screen:
         Width: =600
         X: =20
         Y: =192
-        ZIndex: =12
+        ZIndex: =14
 
     Label13_3 As label:
         Align: =Align.Center
@@ -145,7 +167,7 @@ borrador_capturistadetalle As screen:
         Width: =241
         X: =196
         Y: =202
-        ZIndex: =13
+        ZIndex: =15
 
     Label9_6 As label:
         Align: =Align.Center
@@ -158,7 +180,7 @@ borrador_capturistadetalle As screen:
         Width: =292
         X: =25
         Y: =284
-        ZIndex: =14
+        ZIndex: =16
 
     Label10_5 As label:
         Align: =Align.Center
@@ -171,7 +193,7 @@ borrador_capturistadetalle As screen:
         Width: =298
         X: =317
         Y: =284
-        ZIndex: =15
+        ZIndex: =17
 
     zonaLabel_6 As label:
         Align: =Align.Center
@@ -182,7 +204,7 @@ borrador_capturistadetalle As screen:
         Width: =292
         X: =25
         Y: =333
-        ZIndex: =16
+        ZIndex: =18
 
     mesaControlLabel_5 As label:
         Align: =Align.Center
@@ -193,7 +215,7 @@ borrador_capturistadetalle As screen:
         Width: =298
         X: =317
         Y: =333
-        ZIndex: =17
+        ZIndex: =19
 
     Image4_1 As image:
         Height: =273
@@ -201,7 +223,7 @@ borrador_capturistadetalle As screen:
         Width: =293
         X: =167
         Y: =451
-        ZIndex: =18
+        ZIndex: =20
 
     zonaLabel_7 As label:
         Align: =Align.Center
@@ -212,7 +234,7 @@ borrador_capturistadetalle As screen:
         Width: =292
         X: =174
         Y: =965
-        ZIndex: =19
+        ZIndex: =21
 
     Label9_7 As label:
         Align: =Align.Center
@@ -225,18 +247,7 @@ borrador_capturistadetalle As screen:
         Width: =292
         X: =174
         Y: =916
-        ZIndex: =20
-
-    Timer5 As timer:
-        AutoStart: =varTimer
-        Duration: =8000
-        Height: =70
-        OnTimerEnd: =Set(varCarga,false);Set(varTimer,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
-        OnTimerStart: =Set(varCarga,true)
-        Width: =280
-        X: =360
-        Y: =107
-        ZIndex: =26
+        ZIndex: =22
 
     popup_2 As group:
         Height: =5
@@ -250,7 +261,7 @@ borrador_capturistadetalle As screen:
             Height: =1136
             Visible: =ShowPop
             Width: =640
-            ZIndex: =21
+            ZIndex: =23
 
         Rectangle5_2 As rectangle:
             BorderColor: =RGBA(0, 0, 0, 1)
@@ -260,7 +271,7 @@ borrador_capturistadetalle As screen:
             Width: =549
             X: =42
             Y: =177
-            ZIndex: =22
+            ZIndex: =24
 
         Label7_2 As label:
             Align: =Align.Center
@@ -271,7 +282,7 @@ borrador_capturistadetalle As screen:
             Width: =497
             X: =70
             Y: =208
-            ZIndex: =23
+            ZIndex: =25
 
         Button2_5 As button:
             DisabledColor: =RGBA(0, 0, 0, 1)
@@ -312,7 +323,7 @@ borrador_capturistadetalle As screen:
             Width: =201
             X: =340
             Y: =387
-            ZIndex: =24
+            ZIndex: =26
 
         Button2_4 As button:
             DisabledColor: =RGBA(0, 0, 0, 1)
@@ -330,7 +341,7 @@ borrador_capturistadetalle As screen:
             Width: =201
             X: =104
             Y: =387
-            ZIndex: =25
+            ZIndex: =27
 
     Group3_3 As group:
         Height: =5
@@ -348,7 +359,7 @@ borrador_capturistadetalle As screen:
             Width: =344
             X: =104
             Y: =113
-            ZIndex: =9
+            ZIndex: =11
 
         Image5_3 As image:
             Height: =86
@@ -356,7 +367,7 @@ borrador_capturistadetalle As screen:
             Width: =108
             X: =20
             Y: =98
-            ZIndex: =10
+            ZIndex: =12
 
         Label12_3 As label:
             Color: =RGBA(255, 255, 255, 1)
@@ -367,7 +378,7 @@ borrador_capturistadetalle As screen:
             Width: =224
             X: =109
             Y: =93
-            ZIndex: =11
+            ZIndex: =13
 
     Image12_2 As image:
         Height: =520
@@ -377,17 +388,6 @@ borrador_capturistadetalle As screen:
         Width: =600
         X: =20
         Y: =396
-        ZIndex: =27
-
-    Timer6 As timer:
-        AutoStart: =varTimer2
-        Duration: =6000
-        Height: =70
-        OnTimerEnd: =Set(varCarga2,false);Set(varTimer2,false);Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request)
-        OnTimerStart: =Set(varCarga2,true)
-        Width: =280
-        X: =25
-        Y: =957
         ZIndex: =28
 
     Image15 As image:
