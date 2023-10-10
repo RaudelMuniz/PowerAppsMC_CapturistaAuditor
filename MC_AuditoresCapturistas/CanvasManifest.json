@@ -133,10 +133,10 @@
   },
   "ScreenOrder": [
     "Inicio",
-    "auditor__prueba",
     "capturista__prueba",
-    "gif_AuditorDetalle",
+    "auditor__prueba",
     "gif_CapturistaDetalle",
+    "gif_AuditorDetalle",
     "Screen1",
     "auditor",
     "capturista",

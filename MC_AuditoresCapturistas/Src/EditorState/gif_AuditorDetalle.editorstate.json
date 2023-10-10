@@ -6685,11 +6685,12 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
+        "Visible",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
-          "InvariantPropertyName": "Visible",
+          "AutoRuleBindingString": "false",
+          "InvariantPropertyName": "OnTimerStart",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -6866,6 +6867,11 @@
           "Category": "Behavior",
           "PropertyName": "OnTimerEnd",
           "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Behavior",
+          "PropertyName": "OnTimerStart",
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultTimerStyle",
@@ -6918,19 +6924,20 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
+        "Visible",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "true",
-          "InvariantPropertyName": "Visible",
+          "AutoRuleBindingString": "60000",
+          "InvariantPropertyName": "Duration",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "60000",
-          "InvariantPropertyName": "Duration",
+          "AutoRuleBindingString": "false",
+          "InvariantPropertyName": "OnTimerStart",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -7106,6 +7113,11 @@
         {
           "Category": "Behavior",
           "PropertyName": "OnTimerEnd",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Behavior",
+          "PropertyName": "OnTimerStart",
           "RuleProviderType": "Unknown"
         }
       ],

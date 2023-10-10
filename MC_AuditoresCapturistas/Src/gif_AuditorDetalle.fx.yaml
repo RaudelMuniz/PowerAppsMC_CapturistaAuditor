@@ -104,7 +104,7 @@ gif_AuditorDetalle As screen:
         FontWeight: =FontWeight.Bold
         Height: =93
         OnSelect: |-
-            =Set(varTimer,true);Set(varCarga,true);
+            =Set(varTimer,true);
             Patch(
                     MesaControl_UserGeneral,
                     LookUp(
@@ -257,8 +257,9 @@ gif_AuditorDetalle As screen:
             OnSelect: |-
                 =    ///aqui SP   
                     Set(ShowPopUpAuditores,false);
+                    Set(varTimer2,true);
                     AuditoresApp.Run(zonaLabel_4.Text,Text(Now(),"mm-dd-yyyy hh:mm:ss"),Text(Now(),"mm-dd-yyyy hh:mm:ss"),User().Email);
-                    Set(varTimer2,true);Set(varCarga2,true);
+                    
                     
                     
             Size: =24
@@ -353,8 +354,8 @@ gif_AuditorDetalle As screen:
         AutoStart: =varTimer
         Duration: =8000
         Height: =70
-        OnTimerEnd: =Set(varCarga,false);Navigate(gif_AuditorDetalle, ScreenTransition.Fade)
-        Visible: =false
+        OnTimerEnd: =Set(varCarga,false);Set(varTimer,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+        OnTimerStart: =Set(varCarga,true)
         Width: =280
         X: =360
         Y: =228
@@ -375,8 +376,8 @@ gif_AuditorDetalle As screen:
         AutoStart: =varTimer2
         Duration: =6000
         Height: =70
-        OnTimerEnd: =Set(varCarga2,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
-        Visible: =false
+        OnTimerEnd: =Set(varCarga2,false);Set(varTimer2,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+        OnTimerStart: =Set(varCarga2,true)
         Width: =280
         X: =28
         Y: =996
