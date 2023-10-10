@@ -104,7 +104,8 @@ borrador_auditordetalle As screen:
         FontWeight: =FontWeight.Bold
         Height: =93
         OnSelect: |-
-            =Patch(
+            =Set(varTimer,true);Set(varCarga,true);
+            Patch(
                     MesaControl_UserGeneral,
                     LookUp(
                         MesaControl_UserGeneral,
@@ -129,7 +130,7 @@ borrador_auditordetalle As screen:
                     Fase:"En Auditoria"
                 }
             );
-            Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);Set(varCarga,true);Set(varTimer,true)
+            Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         Size: =24
         Text: ="Iniciar Auditoría"
         Width: =396
@@ -150,7 +151,7 @@ borrador_auditordetalle As screen:
             )
         Fill: =RGBA(39, 67, 125, 1)
         Height: =70
-        OnSelect: =Set(ShowPopUpAuditores,true)
+        OnSelect: =Set(ShowPopUpAuditores,true);Set(varTimer2,true);Set(varCarga2,true);
         Size: =24
         Text: ="Auditado"
         Width: =280
@@ -353,7 +354,28 @@ borrador_auditordetalle As screen:
         OnTimerEnd: =Set(varCarga,false);Navigate(borrador_auditordetalle, ScreenTransition.Fade)
         Visible: =false
         Width: =280
-        X: =20
-        Y: =986
+        X: =360
+        Y: =228
         ZIndex: =27
+
+    Image16 As image:
+        Height: =423
+        Image: =loading
+        ImagePosition: =ImagePosition.Fill
+        OnSelect: =Set(varCarga2,true)
+        Visible: =varCarga2
+        Width: =587
+        X: =28
+        Y: =424
+        ZIndex: =28
+
+    Timer8 As timer:
+        AutoStart: =varTimer2
+        Height: =70
+        OnTimerEnd: =Set(varCarga2,false)
+        Visible: =false
+        Width: =280
+        X: =28
+        Y: =996
+        ZIndex: =29
 
