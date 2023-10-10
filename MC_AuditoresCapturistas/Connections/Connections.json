@@ -6,8 +6,8 @@
       "displayName": "SQL Server",
       "executionRestrictions": {
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
-        "appVer": "3.23093.15",
-        "modifiedOn": "2023-10-05 17:27:16",
+        "appVer": "3.23093.27",
+        "modifiedOn": "2023-10-10 12:36:52",
         "policy": "{\"type\":\"unused\"}",
         "version": 1
       },

@@ -1,0 +1,20 @@
+Prueba_video As screen:
+
+    Image9 As image:
+        Height: =1136
+        Image: =loading
+        Width: =640
+        ZIndex: =1
+
+    Button3 As button:
+        Height: =70
+        OnSelect: =Set(varCarga,true)
+        Size: =24
+        Text: |-
+            ="Accesar
+            "
+        Width: =280
+        X: =180
+        Y: =764
+        ZIndex: =2
+
