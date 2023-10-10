@@ -54,7 +54,7 @@ borrador_capturistadetalle As screen:
             )
         Height: =78
         OnSelect: |-
-            =Set(varTimer,true);Set(varCarga,true);
+            =Set(varTimer,true);
             Patch(
                     MesaControl_UserGeneral,
                     LookUp(
@@ -232,7 +232,7 @@ borrador_capturistadetalle As screen:
         Duration: =8000
         Height: =70
         OnTimerEnd: =Set(varCarga,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
-        Visible: =false
+        OnTimerStart: =Set(varCarga,true)
         Width: =280
         X: =360
         Y: =107
@@ -281,7 +281,7 @@ borrador_capturistadetalle As screen:
             HoverFill: =ColorFade(Self.BorderColor, 20%)
             OnSelect: |-
                 =Set(ShowPop,false);
-                Set(varTimer2,true);Set(varCarga2,true);
+                Set(varTimer2,true);
                 Patch(
                         MesaControl_Request,
                         LookUp(
@@ -384,7 +384,7 @@ borrador_capturistadetalle As screen:
         Duration: =6000
         Height: =70
         OnTimerEnd: =Set(varCarga2,false);Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request)
-        Visible: =false
+        OnTimerStart: =Set(varCarga2,true)
         Width: =280
         X: =25
         Y: =957
