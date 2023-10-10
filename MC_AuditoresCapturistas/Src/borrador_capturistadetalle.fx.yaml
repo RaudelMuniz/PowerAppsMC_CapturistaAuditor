@@ -233,6 +233,7 @@ borrador_capturistadetalle As screen:
         Duration: =5000
         Height: =70
         OnTimerEnd: =Set(varCarga,false)
+        Visible: =false
         Width: =280
         X: =360
         Y: =107
@@ -382,6 +383,7 @@ borrador_capturistadetalle As screen:
         Duration: =6000
         Height: =70
         OnTimerEnd: =Set(varCarga2,false)
+        Visible: =false
         Width: =280
         X: =25
         Y: =957
