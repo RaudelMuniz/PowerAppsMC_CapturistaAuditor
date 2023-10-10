@@ -1,10 +1,13 @@
 Prueba_video As screen:
 
     Image9 As image:
-        Height: =1136
+        Height: =718
         Image: =loading
+        ImagePosition: =ImagePosition.Fill
         Visible: =varCarga
-        Width: =640
+        Width: =483
+        X: =78
+        Y: =200
         ZIndex: =1
 
     Button3 As button:
