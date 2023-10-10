@@ -54,7 +54,8 @@ borrador_capturistadetalle As screen:
             )
         Height: =78
         OnSelect: |-
-            =Patch(
+            =Set(varCarga,true);Set(varTimer,true);
+            Patch(
                     MesaControl_UserGeneral,
                     LookUp(
                         MesaControl_UserGeneral,
@@ -79,7 +80,7 @@ borrador_capturistadetalle As screen:
                     Fase:"En Captura"
                 }
             );
-            Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral);Set(varCarga,true);Set(varTimer,true)
+            Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         Size: =24
         Text: ="Iniciar Captura"
         Width: =354
@@ -280,7 +281,8 @@ borrador_capturistadetalle As screen:
             HoverColor: =RGBA(0, 0, 0, 1)
             HoverFill: =ColorFade(Self.BorderColor, 20%)
             OnSelect: |-
-                =Patch(
+                =Set(varCarga2,true);Set(varTimer2,true);
+                Patch(
                         MesaControl_Request,
                         LookUp(
                             MesaControl_Request,
@@ -301,7 +303,7 @@ borrador_capturistadetalle As screen:
                             Zona = zonaLabel.Text
                         ),
                         {EnProceso: "No"}
-                    );Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request);Set(ShowPop,false);Set(varCarga2,true);Set(varTimer2,true)
+                    );Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request);Set(ShowPop,false)
             PressedColor: =RGBA(0, 0, 0, 1)
             PressedFill: =ColorFade(Self.BorderColor, 20%)
             Size: =24
