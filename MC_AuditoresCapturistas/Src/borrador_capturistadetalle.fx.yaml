@@ -80,7 +80,6 @@ borrador_capturistadetalle As screen:
                     Fase:"En Captura"
                 }
             );
-            Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         Size: =24
         Text: ="Iniciar Captura"
         Width: =354
@@ -232,7 +231,7 @@ borrador_capturistadetalle As screen:
         AutoStart: =varTimer
         Duration: =8000
         Height: =70
-        OnTimerEnd: =Set(varCarga,false)
+        OnTimerEnd: =Set(varCarga,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         Width: =280
         X: =360
         Y: =107
@@ -303,7 +302,7 @@ borrador_capturistadetalle As screen:
                             Zona = zonaLabel.Text
                         ),
                         {EnProceso: "No"}
-                    );Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request)
+                    );
             PressedColor: =RGBA(0, 0, 0, 1)
             PressedFill: =ColorFade(Self.BorderColor, 20%)
             Size: =24
@@ -383,7 +382,7 @@ borrador_capturistadetalle As screen:
         AutoStart: =varTimer2
         Duration: =6000
         Height: =70
-        OnTimerEnd: =Set(varCarga2,false)
+        OnTimerEnd: =Set(varCarga2,false);Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request)
         Width: =280
         X: =25
         Y: =957
