@@ -230,7 +230,7 @@ borrador_capturistadetalle As screen:
 
     Timer5 As timer:
         AutoStart: =varTimer
-        Duration: =6000
+        Duration: =8000
         Height: =70
         OnTimerEnd: =Set(varCarga,false)
         Width: =280

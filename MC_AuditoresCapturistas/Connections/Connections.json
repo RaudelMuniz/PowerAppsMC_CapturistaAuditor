@@ -8,7 +8,7 @@
         "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
         "apiVer": 2,
         "appVer": "3.23093.27",
-        "modifiedOn": "2023-10-10 17:06:00",
+        "modifiedOn": "2023-10-10 17:18:56",
         "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[mesacontrol_usergeneral]\":[\"post\",\"patch\",\"get\"],\"[dbo].[mesacontrol_request]\":[\"post\",\"patch\",\"get\"]}}",
         "version": 1
       },

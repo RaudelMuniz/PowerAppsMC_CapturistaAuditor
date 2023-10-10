@@ -259,7 +259,7 @@ borrador_auditordetalle As screen:
                     Set(ShowPopUpAuditores,false);
                     AuditoresApp.Run(zonaLabel_4.Text,Text(Now(),"mm-dd-yyyy hh:mm:ss"),Text(Now(),"mm-dd-yyyy hh:mm:ss"),User().Email);
                     Set(varTimer2,true);Set(varCarga2,true);
-                    Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+                    
                     
             Size: =24
             Text: ="Aceptar"
@@ -372,9 +372,9 @@ borrador_auditordetalle As screen:
 
     Timer8 As timer:
         AutoStart: =varTimer2
-        Duration: =5000
+        Duration: =6000
         Height: =70
-        OnTimerEnd: =Set(varCarga2,false)
+        OnTimerEnd: =Set(varCarga2,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         Width: =280
         X: =28
         Y: =996
