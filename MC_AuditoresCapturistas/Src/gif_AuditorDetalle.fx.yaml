@@ -19,8 +19,8 @@ gif_AuditorDetalle As screen:
         OnTimerEnd: =Set(varCarga,false);Set(varTimer,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         OnTimerStart: =Set(varCarga,true)
         Width: =280
-        X: =360
-        Y: =228
+        X: =176
+        Y: =205
         ZIndex: =2
 
     Rectangle3_5 As rectangle:

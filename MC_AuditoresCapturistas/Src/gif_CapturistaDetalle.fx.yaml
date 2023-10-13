@@ -297,7 +297,7 @@ gif_CapturistaDetalle As screen:
                         MesaControl_Request,
                         LookUp(
                             MesaControl_Request,
-                            no_Zona = zonaLabel.Text
+                            no_Zona = zonaLabel_6.Text
                         ),
                         {
                             estatusF3: "Terminado",
@@ -311,7 +311,7 @@ gif_CapturistaDetalle As screen:
                         MesaControl_UserGeneral,
                         LookUp(
                             MesaControl_UserGeneral,
-                            Zona = zonaLabel.Text
+                            Zona = zonaLabel_6.Text
                         ),
                         {EnProceso: "No"}
                     );
