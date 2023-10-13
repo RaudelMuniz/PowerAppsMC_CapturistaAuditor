@@ -1323,7 +1323,14 @@
         "DisabledColor",
         "PressedColor",
         "HoverColor",
-        "DisplayMode",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "If(\n    Or(\n        LookUp(MesaControl_Request, no_Zona = galeriaCapturistas.Selected.Zona, estatusF2 = \"Terminado\"),\n        LookUp(MesaControl_UserGeneral, Zona = galeriaCapturistas.Selected.Zona, Zona  = \"N/A\")\n    ),\n    DisplayMode.Disabled,\n    DisplayMode.Edit\n)\n",
+          "InvariantPropertyName": "DisplayMode",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -1609,7 +1616,14 @@
         "DisabledColor",
         "PressedColor",
         "HoverColor",
-        "DisplayMode",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "If(\n    Or(\n        LookUp(MesaControl_Request, no_Zona = galeriaCapturistas.Selected.Zona, estatusF3 = \"Terminado\"),\n        LookUp(MesaControl_UserGeneral, Zona = galeriaCapturistas.Selected.Zona, Zona  = \"N/A\")\n    ),\n    DisplayMode.Disabled,\n    DisplayMode.Edit\n)",
+          "InvariantPropertyName": "DisplayMode",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Fill",
         "DisabledFill",
         "PressedFill",

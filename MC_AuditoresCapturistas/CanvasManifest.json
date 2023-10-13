@@ -98,7 +98,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 3,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 250,
     "DocumentAppType": "Phone",
@@ -136,8 +136,6 @@
     "capturista__prueba",
     "auditor__prueba",
     "gif_CapturistaDetalle",
-    "gif_AuditorDetalle",
-    "auditor",
-    "capturista"
+    "gif_AuditorDetalle"
   ]
 }

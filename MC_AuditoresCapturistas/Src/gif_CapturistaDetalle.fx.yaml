@@ -68,8 +68,8 @@ gif_CapturistaDetalle As screen:
         DisplayMode: |
             =If(
                 Or(
-                    LookUp(MesaControl_Request, no_Zona = galeriaCapturistas.Selected.Zona, estatusF2 = "Terminado"),
-                    LookUp(MesaControl_UserGeneral, Zona = galeriaCapturistas.Selected.Zona, Zona  = "N/A")
+                    LookUp(MesaControl_Request, no_Zona = Gallery1_2.Selected.Zona, estatusF2 = "Terminado"),
+                    LookUp(MesaControl_UserGeneral, Zona = Gallery1_2.Selected.Zona, Zona  = "N/A")
                 ),
                 DisplayMode.Disabled,
                 DisplayMode.Edit
@@ -121,8 +121,8 @@ gif_CapturistaDetalle As screen:
         DisplayMode: |-
             =If(
                 Or(
-                    LookUp(MesaControl_Request, no_Zona = galeriaCapturistas.Selected.Zona, estatusF3 = "Terminado"),
-                    LookUp(MesaControl_UserGeneral, Zona = galeriaCapturistas.Selected.Zona, Zona  = "N/A")
+                    LookUp(MesaControl_Request, no_Zona = Gallery1_2.Selected.Zona, estatusF3 = "Terminado"),
+                    LookUp(MesaControl_UserGeneral, Zona = Gallery1_2.Selected.Zona, Zona  = "N/A")
                 ),
                 DisplayMode.Disabled,
                 DisplayMode.Edit
@@ -200,7 +200,7 @@ gif_CapturistaDetalle As screen:
         BorderThickness: =0.5
         Height: =63
         Size: =21
-        Text: =galeriaCapturistas.Selected.Zona
+        Text: =Gallery1_2.Selected.Zona
         Width: =292
         X: =25
         Y: =333
@@ -211,7 +211,7 @@ gif_CapturistaDetalle As screen:
         BorderThickness: =0.5
         Height: =63
         Size: =21
-        Text: =galeriaCapturistas.Selected.mesaControl
+        Text: =Gallery1_2.Selected.mesaControl
         Width: =298
         X: =317
         Y: =333
@@ -230,7 +230,7 @@ gif_CapturistaDetalle As screen:
         BorderThickness: =0.5
         Height: =62
         Size: =21
-        Text: ="Mesa " & LookUp(MesaControl_Request, no_Zona = galeriaCapturistas.Selected.Zona,mesaControlValidacionF4)
+        Text: ="Mesa " & LookUp(MesaControl_Request, no_Zona = Gallery1_2.Selected.Zona,mesaControlValidacionF4)
         Width: =292
         X: =174
         Y: =965

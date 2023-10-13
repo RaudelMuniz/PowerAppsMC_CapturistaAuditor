@@ -94,7 +94,7 @@ gif_AuditorDetalle As screen:
         BorderThickness: =0.5
         Height: =83
         Size: =21
-        Text: =galeriaAuditores.Selected.Zona
+        Text: =Gallery1.Selected.Zona
         Width: =291
         X: =28
         Y: =337
@@ -105,7 +105,7 @@ gif_AuditorDetalle As screen:
         BorderThickness: =0.5
         Height: =83
         Size: =21
-        Text: =galeriaAuditores.Selected.mesaControl
+        Text: =Gallery1.Selected.mesaControl
         Width: =296
         X: =319
         Y: =337
@@ -115,9 +115,9 @@ gif_AuditorDetalle As screen:
         DisplayMode: |-
             =If(
                 Or(
-                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, Fase = "En Auditoria"),
-                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, Fase = "Esperando Cierre Mesa de Control"),
-                    LookUp(MesaControl_UserGeneral, Zona = galeriaAuditores.Selected.Zona, Zona  = "N/A")
+                    LookUp(MesaControl_Request, no_Zona = Gallery1.Selected.Zona, Fase = "En Auditoria"),
+                    LookUp(MesaControl_Request, no_Zona = Gallery1.Selected.Zona, Fase = "Esperando Cierre Mesa de Control"),
+                    LookUp(MesaControl_UserGeneral, Zona = Gallery1.Selected.Zona, Zona  = "N/A")
                 ),
                 DisplayMode.Disabled,
                 DisplayMode.Edit
@@ -142,7 +142,7 @@ gif_AuditorDetalle As screen:
                 MesaControl_Request,
                 LookUp(
                     MesaControl_Request,
-                    no_Zona=galeriaAuditores.Selected.Zona
+                    no_Zona=Gallery1.Selected.Zona
                 ),
                 {
                     estatusF4:"Terminado",
@@ -164,8 +164,8 @@ gif_AuditorDetalle As screen:
         DisplayMode: |-
             =If(
                 Or(
-                    LookUp(MesaControl_Request, no_Zona = galeriaAuditores.Selected.Zona, estatusF5 = "Terminado"),
-                    LookUp(MesaControl_UserGeneral, Zona = galeriaAuditores.Selected.Zona, Zona  = "N/A")
+                    LookUp(MesaControl_Request, no_Zona = Gallery1.Selected.Zona, estatusF5 = "Terminado"),
+                    LookUp(MesaControl_UserGeneral, Zona = Gallery1.Selected.Zona, Zona  = "N/A")
                 ),
                 DisplayMode.Disabled,
                 DisplayMode.Edit
@@ -357,7 +357,7 @@ gif_AuditorDetalle As screen:
             BorderThickness: =0.5
             Height: =77
             Size: =21
-            Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = galeriaAuditores.Selected.Zona,mesaControlValidacionF4)
+            Text: ="Mesa " & LookUp(MesaControl_Request,no_Zona = Gallery1.Selected.Zona,mesaControlValidacionF4)
             Width: =310
             X: =164
             Y: =909
