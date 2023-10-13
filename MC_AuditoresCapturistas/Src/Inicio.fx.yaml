@@ -9,14 +9,6 @@ Inicio As screen:
         Width: =640
         ZIndex: =1
 
-    fondo_prueba As image:
-        Height: =877
-        Image: ='Diseño sin título'
-        ImagePosition: =ImagePosition.Fill
-        Width: =640
-        Y: =176
-        ZIndex: =2
-
     Rectangle12 As rectangle:
         Fill: =RGBA(0, 14, 82, 0.51)
         Height: =1136

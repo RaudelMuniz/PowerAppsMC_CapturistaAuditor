@@ -644,6 +644,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.Diseño sin título"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Diseño sin título",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Diseño sin título",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.edificio"
                 }
               ],
