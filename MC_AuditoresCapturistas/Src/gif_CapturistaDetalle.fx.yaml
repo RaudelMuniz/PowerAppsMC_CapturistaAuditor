@@ -3,7 +3,7 @@ gif_CapturistaDetalle As screen:
 
     Timer6 As timer:
         AutoStart: =varTimer2
-        Duration: =6000
+        Duration: =8000
         Height: =70
         OnTimerEnd: =Set(varCarga2,false);Set(varTimer2,false);Refresh(MesaControl_UserGeneral);Refresh(MesaControl_Request)
         OnTimerStart: =Set(varCarga2,true)

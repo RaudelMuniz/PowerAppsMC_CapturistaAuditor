@@ -3,7 +3,7 @@ gif_AuditorDetalle As screen:
 
     Timer8 As timer:
         AutoStart: =varTimer2
-        Duration: =6000
+        Duration: =10000
         Height: =70
         OnTimerEnd: =Set(varCarga2,false);Set(varTimer2,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         OnTimerStart: =Set(varCarga2,true)
@@ -14,7 +14,7 @@ gif_AuditorDetalle As screen:
 
     Timer4 As timer:
         AutoStart: =varTimer
-        Duration: =8000
+        Duration: =10000
         Height: =70
         OnTimerEnd: =Set(varCarga,false);Set(varTimer,false);Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         OnTimerStart: =Set(varCarga,true)
@@ -366,6 +366,7 @@ gif_AuditorDetalle As screen:
     Image14 As image:
         Height: =423
         Image: =loading
+        ImagePosition: =ImagePosition.Fill
         Visible: =varCarga
         Width: =587
         X: =28
